@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "How Lead Poisoning Impacts the Body",
-        "thumb": "./assets/thumbnails/lead-poisoning.jpg",
+        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/lead-poisoning.jpg",
         "link": "https://highimpact.com/blog/the-physiological-impact-of-lead-poisoning-on-the-central-nervous-system",
         "description": "I wrote this article explaining how lead poisoning affects the central nervous system, using our animations to demonstrate.",
         "alt": "Andy's Writing 1"
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "name": "How to Expose Signs of Fetal Distress",
-        "thumb": "./assets/thumbnails/birth-injury.jpg",
+        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/birth-injury.jpg",
         "link": "https://highimpact.com/blog/How-to-Expose-Red-Flags-of-Fetal-Distress-After-Birth-Injury",
         "description": "I wrote this article explaining how attorneys should strategically use visuals to expose points of negligence after a birth injury.",
         "alt": "Andy's Writing 2"
@@ -18,7 +18,7 @@
     {
         "id": 3,
         "name": "How Botched Surgery Damaged Eye",
-        "thumb": "./assets/thumbnails/eye-case.jpg",
+        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/eye-case.jpg",
         "link": "https://highimpact.com/case-studies/confidential-settlement-botched-eye-surgery-irreparably-damages-cornea-nerves",
         "description": "I wrote this article explaining how a botched surgical preparation destroyed a patient's corneal nerves.",
         "alt": "Andy's Writing  3"
