@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Coronavirus Animation",
+        "thumb": "./assets/thumbnails/covid-19.jpg",
+        "link": "https://www.youtube.com/watch?v=78jLBNSqc3g",
+        "description": "I worked with a team of artists and animators on this Coronavirus animation, which amassed more than one million views.",
+        "alt": "Andy Greenhaw Animation 1"
+    },
+    {
+        "id": 2,
+        "name": "Neil Degrasse Tyson Funks the Universe",
+        "thumb": "./assets/thumbnails/neil-degrasse-tyson.jpg",
+        "link": "https://www.youtube.com/watch?v=E831oDXzKwo",
+        "description": "I edited NDT's appearance on the Rogan Podcast to Wax Taylor, and animated this music video that appeared in several media publications.",
+        "alt": "Andy Greenhaw Animation 2"
+    },
+    {
+        "id": 3,
+        "name": "The Age of Surprise",
+        "thumb": "./assets/thumbnails/bookshelf.jpg",
+        "link": "https://www.youtube.com/watch?v=9Xpu2QqLnHY&t=67s",
+        "description": "I wrote and animated this video for the U.S. Air Force to present to Congress in a seminar about funding needed for cyber security.",
+        "alt": "Andy Greenhaw Animation 3"
+    }
+]

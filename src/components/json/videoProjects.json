@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Virtual Reality Coming to the Courtroom",
+        "thumb": "./assets/thumbnails/virtual-reality.jpg",
+        "link": "https://highimpact.com/blog/High-Impact-to-Bring-Virtual-Reality-to-the-Courtroom",
+        "description": "I wrote, filmed, and edited this video explaining High Impact's new virtual reality legal exhibit, used by attorneys nationwide.",
+        "alt": "Andy's Video Editing 1"
+    },
+    {
+        "id": 2,
+        "name": "How a Zinc Metal Plant Exploded",
+        "thumb": "./assets/thumbnails/explosion-case.jpg",
+        "link": "https://www.youtube.com/watch?v=Oe7iXSVUYek",
+        "description": "I edited NDT's appearance on the Rogan Podcast to Wax Taylor, and animated this music video that appeared in several media publications.",
+        "alt": "Andy's Video Editing 2"
+    },
+    {
+        "id": 3,
+        "name": "How High Impact Reconstructs Crashes",
+        "thumb": "./assets/thumbnails/crash-accuracy.jpg",
+        "link": "https://highimpact.com/blog/how-animation-strengthens-accident-reconstruction-data-2",
+        "description": "I produced this video explaining how High Impact ensures near-perfect accuracy when reconstructing vehicle collisions.",
+        "alt": "Andy's Video Editing 3"
+    }
+]
