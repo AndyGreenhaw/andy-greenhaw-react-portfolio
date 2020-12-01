@@ -1,16 +1,36 @@
 import React from "react";
+// import CarouselCard from "../CarouselCard/CarouselCard.js";
+// import allProjects from "../json/heroProjects.json";
 
 function Home() {
+  
+  // const [heroProjects, setHeroProjects] = useState([])
+  // // const [heroProject, setHeroProject] = useState({
+  // //   name: "",
+  // //   thumb: "",
+  // //   link:  "",
+  // //   description: "", 
+  // //   alt: ""
+  // // })
+
+  // useEffect(() => {
+  //   loadProjects()
+  // }, []);
+
+  // function loadProjects() {
+
+  //   setHeroProjects(allProjects)
+  //   console.log(allProjects)
+
+  // }
+
   return (
-    <div className="homeBody">
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui
-        mauris, ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus
-        porta. Nam quis arcu non lectus tincidunt fermentum. Suspendisse aliquet orci porta quam
-        semper imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed
-        rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
-    </div>
+    <div className="row">
+      <div className="col-12 mainTitle">
+        Andy
+      </div>
+    </div>  
+
   );
 }
 

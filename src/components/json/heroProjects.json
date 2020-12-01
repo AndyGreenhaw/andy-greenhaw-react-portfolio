@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "BookSelf App",
+        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/bookshelf.jpg",
+        "link": "https://intense-earth-81966.herokuapp.com/",
+        "description": "I worked with a team of six developers to create this interactive book-borrowing website using several computing languages, including Javascript, SQL, Sequelize, Express, and CSS. Users can create an account, add a book they own using their ISBN number, and then other logged in users can borrow it to their account.",
+        "alt": "Andy's BookSelf App"
+    },
+    {
+        "id": 2,
+        "name": "Virtual Reality Coming to the Courtroom",
+        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/virtual-reality.jpg",
+        "link": "https://highimpact.com/blog/High-Impact-to-Bring-Virtual-Reality-to-the-Courtroom",
+        "description": "I wrote, filmed, and edited this video explaining High Impact's new virtual reality legal exhibit, used by attorneys nationwide.",
+        "alt": "Andy's Video Editing 1"
+    },
+    {
+        "id": 3,
+        "name": "Interactive Weather App",
+        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/weatherdashboard.jpg",
+        "link": "https://andygreenhaw.github.io/06-Server-Side-APIs-Weather-Dashboard/",
+        "description": "I created this Weather App using Javascript, HTML, CSS, local storage, and Open Weather's API. The app enables you to search a city name and see the current weather, a five-day forecast, and icons indicating the weather and time of day. It also saves your previous search in your local web storage so that it remains when you return.",
+        "alt": "Andy's Weather App"
+    },
+    {
+        "id": 4,
+        "name": "Coronavirus Animation",
+        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/covid-19.jpg",
+        "link": "https://www.youtube.com/watch?v=78jLBNSqc3g",
+        "description": "I worked with a team of artists and animators on this Coronavirus animation, which amassed more than one million views.",
+        "alt": "Andy Greenhaw Animation 1"
+    },
+    {
+        "id": 5,
+        "name": "Neil Degrasse Tyson Funks the Universe",
+        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/neil-degrasse-tyson.jpg",
+        "link": "https://www.youtube.com/watch?v=E831oDXzKwo",
+        "description": "I edited NDT's appearance on the Rogan Podcast to Wax Taylor, and animated this music video that appeared in several media publications.",
+        "alt": "Andy Greenhaw Animation 2"
+    },
+    {
+        "id": 6,
+        "name": "Interactive Day Planner",
+        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/dayplanner.jpg",
+        "link": "https://andygreenhaw.github.io/06-Server-Side-APIs-Weather-Dashboard/",
+        "description": "I created this Day planner application using Javascript, HTML, CSS, and local Web browser storage. The app enables you to enter plans for the work day, saves your plan to your browser's local storage, and tracks the time of day using grey for the past, red for the present and green for the future.",
+        "alt": "Andy's Day Planner"
+    },
+    {
+        "id": 7,
+        "name": "The Age of Surprise",
+        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/bookshelf.jpg",
+        "link": "https://www.youtube.com/watch?v=9Xpu2QqLnHY&t=67s",
+        "description": "I wrote and animated this video for the U.S. Air Force to present to Congress in a seminar about funding needed for cyber security.",
+        "alt": "Andy Greenhaw Animation 3"
+    },
+    {
+        "id": 8,
+        "name": "How Lead Poisoning Impacts the Body",
+        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/lead-poisoning.jpg",
+        "link": "https://highimpact.com/blog/the-physiological-impact-of-lead-poisoning-on-the-central-nervous-system",
+        "description": "I wrote this article explaining how lead poisoning affects the central nervous system, using our animations to demonstrate.",
+        "alt": "Andy's Writing 1"
+    },
+    {
+        "id": 9,
+        "name": "How to Expose Signs of Fetal Distress",
+        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/birth-injury.jpg",
+        "link": "https://highimpact.com/blog/How-to-Expose-Red-Flags-of-Fetal-Distress-After-Birth-Injury",
+        "description": "I wrote this article explaining how attorneys should strategically use visuals to expose points of negligence after a birth injury.",
+        "alt": "Andy's Writing 2"
+    },
+    {
+        "id": 10,
+        "name": "How Botched Surgery Damaged Eye",
+        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/eye-case.jpg",
+        "link": "https://highimpact.com/case-studies/confidential-settlement-botched-eye-surgery-irreparably-damages-cornea-nerves",
+        "description": "I wrote this article explaining how a botched surgical preparation destroyed a patient's corneal nerves.",
+        "alt": "Andy's Writing  3"
+    }
+]
