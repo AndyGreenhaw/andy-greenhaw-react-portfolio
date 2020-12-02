@@ -25,12 +25,28 @@ function Home() {
   // }
 
   return (
+    <>
     <div className="row">
       <div className="col-12 mainTitle">
-        Andy
+        Andy Greenhaw
+      </div>
+    </div>
+    <div className="row"> 
+      <div className="col-12 taglineTitle">
+        <p>What Skills Do You Need?</p>
       </div>
     </div>  
-
+    <div class="dropdown">
+      <button class="dropbtn">Skills</button>
+      <div class="dropdown-content">
+        <a href="/portfolio">Full-Stack Development</a>
+        <a href="/portfolio">Animation</a>
+        <a href="/portfolio">Video Editing</a>
+        <a href="/portfolio">Writing</a>
+        <a href="/portfolio">See All Projects</a>
+      </div>
+    </div>
+    </>
   );
 }
 

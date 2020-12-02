@@ -1,21 +1,182 @@
-/* .bg {
-  background-image: url("./andy-mountains-background-unedited.jpg");
+/* DROP DOWN MENU CONTROLS FOR SKILLS */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+}
 
-    background-color: rgb(245,245,245,0);
-    height:100%;
-} */
+.dropdown {
+  position: relative;
+  display: inline-block;
 
-.mainTitle {
-  font-size: 60px;
-  font-family:'Fredericka the Great';
-  text-align: center;
-  color: whitesmoke;
-  margin-top: 20%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0;
+  margin-top:30px;
+  position: absolute;
+
+  left: 50%;
+
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+/* COLORS */
+
+.darkPortfolioBackground {
+  color: white;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+/* SCREEN DISPLAYS */
+
+@media only screen and (max-width: 3000px){
+  .mainTitle {
+    font-size: 120px;
+    font-family:'Fredericka the Great';
+    color: whitesmoke;
+  
+    text-align: center;
+    
+    margin-top: 12%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .taglineTitle {
+    font-size: 40px;
+    font-family:'Fredericka the Great';
+    color: whitesmoke;
+  
+    text-align: center;
+    
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 3000px){
+  .mainTitle {
+    font-size: 120px;
+    font-family:'Fredericka the Great';
+    color: whitesmoke;
+  
+    text-align: center;
+    
+    margin-top: 12%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .taglineTitle {
+    font-size: 40px;
+    font-family:'Fredericka the Great';
+    color: whitesmoke;
+  
+    text-align: center;
+    
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 2560px){
+  .mainTitle {
+    font-size: 120px;
+    font-family:'Fredericka the Great';
+    color: whitesmoke;
+  
+    text-align: center;
+    
+    margin-top: 12%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .taglineTitle {
+    font-size: 40px;
+    font-family:'Fredericka the Great';
+    color: whitesmoke;
+  
+    text-align: center;
+    
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 1024px){
+  .mainTitle {
+    font-size: 120px;
+    font-family:'Fredericka the Great';
+    color: whitesmoke;
+  
+    text-align: center;
+    
+    margin-top: 16%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .taglineTitle {
+    font-size: 40px;
+    font-family:'Fredericka the Great';
+    color: whitesmoke;
+  
+    text-align: center;
+    
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 1024px){
+  .mainTitle {
+    font-size: 80px;
+    font-family:'Fredericka the Great';
+    color: whitesmoke;
+  
+    text-align: center;
+    
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .taglineTitle {
+    font-size: 30px;
+    font-family:'Fredericka the Great';
+    color: whitesmoke;
+  
+    text-align: center;
+    
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
