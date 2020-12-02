@@ -1,11 +1,11 @@
 import React from "react";
 
-import ProjectCard from '../ProjectCard/ProjectCard.js'
+import ProjectCard from '../components/ProjectCard/ProjectCard.js'
 
-import codingProjects from '../json/codingProjects.json'
-import animationProjects from '../json/animationProjects.json'
-import videoProjects from '../json/videoProjects.json'
-import writingProjects from '../json/writingProjects.json'
+import codingProjects from '../components/json/codingProjects.json'
+import animationProjects from '../components/json/animationProjects.json'
+import videoProjects from '../components/json/videoProjects.json'
+import writingProjects from '../components/json/writingProjects.json'
 
 class Portfolio extends React.Component {
     
