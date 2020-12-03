@@ -4,10 +4,16 @@ function ProjectCard(props) {
 
     return(
         <>
-            <div className="col-lg-4">
-                <h4>{props.name}</h4>
+            <div className="col-md-3 projectCards">
+                <div className="row portfolioHead">
+                <p>{props.name}</p>
+                </div>
+                <div className="row">
                 <a href={props.link} target="blank"><img src={props.thumb} width="100%" alt={props.alt}/></a>
-                <p>{props.description}</p>
+                <div className="portfolioCopy">
+                    <p>{props.description}</p>
+                </div>
+                </div>
             </div>
         </>
     )

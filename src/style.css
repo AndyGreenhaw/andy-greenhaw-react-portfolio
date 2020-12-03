@@ -1,38 +1,118 @@
+.nav-background {
+  background-color:  rgb(32, 146, 60);
+}
+
 /* DEMO REEL */
+.demoPlacement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .demoButton {
-  margin-right: 45%;
-  margin-left: 45%;
+  color: whitesmoke;
+  background-color: rgb(32, 146, 60, 0.7);
 
   margin-top: 20px;
   margin-bottom: 20px;
 
+  padding: 10px;
+
   border-radius: 20px;
+  border: none;
+  box-shadow: inset 0px 0px 5px rgba(0,0,0,0.16), 0px 0px 5px rgba(0,0,0,0.45);
+
+  width: 140px;
 }
 
 #modalDisplay {
-  padding: 20px;
-  background-color: white;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 20px;
   display: flex;
-}
-
-.youtube-container {
-  text-align: center;
-  
-  margin-top: 20px;
-  margin-bottom: 20px; 
 
   position: fixed;
   top:50%;
   left:50%;
   transform: translate(-50%,-50%);
 
+  width: 600px;
+  height: 500px;
+
+  box-shadow: inset 0px 0px 5px rgba(0,0,0,0.16), 0px 0px 5px rgba(0,0,0,0.45);
+}
+
+.overlay {
+  z-index: 98;
+  position: fixed;
+  top: 10;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.modal {
+  z-index: 99;
+  /* Everything below is optional styling */
+  position: relative;
+  width: 100%;
+  max-width: 320px;
+  max-height: 100%;
+  margin: 0 auto;
+}
+
+.modal-close {
+  position: absolute;
+  top: -24px;
+  right: 0;
+  padding: 5px;
+  border: 0;
+  -webkit-appearance: none;
+  background: none;
+  color: white;
+  cursor: pointer;
+}
+
+.modal-body {
+  padding: 20px 24px;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.modalCopy {
+  margin-top: 15px;
+  color: black;
+  font-size: 16px;
+}
+
+.youtube-container {
+  text-align: center;
+  margin-left: 10px;
+}
+
+.closeX {
+  text-align: right;
+  font-size: 24px;
+  color:rgb(91,123,122);
+  font-size: 18px;
+  font-family: 'Lucida Sans Unicode';
+  margin-top: 0px;
+  margin-right: 15px;
+  cursor: pointer;
+  border: none;
+  
 }
 
 /* DROP DOWN MENU CONTROLS FOR SKILLS */
 .dropbtn {
   color:greenyellow;
-
+  text-decoration: underline;
 }
 
 .dropdown {
@@ -53,12 +133,12 @@
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  min-width: 160px;
+  width: 180px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  margin-left: 80px;
+  margin-left: 70px;
   z-index: 1;
 
-  
+  border-radius: 20px;
 }
 
 .dropdown-content a {
@@ -68,6 +148,8 @@
   padding: 12px 12px 12px 12px;
   text-decoration: none;
   display: block;
+
+  border-radius: 20px;
 }
 
 /* Change color of dropdown links on hover */
@@ -79,14 +161,45 @@
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
-/* COLORS */
+/* PORTFOLIO */
 
 .darkPortfolioBackground {
   color: white;
-  background-color: rgb(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
-/* SCREEN DISPLAYS */
+.projectCards {
+  margin-left:50px;
+  margin-right:50px;
+
+  padding: 20px;
+  text-align: center;
+}
+
+.categoryHeadline {
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 195, 255, 0.5);
+  padding:20px;
+}
+
+.portfolioHead {
+  color: whitesmoke;
+  font-size: 24px;
+  
+  height: 50px;
+  justify-content: center;
+
+  font-weight: bolder;
+  text-align: center;
+}
+
+.portfolioCopy {
+  padding: 0px;
+  margin-top: 20px;
+}
+
+/* SCREEN RESOLUTIONS */
 
 @media only screen and (max-width: 3000px){
   .mainTitle {

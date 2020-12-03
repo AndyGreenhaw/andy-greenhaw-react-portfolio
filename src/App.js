@@ -5,7 +5,6 @@ import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 
-import "./index.css"
 import "./style.css"
 
 function App() {
@@ -13,9 +12,10 @@ function App() {
   return(
     <Router>
       <div className="bg">
-        <div className="container-fluid homeBody">
+        <div className="container-fluid">
           <NavTabs />
           <Route exact path="/" component={Home} />
+          <Route exact path="/andy-greenhaw-react-portfolio" component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
@@ -27,5 +27,3 @@ function App() {
 }
 
 export default App;
-
-// style={{backgroundImage:`url(${backgroundImage})`}}
