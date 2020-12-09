@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Covid-19 Animation",
+        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/covid-19.jpg",
+        "link": "https://www.youtube.com/watch?v=78jLBNSqc3g",
+        "description": "I worked with a team of artists and animators on this Coronavirus animation, which amassed more than one million views.",
+        "alt": "Andy Greenhaw Animation 1"
+    },
+    {
+        "id": 2,
+        "name": "Space Music Video",
+        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/neil-degrasse-tyson.jpg",
+        "link": "https://www.youtube.com/watch?v=E831oDXzKwo",
+        "description": "I edited NDT's appearance on the Rogan Podcast to Wax Taylor, and animated this music video that appeared in several media publications.",
+        "alt": "Andy Greenhaw Animation 2"
+    },
+    {
+        "id": 3,
+        "name": "The Age of Surprise",
+        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/age-of-surprise-2.jpg",
+        "link": "https://www.youtube.com/watch?v=9Xpu2QqLnHY&t=67s",
+        "description": "I wrote and animated this video for the U.S. Air Force to present to Congress in a seminar about funding needed for cyber security.",
+        "alt": "Andy Greenhaw Animation 3"
+    },
+    {
+        "id": 4,
+        "name": "The Space Report",
+        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/spacereport.png",
+        "link": "https://www.youtube.com/watch?v=3ET7yHZWbw4",
+        "description": "I produced this animation for the Space Foundation to introduce the 2015 Space Report.",
+        "alt": "Andy Greenhaw Animation 4"
+    },
+    {
+        "id": 5,
+        "name": "Defense Intelligence Agency",
+        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/dia.png",
+        "link": "https://www.youtube.com/watch?v=76M08-s8c_M",
+        "description": "I animated the first minute and 40 seconds of this video for the Defense Intelligence Agency.",
+        "alt": "Andy Greenhaw Animation 5"
+    },
+    {
+        "id": 6,
+        "name": "History of Facebook",
+        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/facebook.png",
+        "link": "https://www.youtube.com/watch?v=QP37S24F7_4",
+        "description": "I produced this animation for a freelance client to break down the history of Facebook.",
+        "alt": "Andy Greenhaw Animation 6"
+    },
+    {
+        "id": 7,
+        "name": "National Defense University",
+        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/hillary.png",
+        "link": "https://www.youtube.com/watch?v=6cRIb9zDd3Y",
+        "description": "I worked on the animations for this video to introduce Hillary Clinton's 2013 Patriot Award.",
+        "alt": "Andy Greenhaw Animation 7"
+    },
+    {
+        "id": 8,
+        "name": "Animation Demo Reel",
+        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/demo.png",
+        "link": "https://www.youtube.com/watch?v=EBv4r806oUs",
+        "description": "I worked on the animations for this video to introduce Hillary Clinton's 2013 Patriot Award.",
+        "alt": "Andy Greenhaw Animation 8"
+    },
+    {
+        "id": 9,
+        "name": "X-Energy Nuclear Reactor",
+        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/nuclear.png",
+        "link": "https://www.youtube.com/watch?v=XOJ8pU1aEYA",
+        "description": "I created animations for this video explaining X-Energy's innovative nuclear reactor concept.",
+        "alt": "Andy Greenhaw Animation 9"
+    }
+]

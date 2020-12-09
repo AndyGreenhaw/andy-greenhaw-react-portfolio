@@ -4,6 +4,9 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
+import CodingPortfolio from "./pages/CodingPortfolio";
+import AnimationPortfolio from "./pages/AnimationPortfolio";
+import VideoPortfolio from "./pages/VideoPortfolio";
 
 import "./style.css"
 
@@ -19,7 +22,11 @@ function App() {
           <Route exact path="/about" component={About} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
-          
+
+          {/* NON NAV PAGES */}
+          <Route exact path="/coding-portfolio" component={CodingPortfolio} />
+          <Route exact path="/animation-portfolio" component={AnimationPortfolio} />
+          <Route exact path="/video-portfolio" component={VideoPortfolio} />
         </div>
       </div>
     </Router>

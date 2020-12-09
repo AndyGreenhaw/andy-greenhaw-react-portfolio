@@ -46,9 +46,9 @@ function Home() {
             What <a href="/portfolio" className="dropbtn">Skills</a> Do You Need?
           
           <div className="dropdown-content">
-            <a href="/portfolio">Full-Stack Development</a>
-            <a href="/portfolio">Animation</a>
-            <a href="/portfolio">Video Editing</a>
+            <a href="/coding-portfolio">Full-Stack Development</a>
+            <a href="/animation-portfolio">Animation</a>
+            <a href="/video-portfolio">Video Editing</a>
             <a href="/portfolio">Writing</a>
             <a href="/portfolio">See All Projects</a>
           </div>

@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "BookSelf App",
+        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/bookshelf.png",
+        "link": "https://intense-earth-81966.herokuapp.com/",
+        "description": "I worked with a team of six developers to create this interactive book-borrowing website using several computing languages.",
+        "alt": "Andy's BookSelf App"
+    },
+    {
+        "id": 2,
+        "name": "Weather App",
+        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/weatherdashboard.png",
+        "link": "https://andygreenhaw.github.io/06-Server-Side-APIs-Weather-Dashboard/",
+        "description": "I created this Weather App using Javascript, HTML, CSS, local storage, and Open Weather's API.",
+        "alt": "Andy's Weather App"
+    },
+    {
+        "id": 3,
+        "name": "Work Day Planner",
+        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/dayplanner.png",
+        "link": "https://andygreenhaw.github.io/05-Third-Party-APIs-Work-Day-Scheduler/",
+        "description": "I created this Day planner application using Javascript, HTML, CSS, and local Web browser storage.",
+        "alt": "Andy's Day Planner"
+    }, 
+    {
+        "id": 4,
+        "name": "'The Office' Directory",
+        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/theoffice.png",
+        "link": "https://andygreenhaw.github.io/19-react-employee-directory/",
+        "description": "I created this Employee Directory based off the The Office.",
+        "alt": "Andy's Employee Directory"
+    },
+    {
+        "id": 5,
+        "name": "Budget App",
+        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/budget.png",
+        "link": "https://hidden-refuge-28358.herokuapp.com/",
+        "description": "I created this PWA Budget App that tracks income and expenses over time using Mongo.",
+        "alt": "Andy's Budget App"
+    },
+    {
+        "id": 6,
+        "name": "Note Taker App",
+        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/notetaker.png",
+        "link": "https://shielded-savannah-98558.herokuapp.com/notes",
+        "description": "I created this Note Taker App to save and delete notes using Express.",
+        "alt": "Andy's Note Taker"
+    },
+    {
+        "id": 7,
+        "name": "Burger Eater",
+        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/burger.png",
+        "link": "https://sleepy-caverns-80492.herokuapp.com/",
+        "description": "I created this Burger App that saves and deletes burgers using Handlebars and Express.",
+        "alt": "Andy's Burger App"
+    },
+    {
+        "id": 8,
+        "name": "Password Generator",
+        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/password.png",
+        "link": "https://andygreenhaw.github.io/03-JavaScript-Password-Generator/",
+        "description": "I created this Password Generator to create a random password based on entry parameters.",
+        "alt": "Andy's Burger App"
+    },
+    {
+        "id": 9,
+        "name": "Taco Party",
+        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/tacoparty.png",
+        "link": "https://lauracole1900.github.io/tacoParty/",
+        "description": "I worked with a team of students to build this Taco Party website.",
+        "alt": "Taco Party"
+    }
+]

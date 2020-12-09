@@ -1,0 +1,75 @@
+[
+    {
+        "id": 1,
+        "name": "VR Litigation",
+        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/virtual-reality.jpg",
+        "link": "https://highimpact.com/blog/High-Impact-to-Bring-Virtual-Reality-to-the-Courtroom",
+        "description": "I wrote, filmed, and edited this video explaining High Impact's new virtual reality legal exhibit, used by attorneys nationwide.",
+        "alt": "Andy's Video Editing 1"
+    },
+    {
+        "id": 2,
+        "name": "High Impact Official Reel",
+        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/highimpactdemo.png",
+        "link": "https://www.youtube.com/watch?v=Ybo2dYspd6s&t=2s",
+        "description": "I edited NDT's appearance on the Rogan Podcast to Wax Taylor, and animated this music video that appeared in several media publications.",
+        "alt": "Andy's Video Editing 2"
+    },
+    {
+        "id": 3,
+        "name": "Syntropy Official Reel",
+        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/syntropydemo.png",
+        "link": "https://www.youtube.com/watch?v=v7FfnRJCh6E",
+        "description": "I produced this video explaining how High Impact ensures near-perfect accuracy when reconstructing vehicle collisions.",
+        "alt": "Andy's Video Editing 3"
+    },
+    {
+        "id": 4,
+        "name": "Digital Injury Summary",
+        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/dis.jpg",
+        "link": "https://www.youtube.com/watch?v=6T8yedKRQOQ",
+        "description": "I worked with a coworker to produce and record voice-over for this video explaining High Impact's Digital Injury Summary.",
+        "alt": "Andy's Video Editing 4"
+    },
+    {
+        "id": 5,
+        "name": "VR Shows Vision Impairment",
+        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/visionimpairment.jpg",
+        "link": "https://www.youtube.com/watch?v=qAq2udnigEU",
+        "description": "I produced this video explaining how VR was used to show a child's vision impairment caused by a brain tumor.",
+        "alt": "Andy's Video Editing 5"
+    },
+    {
+        "id": 6,
+        "name": "UCLA Leg Amputation",
+        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/ucla.jpg",
+        "link": "https://www.youtube.com/watch?v=_KlhF6ETtPg",
+        "description": "This case involved a UCLA lineman who lost his leg in a traffic accident. The video explains how we showed what happened.",
+        "alt": "Andy's Video Editing 6"
+    },
+    {
+        "id": 7,
+        "name": "Working at High Impact",
+        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/workingforhighimpact.png",
+        "link": "https://www.youtube.com/watch?v=8I6Z3Tolo8I",
+        "description": "I wrote, filmed, and edited this video explaining High Impact's new virtual reality legal exhibit, used by attorneys nationwide.",
+        "alt": "Andy's Video Editing 7"
+    },
+    {
+        "id": 8,
+        "name": "Chemical Explosion",
+        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/explosion-case.jpg",
+        "link": "https://www.youtube.com/watch?v=Oe7iXSVUYek",
+        "description": "I edited NDT's appearance on the Rogan Podcast to Wax Taylor, and animated this music video that appeared in several media publications.",
+        "alt": "Andy's Video Editing 8"
+    },
+    {
+        "id": 9,
+        "name": "Crash Reconstruction 101",
+        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/crash-accuracy.jpg",
+        "link": "https://www.youtube.com/watch?v=v8woRZZ1yK8",
+        "description": "I produced this video explaining how High Impact ensures near-perfect accuracy when reconstructing vehicle collisions.",
+        "alt": "Andy's Video Editing 9"
+    }
+    
+]

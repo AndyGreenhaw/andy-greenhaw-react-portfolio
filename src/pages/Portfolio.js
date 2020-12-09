@@ -90,17 +90,6 @@ const Portfolio = () => {
                 ))}
             </div>
 
-            <div className="row">
-            <div className="col">
-                    <h3 className="categoryHeadline">More Coming Soon...</h3>
-            </div>
-            </div>
-
-            <div className="row">
-            <div className="col">
-                <h4><center>I am in the process of organizing my best work, and will feature it here as soon as it's ready.</center></h4>
-            </div>
-            </div>
         </div>
         
     );
