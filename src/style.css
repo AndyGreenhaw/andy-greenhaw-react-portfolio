@@ -17,12 +17,14 @@
 /* DEMO REEL */
 .demoPlacement {
   display: flex;
-  align-items: center;
+  width: 100%;
+  height: 100%;
   justify-content: center;
 }
 
 .demoButton {
   color: whitesmoke;
+  
   background-color: rgb(32, 146, 60, 0.7);
 
   margin-top: 20px;
@@ -142,8 +144,6 @@
   text-align: center;
   height: 60px;
   
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .dropdown-content {
