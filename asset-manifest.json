@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/andy-greenhaw-react-portfolio/static/css/main.717a78d7.chunk.css",
-    "main.js": "/andy-greenhaw-react-portfolio/static/js/main.90bf0754.chunk.js",
-    "main.js.map": "/andy-greenhaw-react-portfolio/static/js/main.90bf0754.chunk.js.map",
+    "main.css": "/andy-greenhaw-react-portfolio/static/css/main.f36118f8.chunk.css",
+    "main.js": "/andy-greenhaw-react-portfolio/static/js/main.b9cd4395.chunk.js",
+    "main.js.map": "/andy-greenhaw-react-portfolio/static/js/main.b9cd4395.chunk.js.map",
     "runtime-main.js": "/andy-greenhaw-react-portfolio/static/js/runtime-main.36e35758.js",
     "runtime-main.js.map": "/andy-greenhaw-react-portfolio/static/js/runtime-main.36e35758.js.map",
     "static/css/2.1a02f21c.chunk.css": "/andy-greenhaw-react-portfolio/static/css/2.1a02f21c.chunk.css",
@@ -10,14 +10,14 @@
     "static/js/2.4df03842.chunk.js.map": "/andy-greenhaw-react-portfolio/static/js/2.4df03842.chunk.js.map",
     "index.html": "/andy-greenhaw-react-portfolio/index.html",
     "static/css/2.1a02f21c.chunk.css.map": "/andy-greenhaw-react-portfolio/static/css/2.1a02f21c.chunk.css.map",
-    "static/css/main.717a78d7.chunk.css.map": "/andy-greenhaw-react-portfolio/static/css/main.717a78d7.chunk.css.map",
+    "static/css/main.f36118f8.chunk.css.map": "/andy-greenhaw-react-portfolio/static/css/main.f36118f8.chunk.css.map",
     "static/js/2.4df03842.chunk.js.LICENSE.txt": "/andy-greenhaw-react-portfolio/static/js/2.4df03842.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.36e35758.js",
     "static/css/2.1a02f21c.chunk.css",
     "static/js/2.4df03842.chunk.js",
-    "static/css/main.717a78d7.chunk.css",
-    "static/js/main.90bf0754.chunk.js"
+    "static/css/main.f36118f8.chunk.css",
+    "static/js/main.b9cd4395.chunk.js"
   ]
 }
