@@ -2,6 +2,17 @@
   background-color:  rgb(32, 146, 60);
 }
 
+.taglineTitle {
+  font-size: 40px;
+  font-family:'Fredericka the Great';
+  color: whitesmoke;
+
+  text-align: center;
+  
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* DEMO REEL */
 .demoPlacement {
   display: flex;
