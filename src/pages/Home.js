@@ -41,7 +41,7 @@ function Home() {
       </div>
     </div>
     <div className="row"> 
-      <div className="col-12 taglineTitle">
+      {/* <div className="col-12 taglineTitle"> */}
           <div className="dropdown">
             
             What <a href="/portfolio" className="dropbtn">Skills</a> Do You Need?
@@ -54,7 +54,7 @@ function Home() {
               <a href="/portfolio">See All Projects</a>
             </div>
           </div>
-      </div>
+      {/* </div> */}
     </div>
     <div className="row">
         <div className="col-12 demoPlacement">
@@ -65,8 +65,7 @@ function Home() {
     </div>
     <Modal
         show={show}
-        setShow={setShow}
-    >
+        setShow={setShow}>
         
     </Modal>  
     </>
