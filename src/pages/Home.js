@@ -42,7 +42,7 @@ function Home() {
     </div>
     <div className="row taglineTitle"> 
       <div className="col-12 dropdown">
-          {/* <div className="dropdown"> */}
+          <div className="dropdown">
             
             What <a href="/portfolio" className="dropbtn">Skills</a> Do You Need?
           
@@ -52,7 +52,7 @@ function Home() {
               <a href="/video-portfolio">Video Editing</a>
               <a href="/portfolio">Writing</a>
               <a href="/portfolio">See All Projects</a>
-            {/* </div> */}
+            </div>
           </div>
       </div>
     </div>
