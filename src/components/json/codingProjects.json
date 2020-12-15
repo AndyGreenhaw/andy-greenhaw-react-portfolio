@@ -9,18 +9,17 @@
     },
     {
         "id": 2,
-        "name": "Weather App",
-        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/weatherdashboard.png",
-        "link": "https://andygreenhaw.github.io/06-Server-Side-APIs-Weather-Dashboard/",
-        "description": "I created this Weather App using Javascript, HTML, CSS, local storage, and Open Weather's API.",
-        "alt": "Andy's Weather App"
+        "name": "Pandemic Tracker",
+        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/pandemicTracker.png",
+        "link": "https://vast-eyrie-87899.herokuapp.com/globe",
+        "description": "I created this global pandemic tracker using React Globe and an API hosted by John Hopkins that tracks Covid-19 cases, deaths, and recoveries."
     },
     {
         "id": 3,
-        "name": "Work Day Planner",
-        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/dayplanner.png",
-        "link": "https://andygreenhaw.github.io/05-Third-Party-APIs-Work-Day-Scheduler/",
-        "description": "I created this Day planner application using Javascript, HTML, CSS, and local Web browser storage.",
-        "alt": "Andy's Day Planner"
+        "name": "Weather App",
+        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/weatherdashboard.png",
+        "link": "https://andygreenhaw.github.io/06-Server-Side-APIs-Weather-Dashboard/",
+        "description": "I built this weather app using Javascript, local storage, and Open Weather's API. Search a city to see current weather and a five-day forecast",
+        "alt": "Andy's Weather App"
     }
 ]

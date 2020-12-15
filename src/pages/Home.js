@@ -40,21 +40,21 @@ function Home() {
         Andy Greenhaw
       </div>
     </div>
-    <div className="row taglineTitle"> 
-      <div className="col-12 dropdown">
-          <div className="dropdown">
+    <div className="row "> 
+      {/* <div className="col-12 dropdown"> */}
+          <div className="col-12 taglineTitle dropdown">
             
             What <a href="/portfolio" className="dropbtn">Skills</a> Do You Need?
           
             <div className="dropdown-content">
-              <a href="/coding-portfolio">Full-Stack Development</a>
+              <a href="/coding-portfolio">UX/UI Development</a>
               <a href="/animation-portfolio">Animation</a>
               <a href="/video-portfolio">Video Editing</a>
               <a href="/portfolio">Writing</a>
-              <a href="/portfolio">See All Projects</a>
+              <a href="/portfolio">See All</a>
             </div>
           </div>
-      </div>
+      {/* </div> */}
     </div>
     <div className="row">
         <div className="col-12 demoPlacement">

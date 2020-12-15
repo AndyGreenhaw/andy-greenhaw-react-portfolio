@@ -8,17 +8,17 @@
     },
     {
         "id": 2,
+        "name": "Pandemic Tracker",
+        "thumb": "../assets/thumbnails/pandemicTracker.png",
+        "link": "https://vast-eyrie-87899.herokuapp.com/globe",
+        "description": "I created this global pandemic tracker using React Globe and an API hosted by John Hopkins that tracks Covid-19 cases, deaths, and recoveries."
+    },
+    {
+        "id": 3,
         "name": "Interactive Weather App",
         "thumb": "../assets/thumbnails/weatherdashboard.jpg",
         "link": "https://andygreenhaw.github.io/06-Server-Side-APIs-Weather-Dashboard/",
         "description": "I created this Weather App using Javascript, HTML, CSS, local storage, and Open Weather's API. The app enables you to search a city name and see the current weather, a five-day forecast, and icons indicating the weather and time of day. It also saves your previous search in your local web storage so that it remains when you return."
-    },
-    {
-        "id": 3,
-        "name": "Interactive Day Planner",
-        "thumb": "../assets/thumbnails/dayplanner.jpg",
-        "link": "https://andygreenhaw.github.io/06-Server-Side-APIs-Weather-Dashboard/",
-        "description": "I created this Day planner application using Javascript, HTML, CSS, and local Web browser storage. The app enables you to enter plans for the work day, saves your plan to your browser's local storage, and tracks the time of day using grey for the past, red for the present and green for the future."
     },
     {
         "id": 4,

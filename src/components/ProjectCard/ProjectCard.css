@@ -1,0 +1,44 @@
+.projectCards {
+    /* margin-left:50px;
+    margin-right:50px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+  
+    /* width: 50%; */
+    /* padding: 20px; */
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+  }
+  
+  .portfolioHead {
+    color: black;
+    font-size: 24px;
+    
+    height: 50px;
+    justify-content: center;
+  
+    /* font-weight: bolder; */
+    text-align: center;
+  }
+  
+  .portfolioCopy {
+    color: black;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 15px;
+    width:90%;
+  }
+  
+  .projectImage {
+    width: 80%;
+    transition: filter .5s ease-in-out;
+    -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(0%); /* FF 35+ */
+  }
+  
+  .projectImage:hover {
+    width: 80%;
+    -webkit-filter: invert(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: invert(100%); /* FF 35+ */
+  }
