@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import reactDom, { createPortal } from "react-dom";
+import { Link, useLocation } from "react-router-dom";
 // import CarouselCard from "../CarouselCard/CarouselCard.js";
 // import allProjects from "../json/heroProjects.json";
 
@@ -47,11 +48,17 @@ function Home() {
             What <a href="/portfolio" className="dropbtn">Skills</a> Do You Need?
           
             <div className="dropdown-content">
-              <a href="/coding-portfolio">UX/UI Development</a>
-              <a href="/animation-portfolio">Animation</a>
-              <a href="/video-portfolio">Video Editing</a>
-              <a href="/portfolio">Writing</a>
-              <a href="/portfolio">See All</a>
+              <Link to="/coding-portfolio" className={useLocation.pathname === "/coding-portfolio"}>
+                  UX/UI Development</Link>
+              <Link to="/animation-portfolio" className={useLocation.pathname === "/animation-portfolio"}>
+                  Animation</Link>
+              <Link to="/video-portfolio" className={useLocation.pathname === "/video-portfolio"}>
+                  Video Editing</Link>
+
+              <Link to="/portfolio" className={useLocation.pathname === "/portfolio"}>
+                  Writing</Link>
+              <Link to="/portfolio" className={useLocation.pathname === "/portfolio"}>
+                  See All</Link>
             </div>
           </div>
       {/* </div> */}
