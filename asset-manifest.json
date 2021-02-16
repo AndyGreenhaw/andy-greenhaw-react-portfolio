@@ -1,23 +1,30 @@
 {
   "files": {
-    "main.css": "/andy-greenhaw-react-portfolio/static/css/main.2a355f3e.chunk.css",
-    "main.js": "/andy-greenhaw-react-portfolio/static/js/main.83890e1b.chunk.js",
-    "main.js.map": "/andy-greenhaw-react-portfolio/static/js/main.83890e1b.chunk.js.map",
+    "main.css": "/andy-greenhaw-react-portfolio/static/css/main.4a78cfcf.chunk.css",
+    "main.js": "/andy-greenhaw-react-portfolio/static/js/main.4224ac67.chunk.js",
+    "main.js.map": "/andy-greenhaw-react-portfolio/static/js/main.4224ac67.chunk.js.map",
     "runtime-main.js": "/andy-greenhaw-react-portfolio/static/js/runtime-main.36e35758.js",
     "runtime-main.js.map": "/andy-greenhaw-react-portfolio/static/js/runtime-main.36e35758.js.map",
     "static/css/2.1a02f21c.chunk.css": "/andy-greenhaw-react-portfolio/static/css/2.1a02f21c.chunk.css",
-    "static/js/2.c4338154.chunk.js": "/andy-greenhaw-react-portfolio/static/js/2.c4338154.chunk.js",
-    "static/js/2.c4338154.chunk.js.map": "/andy-greenhaw-react-portfolio/static/js/2.c4338154.chunk.js.map",
+    "static/js/2.ad4dd2e0.chunk.js": "/andy-greenhaw-react-portfolio/static/js/2.ad4dd2e0.chunk.js",
+    "static/js/2.ad4dd2e0.chunk.js.map": "/andy-greenhaw-react-portfolio/static/js/2.ad4dd2e0.chunk.js.map",
     "index.html": "/andy-greenhaw-react-portfolio/index.html",
     "static/css/2.1a02f21c.chunk.css.map": "/andy-greenhaw-react-portfolio/static/css/2.1a02f21c.chunk.css.map",
-    "static/css/main.2a355f3e.chunk.css.map": "/andy-greenhaw-react-portfolio/static/css/main.2a355f3e.chunk.css.map",
-    "static/js/2.c4338154.chunk.js.LICENSE.txt": "/andy-greenhaw-react-portfolio/static/js/2.c4338154.chunk.js.LICENSE.txt"
+    "static/css/main.4a78cfcf.chunk.css.map": "/andy-greenhaw-react-portfolio/static/css/main.4a78cfcf.chunk.css.map",
+    "static/js/2.ad4dd2e0.chunk.js.LICENSE.txt": "/andy-greenhaw-react-portfolio/static/js/2.ad4dd2e0.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/andy-greenhaw-react-portfolio/static/media/mountain-bottom-background-cropped.d4fc36a5.png",
+    "static/media/close-button-blue.889ce6f7.png": "/andy-greenhaw-react-portfolio/static/media/close-button-blue.889ce6f7.png",
+    "static/media/pandemicTrackerHeroGIF.c370adae.gif": "/andy-greenhaw-react-portfolio/static/media/pandemicTrackerHeroGIF.c370adae.gif",
+    "static/media/pandemicTrackerSupport1.5ca97f72.png": "/andy-greenhaw-react-portfolio/static/media/pandemicTrackerSupport1.5ca97f72.png",
+    "static/media/pandemicTrackerSupport2.86a56eb0.png": "/andy-greenhaw-react-portfolio/static/media/pandemicTrackerSupport2.86a56eb0.png",
+    "static/media/pandemicTrackerSupport3.e8905a7b.png": "/andy-greenhaw-react-portfolio/static/media/pandemicTrackerSupport3.e8905a7b.png",
+    "static/media/profilePic500x500.081e7a3e.png": "/andy-greenhaw-react-portfolio/static/media/profilePic500x500.081e7a3e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.36e35758.js",
     "static/css/2.1a02f21c.chunk.css",
-    "static/js/2.c4338154.chunk.js",
-    "static/css/main.2a355f3e.chunk.css",
-    "static/js/main.83890e1b.chunk.js"
+    "static/js/2.ad4dd2e0.chunk.js",
+    "static/css/main.4a78cfcf.chunk.css",
+    "static/js/main.4224ac67.chunk.js"
   ]
 }
