@@ -1,0 +1,95 @@
+/* ///////// */
+/* PORTFOLIO */
+/* ///////// */
+
+.darkPortfolioBackground {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  
+.categoryHeadline {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    background: linear-gradient(rgb(23,46,124), 10%, rgb(33,64,154));
+    padding:30px;
+  }
+
+.allCodingProjects {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.heroCodingProject {
+
+    margin-top: 20px;  
+    padding: 30px;
+    
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    
+}
+
+.heroCodingImage {
+    width: 100%;
+}
+
+.heroCodingCopy {
+    padding-top: 20px;
+    text-align: left;
+}
+
+/* /////////////////////// */
+/* PROJECT STANDARDIZATION */
+/* /////////////////////// */
+
+.projectPlacement {
+    
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+
+    margin-top: 20px;
+
+  }
+
+  .projectHeadline {
+    padding-top: 20px;
+    text-align: center;
+}
+  
+  /* .portfolioHead {
+    color: black;
+    font-size: 24px;
+    
+    height: 50px;
+    justify-content: center;
+  
+    font-weight: bolder;
+    text-align: center;
+  } */
+  
+  /* .portfolioCopy {
+    color: black;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 15px;
+    width:90%;
+  } */
+  
+
+  .projectNewImage {
+      width:100%;
+  }
+
+  /* .projectNewImage {
+    width: 100%;
+    transition: filter .5s ease-in-out;
+    -webkit-filter: grayscale(0%); 
+    filter: grayscale(0%); 
+  }
+  
+  .projectNewImage:hover {
+    width: 100%;
+    -webkit-filter: invert(100%); 
+    filter: invert(100%); 
+  } */

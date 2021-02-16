@@ -30,15 +30,15 @@
     width:90%;
   }
   
-  .projectImage {
+  /* .projectImage {
     width: 80%;
     transition: filter .5s ease-in-out;
-    -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-    filter: grayscale(0%); /* FF 35+ */
+    -webkit-filter: grayscale(0%); 
+    filter: grayscale(0%); 
   }
   
   .projectImage:hover {
     width: 80%;
-    -webkit-filter: invert(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-    filter: invert(100%); /* FF 35+ */
-  }
+    -webkit-filter: invert(100%); 
+    filter: invert(100%); 
+  } */

@@ -1,36 +1,62 @@
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import NavTabs from "./components/NavTabs";
+import React, {useState} from "react";
+import { FormspreeProvider } from '@formspree/react'
+
+import { 
+  BrowserRouter as Router, 
+  Route,
+  Switch,
+  Link,
+  useLocation,
+  withRouter
+} from "react-router-dom";
+
+import NavBar from "./components/NavBar.js";
 import Home from "./pages/Home";
-import About from "./pages/About";
-import Portfolio from "./pages/Portfolio";
-import Contact from "./pages/Contact";
 import CodingPortfolio from "./pages/CodingPortfolio";
+import DataVisualization from "./pages/DataVisualizationPortfolio";
 import AnimationPortfolio from "./pages/AnimationPortfolio";
 import VideoPortfolio from "./pages/VideoPortfolio";
+import AboutAndy from "./pages/AboutAndy";
 
 import "./style.css"
 
 function App() {
 
   return(
+  <>
     <Router>
-      <div className="bg">
-        <div className="container-fluid">
-          <NavTabs />
-          <Route exact path="/" component={Home} />
-          <Route exact path="/andy-greenhaw-react-portfolio" component={Home} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/portfolio" component={Portfolio} />
-          <Route exact path="/contact" component={Contact} />
-
-          {/* NON NAV PAGES */}
-          <Route exact path="/coding-portfolio" component={CodingPortfolio} />
-          <Route exact path="/animation-portfolio" component={AnimationPortfolio} />
-          <Route exact path="/video-portfolio" component={VideoPortfolio} />
+      
+      <div className="container-fluid">
+        <div className="containerFix">
+          <nav className="nav-bar">
+            <NavBar/>
+          </nav>
+          <div id="heroSection">
+            <Home id="section1"/>
+          </div>
+          <div id="codingSection">
+            <CodingPortfolio id="section2"/>
+          </div>
+          <div id="dataVisualizationSection">
+            <DataVisualization id="section3"/>
+          </div>
+          <div id="animationSection">
+              <AnimationPortfolio id="section4"/>
+          </div>
+          <div id="videoSection">
+              <VideoPortfolio id="section5"/>
+          </div>
+          
+          <div id="aboutSection">
+              <AboutAndy id="section6"/>
+          </div>
         </div>
       </div>
+      
     </Router>
-    )
+    
+  </>
+  )
 }
 
 export default App;
