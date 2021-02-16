@@ -3,6 +3,20 @@ import { Link } from "react-router-dom";
 import { createPortal } from "react-dom";
 import "./portfolioStyle.css";
 
+// THUMBNAILS
+import pandemicTracker from "../components/thumbnails/grid/pandemicTrackerWebSize1.png"
+
+import weatherApp from "../components/thumbnails/grid/weatherdashboard.png"
+import dayPlanner from "../components/thumbnails/grid/dayplanner.png"
+import notetakerApp from "../components/thumbnails/grid/notetaker.png"
+import bookshelfApp from "../components/thumbnails/grid/bookshelf.png"
+
+import budgetApp from "../components/thumbnails/grid/budget.png"
+import snakeApp from "../components/thumbnails/grid/snakeGamePlaceholder.png"
+import theOfficeApp from "../components/thumbnails/grid/theoffice.png"
+import passwordApp from "../components/thumbnails/grid/password.png"
+
+
 import CodingModal from "../components/PortfolioModals/CodingModal"
 
 const Portfolio = (props) => {
@@ -82,7 +96,7 @@ const Portfolio = (props) => {
                         </div> */}
                         <div className="heroCodingProject">
                             <Link onClick={openCodingModal}>
-                                <img className="heroCodingImage buttonHover" src="andy-greenhaw-react-portfolio/assets/thumbnails/pandemicTrackerWebSize1.png" alt="Pandemic Tracker" />
+                                <img className="heroCodingImage buttonHover" src={pandemicTracker}alt="Pandemic Tracker" />
 
                                 <div className="projectHeroHeadline">Pandemic Tracker</div>
                             </Link>
@@ -100,7 +114,7 @@ const Portfolio = (props) => {
                                     <img 
                                         className="projectNewImage" 
                                         
-                                        src="andy-greenhaw-react-portfolio/assets/thumbnails/weatherdashboard.png" 
+                                        src={weatherApp}
                                         alt="Weather API App"
                                         
                                     />
@@ -113,7 +127,7 @@ const Portfolio = (props) => {
                             <a target="_blank" href="https://andygreenhaw.github.io/05-Third-Party-APIs-Work-Day-Scheduler/"><img 
                                 className="projectNewImage" 
                                 
-                                src="andy-greenhaw-react-portfolio/assets/thumbnails/dayplanner.png" 
+                                src={dayPlanner}
                                 alt="Work Scheduler"
                                 
                             /></a>
@@ -127,7 +141,7 @@ const Portfolio = (props) => {
                             
                             <a target="_blank" href="https://shielded-savannah-98558.herokuapp.com/notes"><img 
                                 className="projectNewImage" 
-                                src="andy-greenhaw-react-portfolio/assets/thumbnails/notetaker.png" 
+                                src={notetakerApp}
                                 alt="Blogger App"
                                 
                             /></a>
@@ -137,7 +151,7 @@ const Portfolio = (props) => {
                         <div className="projectPlacement">
                             <a target="_blank" href="https://intense-earth-81966.herokuapp.com/"><img 
                                 className="projectNewImage" 
-                                src="andy-greenhaw-react-portfolio/assets/thumbnails/bookshelf.png" 
+                                src={bookshelfApp}
                                 alt="BookSelf Social App"
                                 
                             /></a>
@@ -156,7 +170,7 @@ const Portfolio = (props) => {
                         <div className="projectPlacement">
                                 <a target="_blank" href="https://hidden-refuge-28358.herokuapp.com/"><img 
                                     className="projectNewImage" 
-                                    src="andy-greenhaw-react-portfolio/assets/thumbnails/budget.png" 
+                                    src={budgetApp}
                                     alt="Budget App"
                                     
                                 /></a>
@@ -168,7 +182,7 @@ const Portfolio = (props) => {
                         <div className="projectPlacement">
                                 <a target="_blank" href="https://github.com/AndyGreenhaw/snake-game"><img 
                                     className="projectNewImage" 
-                                    src="andy-greenhaw-react-portfolio/assets/thumbnails/snakeGamePlaceholder.png" 
+                                    src={snakeApp}
                                     alt="Snake Game"
                                     
                                 /></a>
@@ -179,7 +193,7 @@ const Portfolio = (props) => {
                         <div className="projectPlacement">
                                 <a target="_blank"  href="https://andygreenhaw.github.io/19-react-employee-directory/"><img 
                                     className="projectNewImage" 
-                                    src="andy-greenhaw-react-portfolio/assets/thumbnails/theoffice.png" 
+                                    src={theOfficeApp} 
                                     alt="Employee Directory"
                                     
                                 /></a>
@@ -190,7 +204,7 @@ const Portfolio = (props) => {
                         <div className="projectPlacement">
                                 <a target="_blank" href="https://andygreenhaw.github.io/03-JavaScript-Password-Generator/"><img 
                                     className="projectNewImage" 
-                                    src="andy-greenhaw-react-portfolio/assets/thumbnails/password.png" 
+                                    src={passwordApp} 
                                     alt="Password Generator"
                                     
                                 /></a>
