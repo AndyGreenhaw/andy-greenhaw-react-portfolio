@@ -2,6 +2,15 @@ import React, { useEffect, useState } from "react";
 import Modal from "react-modal";
 import "./portfolioStyle.css"
 
+// IMPORTING THUMBNAIL IMAGES
+import virtualReality from "../components/thumbnails/grid/virtual-reality.jpg"
+
+import covidAnimation from "../components/thumbnails/grid/covid-19.jpg"
+import crashRecon from "../components/thumbnails/grid/crash-accuracy.jpg"
+import digitalInjurySummary from "../components/thumbnails/grid/dis.jpg"
+import nuclearReactor from "../components/thumbnails/grid/nuclear.png"
+
+
 const DataVisualization = () => {
     
     return (
@@ -24,7 +33,7 @@ const DataVisualization = () => {
                             
                             <a href="https://www.youtube.com/watch?v=78jLBNSqc3g&t=1s"><img 
                                 className="projectNewImage" 
-                                src="andy-greenhaw-react-portfolio/assets/thumbnails/covid-19.jpg" 
+                                src={covidAnimation} 
                                 alt="Covid-19 Animation"
                             /></a>
                             <div className="projectHeadline">Covid-19</div>
@@ -35,7 +44,7 @@ const DataVisualization = () => {
                             <a href="https://andygreenhaw.github.io/06-Server-Side-APIs-Weather-Dashboard/">
                                 <img 
                                     className="projectNewImage" 
-                                    src="andy-greenhaw-react-portfolio/assets/thumbnails/crash-accuracy.jpg" 
+                                    src={crashRecon}
                                     alt="Crash Reconstruction"
                                 /></a>
                             <div className="projectHeadline">Crash Reconstruction</div>
@@ -49,7 +58,7 @@ const DataVisualization = () => {
 
                             <a href="https://www.youtube.com/watch?v=6T8yedKRQOQ"><img 
                                     className="projectNewImage" 
-                                    src="andy-greenhaw-react-portfolio/assets/thumbnails/dis.jpg" 
+                                    src={digitalInjurySummary}
                                     alt="Digital Injury Summary"
                                 /></a>
                             <div className="projectHeadline">Digital Injury Summary</div>
@@ -60,7 +69,7 @@ const DataVisualization = () => {
                                 
                             <a href="https://shielded-savannah-98558.herokuapp.com/notes"><img 
                                 className="projectNewImage" 
-                                src="andy-greenhaw-react-portfolio/assets/thumbnails/nuclear.png" 
+                                src={nuclearReactor}
                                 alt="Nuclear Reactor"
                             /></a>
                             <div className="projectHeadline">Nuclear Physics</div>
@@ -73,7 +82,7 @@ const DataVisualization = () => {
                     <div className="col-md-6">
                         <div className="heroCodingProject">
                             {/* <div className="row portfolioHead"></div> */}
-                            <a href="https://highimpact.com/blog/High-Impact-to-Bring-Virtual-Reality-to-the-Courtroom"><img className="heroCodingImage" src="andy-greenhaw-react-portfolio/assets/thumbnails/virtual-reality.jpg" alt="Virtual Reality Litigation"/></a>
+                            <a href="https://highimpact.com/blog/High-Impact-to-Bring-Virtual-Reality-to-the-Courtroom"><img className="heroCodingImage" src={virtualReality} alt="Virtual Reality Litigation"/></a>
 
                             <div className="heroCodingCopy">Translating complex data into visual communication tools that engage and educate was my primary focus for six years at High Impact. We specialized in highly accurate illustrations, animations, and interactive applications based on medical and forensic science. This included the first virtual reality exhibit used in a legal mediation in the United States, which has been used in several cases since. (I also wrote and produced the video for this example.)
                             </div>
