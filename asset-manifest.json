@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/andy-greenhaw-react-portfolio/static/css/main.4a78cfcf.chunk.css",
-    "main.js": "/andy-greenhaw-react-portfolio/static/js/main.4224ac67.chunk.js",
-    "main.js.map": "/andy-greenhaw-react-portfolio/static/js/main.4224ac67.chunk.js.map",
+    "main.js": "/andy-greenhaw-react-portfolio/static/js/main.2f6e8453.chunk.js",
+    "main.js.map": "/andy-greenhaw-react-portfolio/static/js/main.2f6e8453.chunk.js.map",
     "runtime-main.js": "/andy-greenhaw-react-portfolio/static/js/runtime-main.36e35758.js",
     "runtime-main.js.map": "/andy-greenhaw-react-portfolio/static/js/runtime-main.36e35758.js.map",
     "static/css/2.1a02f21c.chunk.css": "/andy-greenhaw-react-portfolio/static/css/2.1a02f21c.chunk.css",
@@ -13,18 +13,27 @@
     "static/css/main.4a78cfcf.chunk.css.map": "/andy-greenhaw-react-portfolio/static/css/main.4a78cfcf.chunk.css.map",
     "static/js/2.ad4dd2e0.chunk.js.LICENSE.txt": "/andy-greenhaw-react-portfolio/static/js/2.ad4dd2e0.chunk.js.LICENSE.txt",
     "static/media/style.css": "/andy-greenhaw-react-portfolio/static/media/mountain-bottom-background-cropped.d4fc36a5.png",
+    "static/media/bookshelf.c3b7f784.png": "/andy-greenhaw-react-portfolio/static/media/bookshelf.c3b7f784.png",
+    "static/media/budget.00bcfb25.png": "/andy-greenhaw-react-portfolio/static/media/budget.00bcfb25.png",
     "static/media/close-button-blue.889ce6f7.png": "/andy-greenhaw-react-portfolio/static/media/close-button-blue.889ce6f7.png",
+    "static/media/dayplanner.62beb0cb.png": "/andy-greenhaw-react-portfolio/static/media/dayplanner.62beb0cb.png",
+    "static/media/notetaker.cdf9da31.png": "/andy-greenhaw-react-portfolio/static/media/notetaker.cdf9da31.png",
     "static/media/pandemicTrackerHeroGIF.c370adae.gif": "/andy-greenhaw-react-portfolio/static/media/pandemicTrackerHeroGIF.c370adae.gif",
     "static/media/pandemicTrackerSupport1.5ca97f72.png": "/andy-greenhaw-react-portfolio/static/media/pandemicTrackerSupport1.5ca97f72.png",
     "static/media/pandemicTrackerSupport2.86a56eb0.png": "/andy-greenhaw-react-portfolio/static/media/pandemicTrackerSupport2.86a56eb0.png",
     "static/media/pandemicTrackerSupport3.e8905a7b.png": "/andy-greenhaw-react-portfolio/static/media/pandemicTrackerSupport3.e8905a7b.png",
-    "static/media/profilePic500x500.081e7a3e.png": "/andy-greenhaw-react-portfolio/static/media/profilePic500x500.081e7a3e.png"
+    "static/media/pandemicTrackerWebSize1.cf7f5c2c.png": "/andy-greenhaw-react-portfolio/static/media/pandemicTrackerWebSize1.cf7f5c2c.png",
+    "static/media/password.f5db310b.png": "/andy-greenhaw-react-portfolio/static/media/password.f5db310b.png",
+    "static/media/profilePic500x500.081e7a3e.png": "/andy-greenhaw-react-portfolio/static/media/profilePic500x500.081e7a3e.png",
+    "static/media/snakeGamePlaceholder.8cc84718.png": "/andy-greenhaw-react-portfolio/static/media/snakeGamePlaceholder.8cc84718.png",
+    "static/media/theoffice.48be21b6.png": "/andy-greenhaw-react-portfolio/static/media/theoffice.48be21b6.png",
+    "static/media/weatherdashboard.2c58bd65.png": "/andy-greenhaw-react-portfolio/static/media/weatherdashboard.2c58bd65.png"
   },
   "entrypoints": [
     "static/js/runtime-main.36e35758.js",
     "static/css/2.1a02f21c.chunk.css",
     "static/js/2.ad4dd2e0.chunk.js",
     "static/css/main.4a78cfcf.chunk.css",
-    "static/js/main.4224ac67.chunk.js"
+    "static/js/main.2f6e8453.chunk.js"
   ]
 }
