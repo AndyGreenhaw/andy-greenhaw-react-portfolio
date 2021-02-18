@@ -1,34 +1,103 @@
-import React, { useState, StyledModal } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { createPortal } from "react-dom";
 import "./portfolioStyle.css";
 
+import codingProjectsArr from "../components/json/codingALL.json"
+
 // THUMBNAILS
-import pandemicTracker from "../components/thumbnails/grid/pandemicTrackerWebSize1.png"
+import pandemicTrackerImage from "../components/thumbnails/grid/pandemicTrackerWebSize1.png"
+import weatherAppImage from "../components/thumbnails/grid/weatherdashboard.png"
+import dayPlannerImage from "../components/thumbnails/grid/dayplanner.png"
+import notetakerAppImage from "../components/thumbnails/grid/notetaker.png"
+import bookshelfAppImage from "../components/thumbnails/grid/bookshelf.png"
+import budgetAppImage from "../components/thumbnails/grid/budget.png"
+import snakeAppImage from "../components/thumbnails/grid/snakeGamePlaceholder.png"
+import theOfficeAppImage from "../components/thumbnails/grid/theoffice.png"
+import passwordAppImage from "../components/thumbnails/grid/password.png"
 
-import weatherApp from "../components/thumbnails/grid/weatherdashboard.png"
-import dayPlanner from "../components/thumbnails/grid/dayplanner.png"
-import notetakerApp from "../components/thumbnails/grid/notetaker.png"
-import bookshelfApp from "../components/thumbnails/grid/bookshelf.png"
+// GIF DISPLAY
+import pandemicGIF from "../components/PortfolioModals/assets/pandemicTrackerHeroGIF.gif"
+import weatherGIF from "../components/PortfolioModals/assets/weatherThumb.png"
+import bloggerGIF from "../components/PortfolioModals/assets/noteTakerGIF.gif"
+import plannerGIF from "../components/PortfolioModals/assets/plannerGIF.gif"
+import bookshelfGIF from "../components/PortfolioModals/assets/bookshelfGIF.gif"
+import budgetGIF from "../components/PortfolioModals/assets/budgetapp.png"
+import officeGIF from "../components/PortfolioModals/assets/theOfficeGIF.gif"
+import passwordGIF from "../components/PortfolioModals/assets/passwordThumb.png"
 
-import budgetApp from "../components/thumbnails/grid/budget.png"
-import snakeApp from "../components/thumbnails/grid/snakeGamePlaceholder.png"
-import theOfficeApp from "../components/thumbnails/grid/theoffice.png"
-import passwordApp from "../components/thumbnails/grid/password.png"
-
-
+// MODALS
 import CodingModal from "../components/PortfolioModals/CodingModal"
 
 const Portfolio = (props) => {
 
     // MODAL STATE
     const [ showCodingModal, setShowCodingModal] = useState(false) 
+    const [ displayImage, setDisplayImage ] = useState()
+    const [ modalData, setModalData ] = useState()
+
+    
+    // SETTING MODAL DATA
+    const pandemicModal = () => {
+        setModalData(codingProjectsArr[0])
+        setDisplayImage(pandemicGIF)
+        openCodingModal()
+    }
+
+    const weatherModal = () => {
+        setModalData(codingProjectsArr[1])
+        setDisplayImage(weatherGIF)
+        openCodingModal()
+    }
+
+    const bloggerApp = () => {
+        setModalData(codingProjectsArr[2])
+        setDisplayImage(bloggerGIF)
+        openCodingModal()
+    }
+
+    const plannerApp = () => {
+        setModalData(codingProjectsArr[3])
+        setDisplayImage(plannerGIF)
+        openCodingModal()
+    }
+
+    const bookshelfApp = () => {
+        setModalData(codingProjectsArr[4])
+        setDisplayImage(bookshelfGIF)
+        openCodingModal()
+    }
+
+    const snakeApp = () => {
+        setModalData(codingProjectsArr[5])
+        setDisplayImage(budgetGIF)
+        openCodingModal()
+    }
+
+    const budgetApp = () => {
+        setModalData(codingProjectsArr[6])
+        setDisplayImage(budgetGIF)
+        openCodingModal()
+    }
+
+    const theOfficeApp = () => {
+        setModalData(codingProjectsArr[7])
+        setDisplayImage(officeGIF)
+        openCodingModal()
+    }
+
+    const passwordApp = () => {
+        setModalData(codingProjectsArr[8])
+        setDisplayImage(passwordGIF)
+        openCodingModal()
+    }
+
+
+
 
     // Sets Modal to Open or Closed When About Clicked
     const openCodingModal = () => {
         console.log("read")
-
-        // document.getElementById('blurMe').addClass('.blur')
 
         document.body.style.overflow = 'hidden';
         document.getElementById("blurMe").style.filter='blur(8px)'
@@ -48,19 +117,16 @@ const Portfolio = (props) => {
     const Modal = ({showCodingModal, setShowCodingModal}) => {
         const content = showCodingModal && (
    
-        // <StyledModal
-        //     // id={this.props.id}
-        //     // className={`wrapper ${this.props.class}`}
-        //     role="dialog"
-        //     // size={this.props.size}
-        //     onTransitionEnd={this.transitionEnd}
-        //     fadeType={this.state.fadeType}
-        // >
+        
           <CodingModal 
             clickcb={closeCodingModal}
+            modalHeadline={modalData.name}
+            modalThumb={displayImage}
+            modalLink={modalData.link}
+            modalGitHub={modalData.github}
+            modalDescription={modalData.description}
+            alt={modalData.alt}
           />   
-        // {/* </StyledModal> */}
-
 
         )
         return createPortal(content, document.body)
@@ -75,7 +141,8 @@ const Portfolio = (props) => {
         >
             {/* setShowAbout={setShowAbout}> */}
         </Modal>
-        <div className="darkPortfolioBackground" id="blurMe">
+        
+        <div className="darkPortfolioBackground">
             
             {/* FULL-STACK DEVELOPMENT */}
 
@@ -90,15 +157,11 @@ const Portfolio = (props) => {
 
                     {/* HERO PROJECT */}
                     <div className="col-md-6">
-                        {/* <div className="heroCodingProject">
-                            <div className="heroCodingCopy">I am proficient in a long list of coding languages, including React, JavaScript, mySQL, MongoDB, Express, Node JS, Handlebars, Ajax, Axios, CSS, HTML, and I'm always learning more. Check out some of my projects below and see some of my capabilities for yourself.
-                            </div>
-                        </div> */}
                         <div className="heroCodingProject">
-                            <Link onClick={openCodingModal}>
-                                <img className="heroCodingImage buttonHover" src={pandemicTracker}alt="Pandemic Tracker" />
+                            <Link onClick={pandemicModal}>
+                                <img className="heroCodingImage buttonHover" src={pandemicTrackerImage}alt="Pandemic Tracker" />
 
-                                <div className="projectHeroHeadline">Pandemic Tracker</div>
+                                <div className="projectHeroHeadline">Tracking Covid-19 Across the Globe</div>
                             </Link>
                             
                             {/* <div className="heroCodingCopy">The Pandemic Tracker displays Covid-19 statistics across the glove. Try it for yourself and see what areas the world are experiencing the biggest impact from the pandemic. The Pandemic Tracker displays Covid-19 statistics across the glove. Try it for yourself and see what areas the world are experiencing the biggest impact from the pandemic. The Pandemic Tracker displays Covid-19 statistics across the glove. Try it for yourself and see what areas the world are experiencing the biggest impact from the pandemic.</div> */}
@@ -109,12 +172,12 @@ const Portfolio = (props) => {
                     {/* SECONDARY CODE PROJECTS */}
                     <div className="col-md-3">
                         <div className="projectPlacement">
-                            <Link onClick={openCodingModal}>
+                            <Link onClick={weatherModal}>
                                 
                                     <img 
                                         className="projectNewImage" 
                                         
-                                        src={weatherApp}
+                                        src={weatherAppImage}
                                         alt="Weather API App"
                                         
                                     />
@@ -124,14 +187,18 @@ const Portfolio = (props) => {
 
                         <div className="projectPlacement">
                             
-                            <a target="_blank" href="https://andygreenhaw.github.io/05-Third-Party-APIs-Work-Day-Scheduler/"><img 
-                                className="projectNewImage" 
-                                
-                                src={dayPlanner}
-                                alt="Work Scheduler"
-                                
-                            /></a>
-                            <div className="projectHeadline">Work Scheduler</div>
+                            <Link onClick={plannerApp}>
+                            
+                                <img 
+                                    className="projectNewImage" 
+                                    
+                                    src={dayPlannerImage}
+                                    alt="Work Scheduler"
+                                    
+                                />
+                                <div className="projectHeadline">Work Scheduler</div>
+                            </Link>
+                            
                         </div> 
                     </div>
 
@@ -139,23 +206,27 @@ const Portfolio = (props) => {
 
                         <div className="projectPlacement">
                             
-                            <a target="_blank" href="https://shielded-savannah-98558.herokuapp.com/notes"><img 
-                                className="projectNewImage" 
-                                src={notetakerApp}
-                                alt="Blogger App"
-                                
-                            /></a>
-                            <div className="projectHeadline">Blogger App</div>
+                            <Link onClick={bloggerApp}>
+                                <img 
+                                    className="projectNewImage" 
+                                    src={notetakerAppImage}
+                                    alt="Blogger App"
+                                    
+                                />
+                                <div className="projectHeadline">Blogger App</div>
+                            </Link>
                         </div>
 
                         <div className="projectPlacement">
-                            <a target="_blank" href="https://intense-earth-81966.herokuapp.com/"><img 
-                                className="projectNewImage" 
-                                src={bookshelfApp}
-                                alt="BookSelf Social App"
-                                
-                            /></a>
-                            <div className="projectHeadline">BookShelf Social App</div>
+                            <Link onClick={bookshelfApp}>
+                                <img 
+                                    className="projectNewImage" 
+                                    src={bookshelfAppImage}
+                                    alt="BookSelf Social App"
+                                    
+                                />
+                                <div className="projectHeadline">BookShelf Social App</div>
+                            </Link>
                         </div> 
 
                     </div>
@@ -168,47 +239,54 @@ const Portfolio = (props) => {
 
                     <div className="col-md-3">
                         <div className="projectPlacement">
-                                <a target="_blank" href="https://hidden-refuge-28358.herokuapp.com/"><img 
-                                    className="projectNewImage" 
-                                    src={budgetApp}
-                                    alt="Budget App"
-                                    
-                                /></a>
+                            <Link onClick={budgetApp}>
+                                <img 
+                                        className="projectNewImage" 
+                                        src={budgetAppImage}
+                                        alt="Budget App"               
+                                />
                                 <div className="projectHeadline">Budget App</div>
+                                </Link>
                         </div>
                     </div>
 
                     <div className="col-md-3">
                         <div className="projectPlacement">
-                                <a target="_blank" href="https://github.com/AndyGreenhaw/snake-game"><img 
-                                    className="projectNewImage" 
-                                    src={snakeApp}
-                                    alt="Snake Game"
-                                    
-                                /></a>
+                            <Link onClick={snakeApp}>
+                                <img 
+                                        className="projectNewImage" 
+                                        src={snakeAppImage}
+                                        alt="Snake Game"
+                                        
+                                />
                                 <div className="projectHeadline">Snake Game</div>
+                            </Link>
                         </div> 
                     </div>
                     <div className="col-md-3">
                         <div className="projectPlacement">
-                                <a target="_blank"  href="https://andygreenhaw.github.io/19-react-employee-directory/"><img 
-                                    className="projectNewImage" 
-                                    src={theOfficeApp} 
-                                    alt="Employee Directory"
-                                    
-                                /></a>
+                            <Link onClick={theOfficeApp}>
+                                <img 
+                                        className="projectNewImage" 
+                                        src={theOfficeAppImage} 
+                                        alt="Employee Directory"
+                                        
+                                />
                                 <div className="projectHeadline">The Office Employee Directory</div>
+                            </Link>
                         </div> 
                     </div>
                     <div className="col-md-3">
                         <div className="projectPlacement">
-                                <a target="_blank" href="https://andygreenhaw.github.io/03-JavaScript-Password-Generator/"><img 
-                                    className="projectNewImage" 
-                                    src={passwordApp} 
-                                    alt="Password Generator"
-                                    
-                                /></a>
+                            <Link onClick={passwordApp}>
+                                <img 
+                                        className="projectNewImage" 
+                                        src={passwordAppImage} 
+                                        alt="Password Generator"
+                                        
+                                />
                                 <div className="projectHeadline">Password Generator </div>
+                            </Link>
                         </div> 
                     </div>
                 </div>

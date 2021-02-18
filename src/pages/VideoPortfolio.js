@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import Modal from "react-modal";
+import { Link } from "react-router-dom";
+import { createPortal } from "react-dom";
 import "./portfolioStyle.css"
 
 // IMPORTING THUMBNAIL IMAGES
@@ -10,9 +11,89 @@ import uclaVideo from "../components/thumbnails/grid/ucla.jpg"
 import explosionVideo from "../components/thumbnails/grid/explosion-case.jpg"
 import testimonialVideo from "../components/thumbnails/grid/testimonials.png"
 
+// MODALS
+import VideoModal from "../components/PortfolioModals/VideoModal"
+
+//JSON
+import videoEditingDataArr from "../components/json/videoALL.json"
+
 const VideoPortfolio = () => {
+
+    // MODAL STATE
+    const [ showVideoModal, setShowVideoModal] = useState(false) 
+    const [ modalData, setModalData ] = useState()
+
+    // SETTING MODAL DATA
+    const visionImpairModal = () => {
+        setModalData(videoEditingDataArr[0])
+        openVideoModal()
+    }
+
+    const explosionModal = () => {
+        setModalData(videoEditingDataArr[1])
+        openVideoModal()
+    }
+
+    const uclaModal = () => {
+        setModalData(videoEditingDataArr[2])
+        openVideoModal()
+    }
+
+    const verdictModal = () => {
+        setModalData(videoEditingDataArr[3])
+        openVideoModal()
+    }
+
+    const syntropyModal = () => {
+        setModalData(videoEditingDataArr[4])
+        openVideoModal()
+    }
+
+    // Sets Modal to Open or Closed When About Clicked
+
+    const openVideoModal = () => {
+        console.log("read")
+
+        document.body.style.overflow = 'hidden';
+        document.getElementById("blurMe").style.filter='blur(8px)'
+        document.getElementById("blurMe").style.transition='all 0.25s ease-in'
+
+        setShowVideoModal(true)
+    }
+    const closeVideoModal = () => {
+        console.log("read")
+
+        document.body.style.overflow = 'auto';
+        document.getElementById("blurMe").style.filter='blur(0px)'
+        
+        setShowVideoModal(false)
+    }
+
+    const Modal = ({showVideoModal, setShowVideoModal}) => {
+        const content = showVideoModal && (
+   
+        
+          <VideoModal 
+            clickcb={closeVideoModal}
+            modalHeadline={modalData.name}
+            // modalThumb={modalData.thumb}
+            modalLink={modalData.embedLink}
+            modalDescription={modalData.description}
+            alt={modalData.alt}
+          />   
+
+        )
+        return createPortal(content, document.body)
+    }
     
     return (
+        <>
+        <Modal
+            showVideoModal={showVideoModal}
+            transition="all 0.25s ease-in"
+        >
+            {/* setShowAbout={setShowAbout}> */}
+        </Modal>
         <div className="darkPortfolioBackground">
             
             {/* VIDEO PRODUCTION */}
@@ -30,24 +111,27 @@ const VideoPortfolio = () => {
                     <div className="col-md-3">
                         <div className="projectPlacement">
                             
-                            <a href="https://www.youtube.com/watch?v=9Xpu2QqLnHY&t=67s">
+                            <Link onClick={visionImpairModal}>
                                 <img 
                                     className="projectNewImage" 
                                     src={vrVisionImpairment}
                                     alt="VR Shows Vision Impairment"
-                                /></a>
-                            <div className="projectHeadline">VR Shows Vision Impairment</div>
+                                />
+                                <div className="projectHeadline">VR Shows Vision Impairment</div>
+                            </Link>
                             
                         </div>
 
                         <div className="projectPlacement">
                             
-                            <a href="https://www.youtube.com/watch?v=_KlhF6ETtPg"><img 
+                            <Link onClick={uclaModal}>
+                                <img 
                                 className="projectNewImage" 
                                 src={uclaVideo}
                                 alt="UCLA Leg Amputation"
-                            /></a>
-                            <div className="projectHeadline">UCLA Leg Amputation</div>
+                                />
+                                <div className="projectHeadline">UCLA Leg Amputation</div>
+                            </Link>
                         </div> 
                     </div>
 
@@ -55,21 +139,25 @@ const VideoPortfolio = () => {
 
                         <div className="projectPlacement">
                             
-                            <a href="https://www.youtube.com/watch?v=Oe7iXSVUYek"><img 
+                        <Link onClick={explosionModal}>
+                            <img 
                                 className="projectNewImage" 
                                 src={explosionVideo}
                                 alt="Chemical Explosion"
-                            /></a>
+                            />
                             <div className="projectHeadline">Chemical Explosion Lawsuit</div>
+                        </Link>
                         </div>
 
                         <div className="projectPlacement">
-                            <a href="https://highimpact.com/testimonials"><img 
+                        <Link onClick={verdictModal}>
+                            <img 
                                 className="projectNewImage" 
                                 src={testimonialVideo}
                                 alt="Testimonial Video"
-                            /></a>
-                            <div className="projectHeadline">High Impact Testimonials</div>
+                            />
+                            <div className="projectHeadline">Collision Verdict</div>
+                        </Link>
                         </div> 
 
                     </div>
@@ -78,11 +166,14 @@ const VideoPortfolio = () => {
                     <div className="col-md-6">
                         <div className="heroCodingProject">
                             {/* <div className="row portfolioHead"></div> */}
-                                <a href="https://www.youtube.com/watch?v=v7FfnRJCh6E"><img className="heroCodingImage" 
+                            <Link onClick={syntropyModal}>
+                                <img className="heroCodingImage" 
                                 src={syntropyDemo}
-                                alt="Syntropy Demo"/></a>
-
-                                <div className="heroCodingCopy">I taught myself a wide range of video editing software throughout my digital marketing career, which shares enormous consistencies with several computing languages, particularly in Javascript and CSS. I produced this animation reel editing together some of High Impact's best work for its sister brand, Syntropy. Filler Text Filler Text Filler Text Filler Text Filler Text Filler Text Filler Text Filler Text Filler Text Filler Text</div>
+                                alt="Syntropy Demo"/>
+                            
+                                <div className="projectHeroHeadline">Syntropy Demo Reel
+                                </div>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -90,6 +181,7 @@ const VideoPortfolio = () => {
             </div>
             
         </div>
+        </>
         
     );
 }

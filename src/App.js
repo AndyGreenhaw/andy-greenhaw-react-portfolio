@@ -25,12 +25,12 @@ function App() {
   return(
   <>
     <Router>
-      
-      <div className="container-fluid">
-        <div className="containerFix">
-          <nav className="nav-bar">
+    <nav className="nav-bar">
             <NavBar/>
           </nav>
+      <div className="container-fluid" id="blurMe">
+        <div className="containerFix">
+          
           <div id="heroSection">
             <Home id="section1"/>
           </div>

@@ -1,0 +1,120 @@
+#modalOuterContainer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 75px;
+
+    background-color: white;
+    border-radius: 20px;
+    display: fixed;
+  
+    position: fixed;
+    bottom: -150vh;
+    transition: all 150ms east-in-out;
+  
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+  
+    width: 50%;
+    height: 70%;
+    /* height: 960px; */
+    margin-top: 20px;
+  
+    box-shadow: inset 0px 0px 5px rgba(0,0,0,0.16), 0px 0px 5px rgba(0,0,0,0.45);
+  
+    z-index:99;
+  }
+
+.videoContainer {
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+}
+ 
+.videoPlayer {
+    width: 960px;
+    height: 540px;
+}
+
+.titleBlock {
+    width:100%;
+    display:inline-block;
+    /* text-align: left; */
+  }
+
+.modalTopBar {
+    display: inline;
+}
+.modalTitle {
+    justify-content: left;
+    font-size: 56px;
+    display: flex;
+    color: black;
+   }
+
+.closeX {
+    color: rgb(31,61,149);
+    cursor: pointer;
+    z-index: 99;
+
+    position: absolute;
+    /* right: 0; */
+    margin-right: -60px;
+    
+  }
+
+.codeIcons {
+    justify-content: left;
+    padding-bottom: 20px;
+}
+
+.modalInnerContainer {
+    overflow: inherit;
+    /* overflow-x:hidden; */
+
+    height: 100%;
+    width: 100%;
+    margin-left: 10px;
+    margin-right:10px;
+    z-index: 99;
+  }
+
+.projectTopRow {
+    margin-bottom: 15px;
+}
+
+.porfolioMainImg {
+    width: 75%;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 20px;
+    
+    display: flex;
+}
+
+.portfolioSecondImg {
+    width: 33%;
+    padding: 15px;
+}
+
+#modalCopyIntro {
+    padding: 10px;
+}
+
+.buttonCenter {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tryItButton {
+    color: white;
+    background-color: rgb(31,61,149);
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    margin: 20px;
+}

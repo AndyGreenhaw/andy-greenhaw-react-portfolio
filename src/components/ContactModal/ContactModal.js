@@ -3,6 +3,7 @@ import { useForm, ValidationError } from '@formspree/react';
 import { Link, useLocation } from "react-router-dom";
 import "../../style.css"
 
+console.log("CCCCCC")
 
 function ContactModal(props) {
 
@@ -118,7 +119,7 @@ function ContactModal(props) {
               <div className="social-container">
                 <a href="https://www.linkedin.com/in/andygreenhaw/" target="blank" className="fa fa-linkedin"></a>
                 <a href="https://www.youtube.com/user/TheAndyGreenhaw" target="blank" className="fa fa-youtube"></a>
-                <a href="https://twitter.com/andygreenhaw" target="blank" class="fa fa-twitter"></a>
+                <a href="https://twitter.com/andygreenhaw" target="blank" className="fa fa-twitter"></a>
               </div>
             </div>
           </div>  

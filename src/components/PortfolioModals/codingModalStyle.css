@@ -32,31 +32,31 @@
     /* text-align: left; */
   }
 
-.modalTitle {
-    /* padding: 10px;      */
-    text-align: left;
-    /* margin-left: 8.33%; */
-    font-size: 56px;
-    /* font-weight: bolder; */
-
-    color: black;
-    /* color: rgb(31,61,149); */
-   }
-
-.codeIcons {
-    justify-content: left;
-    padding-bottom: 20px;
+.modalTopBar {
+    display: inline;
 }
+.modalTitle {
+    justify-content: left;
+    font-size: 56px;
+    display: flex;
+    color: black;
+   }
 
 .closeX {
     color: rgb(31,61,149);
     cursor: pointer;
     z-index: 99;
-    
-    margin-top: -15px;
-    margin-right: -100px;
+
+    position: absolute;
+    right: 0;
+    margin-right: -85px;
     
   }
+
+.codeIcons {
+    justify-content: left;
+    padding-bottom: 20px;
+}
 
 .modalInnerContainer {
     overflow: inherit;

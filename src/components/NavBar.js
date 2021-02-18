@@ -9,7 +9,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 import { createPortal } from "react-dom";
 
-import ContactModal from "./ContactModal/ContactModal"
+import ContactModal from "./ContactModal/ContactModal.js"
 
 ///////////////////////
 // NAVIGATION STARTS //
@@ -34,8 +34,12 @@ function NavBar (props) {
   }
 
   // Sets 'About' Modal to Open or Closed When About Clicked
-  const openAboutModal = () => {
+  const openContactModal = () => {
     console.log("read")
+
+    // document.body.style.overflow = 'hidden';
+    // document.getElementById("blurMe").style.filter='blur(8px)'
+    // document.getElementById("blurMe").style.transition='all 0.25s ease-in'
     // $('#modalBox').show().addClass('.modalOpen')
     setShowAbout(true)
   }
@@ -54,7 +58,7 @@ function NavBar (props) {
 
     const content = showAbout && (
 
-      <ContactModal
+      <ContactModal className="contactBox"
         clickcb={closeAboutModal}
       />
             
@@ -65,10 +69,7 @@ function NavBar (props) {
     return (
       <>
 
-        <Modal
-          showAbout={showAbout}
-        >
-        </Modal>
+        
 
         <div className="nav-items">
 
@@ -148,14 +149,17 @@ function NavBar (props) {
           
           <Link2
             className="nav-item"
-            onClick={openAboutModal}
+            onClick={openContactModal}
           >
             Contact
           </Link2>
         </div>
 
         
-
+        <Modal
+          showAbout={showAbout}
+        >
+        </Modal>
         </>
     )
   // }

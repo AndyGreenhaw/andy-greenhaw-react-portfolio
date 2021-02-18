@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import Modal from "react-modal";
+import { Link } from "react-router-dom";
+import { createPortal } from "react-dom";
 import "./portfolioStyle.css"
 
 
@@ -11,9 +12,95 @@ import diaAnimation from "../components/thumbnails/grid/dia.png"
 import spaceReportAnimation from "../components/thumbnails/grid/spacereport.png"
 import nduAnimation from "../components/thumbnails/grid/hillary.png"
 
+
+// MODALS
+import VideoModal from "../components/PortfolioModals/VideoModal.js"
+
+//JSON
+import animationDataArr from "../components/json/animationALL.json"
+
+
 const AnimationPortfolio = () => {
     
+    // MODAL STATE
+    const [ showVideoModal, setShowVideoModal] = useState(false) 
+    const [ modalData, setModalData ] = useState()
+
+    // SETTING MODAL DATA
+    const ndtModal = () => {
+        console.log("Read")
+        setModalData(animationDataArr[0])
+        
+        openVideoModal()
+    }
+
+    const aosModal = () => {
+        setModalData(animationDataArr[1])
+        openVideoModal()
+    }
+
+    const spaceModal = () => {
+        setModalData(animationDataArr[2])
+        openVideoModal()
+    }
+
+    const diaModal = () => {
+        setModalData(animationDataArr[3])
+        openVideoModal()
+    }
+
+    const natDefModal = () => {
+        setModalData(animationDataArr[4])
+        openVideoModal()
+    }
+
+
+    // Sets Modal to Open or Closed When About Clicked
+
+    const openVideoModal = () => {
+        console.log("read")
+
+        document.body.style.overflow = 'hidden';
+        document.getElementById("blurMe").style.filter='blur(8px)'
+        document.getElementById("blurMe").style.transition='all 0.25s ease-in'
+
+        setShowVideoModal(true)
+    }
+    const closeVideoModal = () => {
+        console.log("read")
+
+        document.body.style.overflow = 'auto';
+        document.getElementById("blurMe").style.filter='blur(0px)'
+        
+        setShowVideoModal(false)
+    }
+
+    const Modal = ({showVideoModal, setShowVideoModal}) => {
+        const content = showVideoModal && (
+   
+        
+          <VideoModal 
+            clickcb={closeVideoModal}
+            modalHeadline={modalData.name}
+            // modalThumb={modalData.thumb}
+            modalLink={modalData.embedLink}
+            modalDescription={modalData.description}
+            alt={modalData.alt}
+          />   
+
+        )
+        return createPortal(content, document.body)
+    }
+    
     return (
+        <>
+        <Modal
+            showVideoModal={showVideoModal}
+            transition="all 0.25s ease-in"
+        >
+            {/* setShowAbout={setShowAbout}> */}
+        </Modal>
+
         <div className="darkPortfolioBackground">
             
             {/* FULL-STACK DEVELOPMENT */}
@@ -30,10 +117,15 @@ const AnimationPortfolio = () => {
                     {/* HERO PROJECT */}
                     <div className="col-md-6">
                         <div className="heroCodingProject">
-                            {/* <div className="row portfolioHead"></div> */}
-                                <a href="https://www.youtube.com/watch?v=E831oDXzKwo&t=1s"><img className="heroCodingImage" src={ndtAnimation} alt="Space Music Video"/></a>
+                            <Link onClick={ndtModal}>
+                                <img className="heroCodingImage" src={ndtAnimation} alt="Space Music Video"/>
+                            
+                                <div className="projectHeroHeadline"
+                                >
+                                    Neil Degrasse Tyson Funks the Universe
+                                </div>
 
-                                <div className="heroCodingCopy">I taught myself a wide range of computer animation software throughout my digital marketing career, which shares enormous consistencies with several computing languages, particularly in Javascript and CSS. I produced this animation by editing Neil Degrasse Tyson's appearance on the Rogan Podcast to Wax Taylor and then creating the animations along with the lyrics. Filler Text Filler Text Filler Text Filler Text Filler Text</div>
+                            </Link>
                         </div>
                     </div>
 
@@ -41,24 +133,28 @@ const AnimationPortfolio = () => {
                     <div className="col-md-3">
                         <div className="projectPlacement">
                             
-                            <a href="https://www.youtube.com/watch?v=9Xpu2QqLnHY&t=67s">
+                            <Link onClick={aosModal}>
                                 <img 
                                     className="projectNewImage" 
                                     src={ageOfSurpriseAnimation} 
                                     alt="Age of Surprise"
-                                /></a>
-                            <div className="projectHeadline">U.S. Air Force</div>
+                                />
+                                <div className="projectHeadline">U.S. Air Force</div>
+                            </Link>
                             
                         </div>
 
                         <div className="projectPlacement">
                             
-                            <a href="https://andygreenhaw.github.io/05-Third-Party-APIs-Work-Day-Scheduler/"><img 
-                                className="projectNewImage" 
-                                src={diaAnimation}
-                                alt="Defense Intelligence Agency"
-                            /></a>
-                            <div className="projectHeadline">Defense Intelligence Agency</div>
+                            <Link onClick={diaModal}>
+                                <img 
+                                    className="projectNewImage" 
+                                    src={diaAnimation}
+                                    alt="Defense Intelligence Agency"
+                                />
+                                <div className="projectHeadline">Defense Intelligence Agency
+                                </div>
+                            </Link>
                         </div> 
                     </div>
 
@@ -66,21 +162,28 @@ const AnimationPortfolio = () => {
 
                         <div className="projectPlacement">
                             
-                            <a href="https://www.youtube.com/watch?v=3ET7yHZWbw4"><img 
-                                className="projectNewImage" 
-                                src={spaceReportAnimation}
-                                alt="The Space Report"
-                            /></a>
-                            <div className="projectHeadline">The Space Foundation</div>
+                            <Link onClick={spaceModal}>
+                                <img 
+                                    className="projectNewImage" 
+                                    src={spaceReportAnimation}
+                                    alt="The Space Report"
+                                />
+                                <div className="projectHeadline">The Space Foundation
+                                </div>
+                            </Link>
+
                         </div>
 
                         <div className="projectPlacement">
-                            <a href="https://www.youtube.com/watch?v=6cRIb9zDd3Y"><img 
-                                className="projectNewImage" 
-                                src={nduAnimation}
-                                alt="BookSelf Social App"
-                            /></a>
-                            <div className="projectHeadline">National Defense University</div>
+                            <Link onClick={natDefModal}>
+                                <img 
+                                    className="projectNewImage" 
+                                    src={nduAnimation}
+                                    alt="BookSelf Social App"
+                                />
+                                <div className="projectHeadline">National Defense University
+                                </div>
+                            </Link>
                         </div> 
 
                     </div>
@@ -89,6 +192,7 @@ const AnimationPortfolio = () => {
             </div>
             
         </div>
+        </>
         
     );
 }

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import Modal from "react-modal";
+import { Link } from "react-router-dom";
+import { createPortal } from "react-dom";
 import "./portfolioStyle.css"
 
 // IMPORTING THUMBNAIL IMAGES
@@ -10,10 +11,90 @@ import crashRecon from "../components/thumbnails/grid/crash-accuracy.jpg"
 import digitalInjurySummary from "../components/thumbnails/grid/dis.jpg"
 import nuclearReactor from "../components/thumbnails/grid/nuclear.png"
 
+// MODALS
+import VideoModal from "../components/PortfolioModals/VideoModal"
+
+//JSON
+import videoDataArr from "../components/json/dataVisualizationALL.json"
 
 const DataVisualization = () => {
     
+    // MODAL STATE
+    const [ showVideoModal, setShowVideoModal] = useState(false) 
+    const [ modalData, setModalData ] = useState()
+
+    // SETTING MODAL DATA
+    const covidModal = () => {
+        setModalData(videoDataArr[0])
+        openVideoModal()
+    }
+
+    const disModal = () => {
+        setModalData(videoDataArr[1])
+        openVideoModal()
+    }
+
+    const crashModal = () => {
+        setModalData(videoDataArr[2])
+        openVideoModal()
+    }
+
+    const xenergyModal = () => {
+        setModalData(videoDataArr[3])
+        openVideoModal()
+    }
+
+    const vrModal = () => {
+        setModalData(videoDataArr[4])
+        openVideoModal()
+    }
+
+
+    // Sets Modal to Open or Closed When About Clicked
+
+    const openVideoModal = () => {
+        console.log("read")
+
+        document.body.style.overflow = 'hidden';
+        document.getElementById("blurMe").style.filter='blur(8px)'
+        document.getElementById("blurMe").style.transition='all 0.25s ease-in'
+
+        setShowVideoModal(true)
+    }
+    const closeVideoModal = () => {
+        console.log("read")
+
+        document.body.style.overflow = 'auto';
+        document.getElementById("blurMe").style.filter='blur(0px)'
+        
+        setShowVideoModal(false)
+    }
+
+    const Modal = ({showVideoModal, setShowVideoModal}) => {
+        const content = showVideoModal && (
+   
+        
+          <VideoModal 
+            clickcb={closeVideoModal}
+            modalHeadline={modalData.name}
+            // modalThumb={modalData.thumb}
+            modalLink={modalData.embedLink}
+            modalDescription={modalData.description}
+            alt={modalData.alt}
+          />   
+
+        )
+        return createPortal(content, document.body)
+    }
+
     return (
+        <>
+        <Modal
+            showVideoModal={showVideoModal}
+            transition="all 0.25s ease-in"
+        >
+            {/* setShowAbout={setShowAbout}> */}
+        </Modal>
         <div className="darkPortfolioBackground">
             
             {/* DATA VISUALIZATION */}
@@ -31,23 +112,28 @@ const DataVisualization = () => {
                     <div className="col-md-3">
                         <div className="projectPlacement">
                             
-                            <a href="https://www.youtube.com/watch?v=78jLBNSqc3g&t=1s"><img 
-                                className="projectNewImage" 
-                                src={covidAnimation} 
-                                alt="Covid-19 Animation"
-                            /></a>
-                            <div className="projectHeadline">Covid-19</div>
+                            <Link
+                                onClick={covidModal}
+                            >
+                                <img 
+                                    className="projectNewImage" 
+                                    src={covidAnimation} 
+                                    alt="Covid-19 Animation"
+                                />
+                                <div className="projectHeadline">Covid-19</div>
+                            </Link>
                             
                         </div>
 
                         <div className="projectPlacement">
-                            <a href="https://andygreenhaw.github.io/06-Server-Side-APIs-Weather-Dashboard/">
+                            <Link onClick={crashModal}>
                                 <img 
                                     className="projectNewImage" 
                                     src={crashRecon}
                                     alt="Crash Reconstruction"
-                                /></a>
-                            <div className="projectHeadline">Crash Reconstruction</div>
+                                />
+                                <div className="projectHeadline">Crash Reconstruction</div>
+                            </Link>
                         </div>
                         
                     </div>
@@ -55,25 +141,25 @@ const DataVisualization = () => {
                     <div className="col-md-3">
 
                         <div className="projectPlacement">
-
-                            <a href="https://www.youtube.com/watch?v=6T8yedKRQOQ"><img 
-                                    className="projectNewImage" 
-                                    src={digitalInjurySummary}
-                                    alt="Digital Injury Summary"
-                                /></a>
-                            <div className="projectHeadline">Digital Injury Summary</div>
-
+                            <Link onClick={disModal}>
+                                <img 
+                                        className="projectNewImage" 
+                                        src={digitalInjurySummary}
+                                        alt="Digital Injury Summary"
+                                    />
+                                <div className="projectHeadline">Digital Injury Summary</div>
+                            </Link>
                         </div>
 
                         <div className="projectPlacement">
-                                
-                            <a href="https://shielded-savannah-98558.herokuapp.com/notes"><img 
+                            <Link onClick={xenergyModal}>
+                                <img 
                                 className="projectNewImage" 
                                 src={nuclearReactor}
                                 alt="Nuclear Reactor"
-                            /></a>
-                            <div className="projectHeadline">Nuclear Physics</div>
-
+                                />
+                                <div className="projectHeadline">Nuclear Physics</div>
+                            </Link>
                         </div> 
 
                     </div>
@@ -82,10 +168,13 @@ const DataVisualization = () => {
                     <div className="col-md-6">
                         <div className="heroCodingProject">
                             {/* <div className="row portfolioHead"></div> */}
-                            <a href="https://highimpact.com/blog/High-Impact-to-Bring-Virtual-Reality-to-the-Courtroom"><img className="heroCodingImage" src={virtualReality} alt="Virtual Reality Litigation"/></a>
-
-                            <div className="heroCodingCopy">Translating complex data into visual communication tools that engage and educate was my primary focus for six years at High Impact. We specialized in highly accurate illustrations, animations, and interactive applications based on medical and forensic science. This included the first virtual reality exhibit used in a legal mediation in the United States, which has been used in several cases since. (I also wrote and produced the video for this example.)
-                            </div>
+                            <Link onClick={vrModal}>
+                                <img className="heroCodingImage" src={virtualReality} alt="Virtual Reality Litigation"/>
+                            
+                                <div className="projectHeroHeadline">Virtual Reality in the Courtroom
+                                </div>
+                            </Link>
+                                
                         </div>
                     </div>
                     
@@ -141,6 +230,7 @@ const DataVisualization = () => {
             </div>
                         
         </div>
+        </>
         
     );
 }

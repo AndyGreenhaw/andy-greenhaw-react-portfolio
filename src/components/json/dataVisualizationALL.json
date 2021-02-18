@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Covid-19 Animation",
+        "thumb": "require('../thumbnails/grid/covid-19')",
+        "embedLink": "https://www.youtube.com/embed/78jLBNSqc3g",
+        "description": "I worked with a team of artists and animators on this Coronavirus animation, which amassed more than one million views.",
+        "alt": "Andy Greenhaw Animation 1"
+    },
+    {
+        "id": 2,
+        "name": "Digital Injury Summary",
+        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/neil-degrasse-tyson.jpg",
+        "embedLink": "https://www.youtube.com/embed/6T8yedKRQOQ",
+        "description": "I edited NDT's appearance on the Rogan Podcast to Wax Taylor, and animated this music video that appeared in several media publications.",
+        "alt": "Andy Greenhaw Animation 2"
+    },
+    {
+        "id": 3,
+        "name": "Collision Reconstruction",
+        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/age-of-surprise-2.jpg",
+        "embedLink": "https://www.youtube.com/embed/Y9NpZ9K0h_w",
+        "description": "I wrote and animated this video for the U.S. Air Force to present to Congress in a seminar about funding needed for cyber security.",
+        "alt": "Andy Greenhaw Animation 3"
+    },
+    {
+        "id": 4,
+        "name": "X-Energy Nuclear Reactor",
+        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/nuclear.png",
+        "embedLink": "https://www.youtube.com/embed/XOJ8pU1aEYA",
+        "description": "I created animations for this video explaining X-Energy's innovative nuclear reactor concept.",
+        "alt": "Andy Greenhaw Animation 9"
+    },
+    {
+        "id": 5,
+        "name": "Virtual Reality in Litigation",
+        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/virtualReality.png",
+        "embedLink": "https://www.youtube.com/embed/4QTJqaq32O4",
+        "description": "I created animations for this video explaining X-Energy's innovative nuclear reactor concept.",
+        "alt": "Andy Greenhaw Animation 9"
+    }
+]
