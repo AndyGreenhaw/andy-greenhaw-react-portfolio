@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { createPortal } from "react-dom";
 import "./portfolioStyle.css"
@@ -9,7 +9,7 @@ import syntropyDemo from "../components/thumbnails/grid/syntropydemo.png"
 import vrVisionImpairment from "../components/thumbnails/grid/visionimpairment.jpg"
 import uclaVideo from "../components/thumbnails/grid/ucla.jpg"
 import explosionVideo from "../components/thumbnails/grid/explosion-case.jpg"
-import testimonialVideo from "../components/thumbnails/grid/testimonials.png"
+import highImpactDemo from "../components/thumbnails/grid/highimpactdemo.png"
 
 // MODALS
 import VideoModal from "../components/PortfolioModals/VideoModal"
@@ -100,7 +100,7 @@ const VideoPortfolio = () => {
 
             <div className="row">
                 <div className="col">
-                    <div className="categoryHeadline">Video Editing</div>
+                    <div className="secondaryCategoryHeadline">Video Editing</div>
                 </div>
             </div>
 
@@ -109,7 +109,7 @@ const VideoPortfolio = () => {
 
                     {/* SECONDARY CODE PROJECTS */}
                     <div className="col-md-3">
-                        <div className="projectPlacement">
+                        <div className="projectPlacement projectSpacer">
                             
                             <Link onClick={visionImpairModal}>
                                 <img 
@@ -135,33 +135,6 @@ const VideoPortfolio = () => {
                         </div> 
                     </div>
 
-                    <div className="col-md-3">
-
-                        <div className="projectPlacement">
-                            
-                        <Link onClick={explosionModal}>
-                            <img 
-                                className="projectNewImage" 
-                                src={explosionVideo}
-                                alt="Chemical Explosion"
-                            />
-                            <div className="projectHeadline">Chemical Explosion Lawsuit</div>
-                        </Link>
-                        </div>
-
-                        <div className="projectPlacement">
-                        <Link onClick={verdictModal}>
-                            <img 
-                                className="projectNewImage" 
-                                src={testimonialVideo}
-                                alt="Testimonial Video"
-                            />
-                            <div className="projectHeadline">Collision Verdict</div>
-                        </Link>
-                        </div> 
-
-                    </div>
-
                     {/* HERO PROJECT */}
                     <div className="col-md-6">
                         <div className="heroCodingProject">
@@ -176,6 +149,34 @@ const VideoPortfolio = () => {
                             </Link>
                         </div>
                     </div>
+
+                    <div className="col-md-3 lastLine">
+
+                        <div className="projectPlacement projectSpacer">
+                            
+                            <Link onClick={explosionModal}>
+                                <img 
+                                    className="projectNewImage" 
+                                    src={explosionVideo}
+                                    alt="Chemical Explosion"
+                                />
+                                <div className="projectHeadline">Chemical Explosion Lawsuit</div>
+                            </Link>
+                        </div>
+
+                        <div className="projectPlacement">
+                            <Link onClick={verdictModal}>
+                                <img 
+                                    className="projectNewImage" 
+                                    src={highImpactDemo}
+                                    alt="Testimonial Video"
+                                />
+                                <div className="projectHeadline">High Impact Demo Reel</div>
+                            </Link>
+                        </div> 
+
+                    </div>
+
                 </div>
                 
             </div>

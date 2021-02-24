@@ -29,7 +29,7 @@ import {
 function CodingModal(props) {
 
   return(
-    <div id="modalOuterContainer">
+    <div id="modalCodingOuterContainer">
             
       <div className="row titleBlock">
             <div className="col-12 modalTopBar">

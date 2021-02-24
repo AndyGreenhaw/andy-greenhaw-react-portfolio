@@ -4,15 +4,16 @@
         "name": "Neil Degrasse Tyson Funks the Universe",
         "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/neil-degrasse-tyson.jpg",
         "embedLink": "https://www.youtube.com/embed/E831oDXzKwo",
-        "description": "I edited NDT's appearance on the Rogan Podcast to Wax Taylor, and animated this music video that appeared in several media publications.",
-        "alt": "Andy Greenhaw Animation 2"
+        "learnMore": "https://www.youtube.com/watch?v=E831oDXzKwo",
+        "description": "While trying to find a job in a science field, I decided to create this animation to include in my job hunt, which helped me get invited to the National Space Symposium, meet High Impact, and attain a job in an extremely scientific field. I took Neil Degrasse Tyson's appearance from the Joe Rogan Experience Podcast, and I edited his words into lyrics that rhymed over a song by Wax Taylor. After I edited the lyrics into a song, I animated what it said, and it came out looking fun and very well-received."
     },
     {
         "id": 2,
         "name": "The Age of Surprise",
         "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/age-of-surprise-2.jpg",
         "embedLink": "https://www.youtube.com/embed/9Xpu2QqLnHY",
-        "description": "I wrote and animated this video for the U.S. Air Force to present to Congress in a seminar about funding needed for cyber security.",
+        "learnMore": "https://www.youtube.com/watch?v=9Xpu2QqLnHY&t",
+        "description": "I wrote and produced this animation for the U.S. Air Force from my apartment while working for Hangar 30, an agency that specialized in building apps, animations, websites, and visuals for government and military clients. I spent one day writing the script for an Air Force colonel who wanted to show the future of combat in a presentation about cyberwarfare. He approved it the next day, and I animated and edited everything in one week. The video resulted in us receiving contracts for similar videos for SOCOM, the Defense Intelligence Agency, and National Defense Univeristy.",
         "alt": "Andy Greenhaw Animation 3"
     },
     {
@@ -20,7 +21,8 @@
         "name": "The Space Report",
         "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/spacereport.png",
         "embedLink": "https://www.youtube.com/embed/3ET7yHZWbw4",
-        "description": "I produced this animation for the Space Foundation to introduce the 2015 Space Report.",
+        "learnMore": "https://www.youtube.com/watch?v=3ET7yHZWbw4",
+        "description": "I produced this animation for the Space Foundation to use in its marketing material to promote the 2015 Space Report, an annual report that details the overall space industry with in-depth analysis. The video was used throughout their online material, including the Web portal to download the report, and the video was featured on about fifty televisions throughout the 2015 Space Symposium. I was asked to repurpose the same video for them to use with the 2016 Space Report.",
         "alt": "Andy Greenhaw Animation 4"
     },
     {
@@ -28,15 +30,17 @@
         "name": "Defense Intelligence Agency",
         "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/dia.png",
         "embedLink": "https://www.youtube.com/embed/76M08-s8c_M",
-        "description": "I animated the first minute and 40 seconds of this video for the Defense Intelligence Agency.",
+        "learnMore": "https://www.youtube.com/watch?v=76M08-s8c_M",
+        "description": "After producing the Age of Suprise video for the Air Force, the Defense Intelligence Agency wanted a similar animation that would help them simplify the complicated message of what the DIA does. I animated the intro section (first minute and forty seconds) using an infographic style to build a crescendo of dark talking points the DIA wanted conveyed. Another artist animated the remainder of the video featuring high-intensity facts about the DIA with three-dimensional graphics. The video is featured on the DIA's Youtube channel but no longer their website because Michael Flynn speaks in the intro.",
         "alt": "Andy Greenhaw Animation 5"
     },
     {
         "id": 5,
-        "name": "National Defense University",
+        "name": "The National Defense University ",
         "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/hillary.png",
         "embedLink": "https://www.youtube.com/embed/6cRIb9zDd3Y",
-        "description": "I worked on the animations for this video to introduce Hillary Clinton's 2013 Patriot Award.",
+        "learnMore": "https://www.youtube.com/watch?v=6cRIb9zDd3Y",
+        "description": "National Defense University needed a video for Hillary Clinton to introduce her before receiving the 2013 Patriot Award from NDU. I worked on both the writing of this script and animation of these transitions. The video was presented in at the ceremony in Washington, D.C., and we went on to produce a second video that would serve as a commercial explaining National Defense University's history, opportunities for students, and NDU's overall mission.",
         "alt": "Andy Greenhaw Animation 7"
     },
     {
@@ -44,7 +48,8 @@
         "name": "History of Facebook",
         "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/facebook.png",
         "embedLink": "https://www.youtube.com/embed/QP37S24F7_4",
-        "description": "I produced this animation for a freelance client to break down the history of Facebook.",
+        "learnMore": "",
+        "description": "I produced this animation for a freelance client to break down the history of Facebook. The Pandemic Tracker displays Covid-19 statistics across the globe. Try it for yourself and see what areas the world are experiencing the biggest impact from the pandemic. The Pandemic Tracker displays Covid-19 statistics across the globe. Try it for yourself and see what areas the world are experiencing the biggest impact from the pandemic. The Pandemic Tracker displays Covid-19 statistics across the globe.",
         "alt": "Andy Greenhaw Animation 6"
     },
     
@@ -53,7 +58,8 @@
         "name": "Animation Demo Reel",
         "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/demo.png",
         "embedLink": "https://www.youtube.com/embed/EBv4r806oUs",
-        "description": "I worked on the animations for this video to introduce Hillary Clinton's 2013 Patriot Award.",
+        "learnMore": "",
+        "description": "I worked on the animations for this video to introduce Hillary Clinton's 2013 Patriot Award. The Pandemic Tracker displays Covid-19 statistics across the globe. Try it for yourself and see what areas the world are experiencing the biggest impact from the pandemic. The Pandemic Tracker displays Covid-19 statistics across the globe. Try it for yourself and see what areas the world are experiencing the biggest impact from the pandemic. The Pandemic Tracker displays Covid-19 statistics across the globe.",
         "alt": "Andy Greenhaw Animation 8"
     },
     {
@@ -61,7 +67,8 @@
         "name": "X-Energy Nuclear Reactor",
         "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/nuclear.png",
         "embedLink": "https://www.youtube.com/embed/XOJ8pU1aEYA",
-        "description": "I created animations for this video explaining X-Energy's innovative nuclear reactor concept.",
+        "learnMore": "",
+        "description": "I created animations for this video explaining X-Energy's innovative nuclear reactor concept. The Pandemic Tracker displays Covid-19 statistics across the globe. Try it for yourself and see what areas the world are experiencing the biggest impact from the pandemic. The Pandemic Tracker displays Covid-19 statistics across the globe. Try it for yourself and see what areas the world are experiencing the biggest impact from the pandemic. The Pandemic Tracker displays Covid-19 statistics across the globe.",
         "alt": "Andy Greenhaw Animation 9"
     }
 ]

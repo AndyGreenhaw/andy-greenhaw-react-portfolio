@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import { FormspreeProvider } from '@formspree/react'
+import ParticlesBackground from "./components/ParticleBackgrounds/ParticleBackground"
 
 import { 
   BrowserRouter as Router, 
@@ -35,7 +36,11 @@ function App() {
             <Home id="section1"/>
           </div>
           <div id="codingSection">
+            <div className="particleContainer">
+              <ParticlesBackground/>
+            </div>
             <CodingPortfolio id="section2"/>
+            
           </div>
           <div id="dataVisualizationSection">
             <DataVisualization id="section3"/>

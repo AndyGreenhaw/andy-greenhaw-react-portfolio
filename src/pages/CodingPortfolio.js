@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { createPortal } from "react-dom";
 import "./portfolioStyle.css";
-
 import codingProjectsArr from "../components/json/codingALL.json"
+
+import ParticlesBackground from "../components/ParticleBackgrounds/ParticleBackground"
 
 // THUMBNAILS
 import pandemicTrackerImage from "../components/thumbnails/grid/pandemicTrackerWebSize1.png"
@@ -28,6 +29,7 @@ import passwordGIF from "../components/PortfolioModals/assets/passwordThumb.png"
 
 // MODALS
 import CodingModal from "../components/PortfolioModals/CodingModal"
+import Particles from "react-tsparticles";
 
 const Portfolio = (props) => {
 
@@ -141,9 +143,12 @@ const Portfolio = (props) => {
         >
             {/* setShowAbout={setShowAbout}> */}
         </Modal>
+
         
         <div className="darkPortfolioBackground">
+            {/* <div className="particleContainer"> */}
             
+            {/* </div> */}
             {/* FULL-STACK DEVELOPMENT */}
 
             <div className="row">
@@ -155,23 +160,9 @@ const Portfolio = (props) => {
             <div className="prortfolioProjectSection">
                 <div className="row portfolioTopRow">
 
-                    {/* HERO PROJECT */}
-                    <div className="col-md-6">
-                        <div className="heroCodingProject">
-                            <Link onClick={pandemicModal}>
-                                <img className="heroCodingImage buttonHover" src={pandemicTrackerImage}alt="Pandemic Tracker" />
-
-                                <div className="projectHeroHeadline">Tracking Covid-19 Across the Globe</div>
-                            </Link>
-                            
-                            {/* <div className="heroCodingCopy">The Pandemic Tracker displays Covid-19 statistics across the glove. Try it for yourself and see what areas the world are experiencing the biggest impact from the pandemic. The Pandemic Tracker displays Covid-19 statistics across the glove. Try it for yourself and see what areas the world are experiencing the biggest impact from the pandemic. The Pandemic Tracker displays Covid-19 statistics across the glove. Try it for yourself and see what areas the world are experiencing the biggest impact from the pandemic.</div> */}
-                            
-                        </div>
-                    </div>
-
                     {/* SECONDARY CODE PROJECTS */}
                     <div className="col-md-3">
-                        <div className="projectPlacement">
+                        <div className="projectPlacement projectSpacer">
                             <Link onClick={weatherModal}>
                                 
                                     <img 
@@ -202,9 +193,22 @@ const Portfolio = (props) => {
                         </div> 
                     </div>
 
+                    {/* HERO PROJECT */}
+                    <div className="col-md-6">                      
+                    
+                        <div className="heroCodingProject">
+                            <Link onClick={pandemicModal}>
+                                <img className="heroCodingImage buttonHover" src={pandemicTrackerImage}alt="Pandemic Tracker" />
+
+                                <div className="projectHeroHeadline">Tracking Covid-19 Across the Globe</div>
+                            </Link>                    
+                            
+                        </div>
+                    </div>
+
                     <div className="col-md-3">
 
-                        <div className="projectPlacement">
+                        <div className="projectPlacement projectSpacer">
                             
                             <Link onClick={bloggerApp}>
                                 <img 
@@ -291,8 +295,9 @@ const Portfolio = (props) => {
                     </div>
                 </div>
             </div>
-            
         </div>
+        
+        
         </>
         
     );

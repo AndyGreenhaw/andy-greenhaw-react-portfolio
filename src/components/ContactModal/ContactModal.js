@@ -3,6 +3,10 @@ import { useForm, ValidationError } from '@formspree/react';
 import { Link, useLocation } from "react-router-dom";
 import "../../style.css"
 
+import {
+  AiOutlineCloseCircle,
+} from "react-icons/ai"
+
 console.log("CCCCCC")
 
 function ContactModal(props) {
@@ -31,17 +35,19 @@ function ContactModal(props) {
   // }
 
   return(
-    <div id="modalBox">
+    <div id="contactModalBox">
             
       <div className="row">
         
-        <div className="col-12">
-          <div className="closeX"
+        <div className="col-12" >
+
+          <AiOutlineCloseCircle 
+            className="closeX"
             type="button"
             onClick={props.clickcb}
-            // onClick={()=>props.setShowAbout(false)}
-          >x
-          </div>
+            size={60}
+          />
+          
         </div>
         <div className="col-12 modalTitle">
           Contact Andy

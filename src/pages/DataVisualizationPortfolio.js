@@ -80,6 +80,7 @@ const DataVisualization = () => {
             // modalThumb={modalData.thumb}
             modalLink={modalData.embedLink}
             modalDescription={modalData.description}
+            learnMore={modalData.learnMore}
             alt={modalData.alt}
           />   
 
@@ -101,7 +102,7 @@ const DataVisualization = () => {
 
             <div className="row">
                 <div className="col">
-                    <div className="categoryHeadline">Data Visualization</div>
+                    <div className="secondaryCategoryHeadline">Data Visualization</div>
                 </div>
             </div>
 
@@ -110,7 +111,7 @@ const DataVisualization = () => {
 
                     {/* SECONDARY CODE PROJECTS */}
                     <div className="col-md-3">
-                        <div className="projectPlacement">
+                        <div className="projectPlacement projectSpacer">
                             
                             <Link
                                 onClick={covidModal}
@@ -138,9 +139,23 @@ const DataVisualization = () => {
                         
                     </div>
 
+                    {/* HERO PROJECT */}
+                    <div className="col-md-6">
+                        <div className="heroCodingProject">
+                            {/* <div className="row portfolioHead"></div> */}
+                            <Link onClick={vrModal}>
+                                <img className="heroCodingImage" src={virtualReality} alt="Virtual Reality Litigation"/>
+                            
+                                <div className="projectHeroHeadline">Virtual Reality in the Courtroom
+                                </div>
+                            </Link>
+                                
+                        </div>
+                    </div>
+
                     <div className="col-md-3">
 
-                        <div className="projectPlacement">
+                        <div className="projectPlacement projectSpacer">
                             <Link onClick={disModal}>
                                 <img 
                                         className="projectNewImage" 
@@ -162,20 +177,6 @@ const DataVisualization = () => {
                             </Link>
                         </div> 
 
-                    </div>
-
-                    {/* HERO PROJECT */}
-                    <div className="col-md-6">
-                        <div className="heroCodingProject">
-                            {/* <div className="row portfolioHead"></div> */}
-                            <Link onClick={vrModal}>
-                                <img className="heroCodingImage" src={virtualReality} alt="Virtual Reality Litigation"/>
-                            
-                                <div className="projectHeroHeadline">Virtual Reality in the Courtroom
-                                </div>
-                            </Link>
-                                
-                        </div>
                     </div>
                     
                 </div>

@@ -11,7 +11,7 @@ import { AiOutlineCloseCircle } from "react-icons/ai"
 function VideoModal(props) {
 
   return(
-    <div id="modalOuterContainer">
+    <div id="modalVideoOuterContainer">
             
       <div className="row titleBlock">
 
@@ -58,11 +58,11 @@ function VideoModal(props) {
 
                 <div className="buttonCenter">
                     {/* <a href={props.modalLink} target="_blank"> */}
-                    <a href={props.modalLink} target="_blank">
+                    <a href={props.learnMore} target="_blank">
 
                     <button
                         className="tryItButton"
-                    >See Video
+                    >Learn More
                     </button>
                     </a>
                 

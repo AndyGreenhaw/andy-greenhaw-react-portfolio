@@ -85,6 +85,7 @@ const AnimationPortfolio = () => {
             // modalThumb={modalData.thumb}
             modalLink={modalData.embedLink}
             modalDescription={modalData.description}
+            learnMore={modalData.learnMore}
             alt={modalData.alt}
           />   
 
@@ -107,31 +108,16 @@ const AnimationPortfolio = () => {
 
             <div className="row">
                 <div className="col">
-                    <div className="categoryHeadline">Computer Animation</div>
+                    <div className="secondaryCategoryHeadline">Computer Animation</div>
                 </div>
             </div>
 
             <div className="prortfolioProjectSection">
                 <div className="row portfolioSingleRow">
 
-                    {/* HERO PROJECT */}
-                    <div className="col-md-6">
-                        <div className="heroCodingProject">
-                            <Link onClick={ndtModal}>
-                                <img className="heroCodingImage" src={ndtAnimation} alt="Space Music Video"/>
-                            
-                                <div className="projectHeroHeadline"
-                                >
-                                    Neil Degrasse Tyson Funks the Universe
-                                </div>
-
-                            </Link>
-                        </div>
-                    </div>
-
                     {/* SECONDARY CODE PROJECTS */}
                     <div className="col-md-3">
-                        <div className="projectPlacement">
+                        <div className="projectPlacement projectSpacer">
                             
                             <Link onClick={aosModal}>
                                 <img 
@@ -158,9 +144,24 @@ const AnimationPortfolio = () => {
                         </div> 
                     </div>
 
+                    {/* HERO PROJECT */}
+                    <div className="col-md-6">
+                        <div className="heroCodingProject">
+                            <Link onClick={ndtModal}>
+                                <img className="heroCodingImage" src={ndtAnimation} alt="Space Music Video"/>
+                            
+                                <div className="projectHeroHeadline"
+                                >
+                                    Neil Degrasse Tyson Funks the Universe
+                                </div>
+
+                            </Link>
+                        </div>
+                    </div>
+
                     <div className="col-md-3">
 
-                        <div className="projectPlacement">
+                        <div className="projectPlacement projectSpacer">
                             
                             <Link onClick={spaceModal}>
                                 <img 
