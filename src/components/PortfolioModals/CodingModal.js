@@ -32,29 +32,38 @@ function CodingModal(props) {
     <div id="modalCodingOuterContainer">
             
       <div className="row titleBlock">
-            <div className="col-12 modalTopBar">
-
-                <div className="modalTitle">
-                    <div>
-                    {props.modalHeadline}
+            <div className="col-11">
+                <div className="row">
+                    
+                    <div className="modalTitle">
+                        {props.modalHeadline}
                     </div>
-                    <AiOutlineCloseCircle 
-                    className="closeX"
-                    type="button"
-                    onClick={props.clickcb}
-                    size={60}
-                    />
+
                 </div>
                 
-                <div className="col-md-12 codeIcons"> 
-                    <FaReact size={30}/>
-                    <IoLogoJavascript size={30}/>
-                    <AiFillApi size={30}/>
-                    <SiJquery size={30}/>
-                    <DiCss3 size={30}/> 
-                    <AiFillHtml5 size={30}/> 
+                <div className="row">
+                    <div className="codeIcons">
+                        <FaReact size={30}/>
+                        <IoLogoJavascript size={30}/>
+                        <AiFillApi size={30}/>
+                        <SiJquery size={30}/>
+                        <DiCss3 size={30}/> 
+                        <AiFillHtml5 size={30}/> 
+                    </div> 
                 </div>
-            
+            </div>
+            <div className="col-1">
+                {/* <div className="row"> */}
+                    <div className="closeProject">
+                        <AiOutlineCloseCircle 
+                            type="button"
+                            // className="closeProject"
+                            onClick={props.clickcb}
+                            size={30}
+                        />
+                    </div>
+                {/* </div> */}
+                
             </div>
 
            
@@ -83,8 +92,8 @@ function CodingModal(props) {
 
             <div className="col-12">
                 
-                <div id="modalCopyIntro" >
-                {props.modalDescription}           
+                <div className="modalCopyIntro" >
+                    {props.modalDescription}           
                 </div>
 
                 <div className="buttonCenter">

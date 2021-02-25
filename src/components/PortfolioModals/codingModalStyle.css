@@ -1,8 +1,7 @@
 #modalCodingOuterContainer {
     padding-top: 50px;
     padding-bottom: 50px;
-    padding-left: 50px;
-    padding-right: 100px;
+    
 
     background-color: white;
     border-radius: 20px;
@@ -16,10 +15,10 @@
     left:50%;
     transform: translate(-50%,-50%);
   
-    width: 50%;
+    width: 40%;
     height: 75%;
     /* height: 960px; */
-    margin-top: 20px;
+    /* margin-top: 20px; */
   
     box-shadow: inset 0px 0px 5px rgba(0,0,0,0.16), 0px 0px 5px rgba(0,0,0,0.45);
   
@@ -27,35 +26,38 @@
   }
 
 .titleBlock {
-    width:100%;
-    display:inline-block;
-    /* text-align: left; */
-  }
-
-.modalTopBar {
-    display: inline;
+    
 }
+
+/* .modalTopBar {
+    display: inline;
+} */
 .modalTitle {
-    justify-content: left;
+    /* justify-content: left; */
+    padding-left: 50px;
+    
     font-size: 56px;
-    display: flex;
     color: black;
+
+    margin-left: 50px;
    }
 
-.closeX {
+.closeProject {
     color: rgb(31,61,149);
     cursor: pointer;
     z-index: 99;
 
-    position: absolute;
-    right: 0;
-    margin-right: -85px;
+    padding-left: 100;
+    margin-top:-10px;
+    /* padding-right:-10px; */
     
   }
 
 .codeIcons {
-    justify-content: left;
+    /* justify-content: left; */
+    padding-left: 50px;
     padding-bottom: 20px;
+    margin-left: 20px;
 }
 
 .modalInnerContainer {
@@ -64,8 +66,8 @@
 
     height: 100%;
     width: 100%;
-    margin-left: 10px;
-    margin-right:10px;
+    /* margin-left: 10px;
+    margin-right:10px; */
     z-index: 99;
   }
 
@@ -78,10 +80,12 @@
 
     margin-left: auto;
     margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
 
     padding: 20px;
     
-    display: flex;
+    /* display: flex; */
 }
 
 .portfolioSecondImg {
@@ -89,14 +93,16 @@
     padding: 15px;
 }
 
-#modalCopyIntro {
+.modalCopyIntro {
     margin-top: 20px;
     margin-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 100px;
 }
 
 .buttonCenter {
     position: relative;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
 }

@@ -16,18 +16,22 @@ function VideoModal(props) {
       <div className="row titleBlock">
 
         <div className="col-12 modalTopBar">
-            <div className="modalTitle">
-                <div>
-                {props.modalHeadline}
-                </div>
-                {/* {props.modalHeadline} */}
-                <AiOutlineCloseCircle 
-                className="closeX"
-                type="button"
-                onClick={props.clickcb}
-                size={60}
-                />
+
+            <div className="row">
+                    <AiOutlineCloseCircle 
+                        className="closeX"
+                        type="button"
+                        onClick={props.clickcb}
+                        size={60}
+                    />
             </div>
+
+            <div className="row modalTitle">
+                <div>
+                    {props.modalHeadline}
+                </div>
+            </div>
+
         </div>
 
       </div>
