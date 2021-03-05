@@ -33,11 +33,11 @@
     display: inline;
 } */
 .modalTitle {
-    /* justify-content: left; */
+    /* text-align: left;     */
     padding-left: 50px;
-    
     font-size: 56px;
     color: black;
+
 
     margin-left: 50px;
    }
@@ -47,11 +47,25 @@
     cursor: pointer;
     z-index: 99;
 
-    padding-left: 100;
+    font-family: 'Oxygen';
+
+    /* margin-right: -100px; */
     margin-top:-10px;
-    /* padding-right:-10px; */
+    /* text-align: right; */
     
   }
+
+  /* BOOKSHELF EXAMPLE */
+  /* .closeX {
+    text-align: right;
+    color:rgb(91,123,122);
+    font-size: 18px;;
+    font-family: 'Lucida Sans Unicode';
+    margin-top: -5px;
+    margin-right: -5px;
+    cursor: pointer;
+} */
+
 
 .codeIcons {
     /* justify-content: left; */

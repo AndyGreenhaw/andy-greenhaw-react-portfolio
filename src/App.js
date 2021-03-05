@@ -36,9 +36,9 @@ function App() {
             <Home id="section1"/>
           </div>
           <div id="codingSection">
-            <div className="particleContainer">
+            {/* <div className="particleContainer">
               <ParticlesBackground/>
-            </div>
+            </div> */}
             <CodingPortfolio id="section2"/>
             
           </div>

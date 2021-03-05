@@ -31,15 +31,19 @@ function CodingModal(props) {
   return(
     <div id="modalCodingOuterContainer">
             
-      <div className="row titleBlock">
-            <div className="col-11">
+      <div className="row">
+            <div className="col-12">
                 <div className="row">
                     
                     <div className="modalTitle">
                         {props.modalHeadline}
                     </div>
+                    <div>
+                        <div className="closeProject">x</div>
+                    </div>
 
                 </div>
+                
                 
                 <div className="row">
                     <div className="codeIcons">
@@ -51,20 +55,22 @@ function CodingModal(props) {
                         <AiFillHtml5 size={30}/> 
                     </div> 
                 </div>
+                
             </div>
-            <div className="col-1">
+            
+                
                 {/* <div className="row"> */}
-                    <div className="closeProject">
+                    {/* <div className="closeProject">
                         <AiOutlineCloseCircle 
                             type="button"
                             // className="closeProject"
                             onClick={props.clickcb}
                             size={30}
                         />
-                    </div>
+                    </div> */}
                 {/* </div> */}
                 
-            </div>
+            
 
            
 
