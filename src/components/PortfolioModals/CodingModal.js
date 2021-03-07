@@ -35,11 +35,19 @@ function CodingModal(props) {
             <div className="col-12">
                 <div className="row">
                     
-                    <div className="modalTitle">
-                        {props.modalHeadline}
+                    <div className="col-11">
+                        <div className="codingModalTitle">
+                            {props.modalHeadline}
+                        </div>
                     </div>
-                    <div>
-                        <div className="closeProject">x</div>
+                    <div className="col-1">
+                        <div className="closeCodingModal">
+                            <AiOutlineCloseCircle 
+                                type="button"
+                                onClick={props.clickcb}
+                                size={35}
+                            />
+                        </div>
                     </div>
 
                 </div>

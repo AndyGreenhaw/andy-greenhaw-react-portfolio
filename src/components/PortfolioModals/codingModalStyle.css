@@ -1,6 +1,6 @@
 #modalCodingOuterContainer {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     
 
     background-color: white;
@@ -8,7 +8,7 @@
     display: fixed;
   
     position: fixed;
-    bottom: -150vh;
+    /* bottom: -150vh; */
     transition: all 150ms east-in-out;
   
     top:50%;
@@ -16,7 +16,7 @@
     transform: translate(-50%,-50%);
   
     width: 40%;
-    height: 75%;
+    height: 900px;
     /* height: 960px; */
     /* margin-top: 20px; */
   
@@ -25,33 +25,25 @@
     z-index:99;
   }
 
-.titleBlock {
+.codingModalTitle {
+    color: rgb(31,61,149);
+
+    margin-bottom: -10px;
+    margin-left: 50px;
+    font-size: 56px;
+    font-weight: bolder;
     
 }
 
-/* .modalTopBar {
-    display: inline;
-} */
-.modalTitle {
-    /* text-align: left;     */
-    padding-left: 50px;
-    font-size: 56px;
-    color: black;
-
-
-    margin-left: 50px;
-   }
-
-.closeProject {
+.closeCodingModal {
     color: rgb(31,61,149);
     cursor: pointer;
     z-index: 99;
 
     font-family: 'Oxygen';
 
-    /* margin-right: -100px; */
-    margin-top:-10px;
-    /* text-align: right; */
+    margin-left: -10px;
+    padding-top: 0px;
     
   }
 
@@ -66,12 +58,32 @@
     cursor: pointer;
 } */
 
+.codingLanguages {
+    margin-left: auto;
+    margin-right: auto;
 
+    justify-content: center;
+
+    font-size: 25px;
+    font-weight:500;
+    /* color: rgb(31,61,149);  */
+    
+    
+    /* background-color: whitesmoke; */
+    /* box-shadow: inset 0px 0px 3px rgba(0,0,0,0.5), 0px 0px 3px rgba(0,0,0,0.5); */
+
+}
 .codeIcons {
-    /* justify-content: left; */
-    padding-left: 50px;
-    padding-bottom: 20px;
-    margin-left: 20px;
+    /* display: inline; */
+    font-size: 25px;
+    font-weight:500;
+    /* color: rgb(31,61,149);  */
+    padding-left: 10px;
+    padding-right: 10px;
+
+    margin-left: 50px;
+    margin-bottom: 20px;
+    
 }
 
 .modalInnerContainer {
@@ -85,9 +97,9 @@
     z-index: 99;
   }
 
-.projectTopRow {
+/* .projectTopRow {
     margin-bottom: 15px;
-}
+} */
 
 .porfolioMainImg {
     width: 75%;
@@ -99,7 +111,7 @@
 
     padding: 20px;
     
-    /* display: flex; */
+    display: flex;
 }
 
 .portfolioSecondImg {
@@ -110,7 +122,7 @@
 .modalCopyIntro {
     margin-top: 20px;
     margin-bottom: 15px;
-    padding-left: 50px;
+    padding-left: 100px;
     padding-right: 100px;
 }
 

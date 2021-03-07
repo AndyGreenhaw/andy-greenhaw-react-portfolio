@@ -10,11 +10,11 @@
     },   
     {
         "id": 2,
-        "name": "Weather App",
+        "name": "React Weather App",
         "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/weatherdashboard.png",
         "link": "https://andygreenhaw.github.io/06-Server-Side-APIs-Weather-Dashboard/",
         "github": "https://andygreenhaw.github.io/react-weather-app/",
-        "description": "I created this Weather App in React using Javascript, local storage, and Open Weather's API. Enter a city  or zip-code into the search entry and the app will use Axios to make a GET request for today's weather data, as well as a five-day forecast. I am currently in the process of adding new functinoality, including a line graph for hourly developments and more in-depth forecasts, but those areas are incomplete in this example as of now. Feel free to check back in and watch its progression.",
+        "description": "This Weather App was created in React using JavaScript, local storage, and Open Weather's API. When a city or zip code is entered in the search bar the app uses Axios to make a GET request for today's weather data, as well as a five-day forecast. I am in the process of adding new functionality, including a line graph for hourly weather developments and more in-depth forecasts.",
         "alt": "Andy's Weather App"
     },
     {
@@ -23,25 +23,25 @@
         "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/notetaker.png",
         "link": "https://shielded-savannah-98558.herokuapp.com/notes",
         "github": "https://github.com/AndyGreenhaw/blogger-app-prototype",
-        "description": "I created this app as an assignment for class that I am repurposing into a blogger app. It covers all the CRUD functionality enabling users to create and save articles, review articles, update articles, and delete articles. The Pandemic Tracker displays Covid-19 statistics across the globe. Try it for yourself and see what areas the world are experiencing the biggest impact from the pandemic. The Pandemic Tracker displays Covid-19 statistics across the globe. Try it for yourself and see what areas the world are experiencing the biggest impact from the pandemic. The Pandemic Tracker displays Covid-19 statistics across the globe.",
+        "description": "I created this notetaking appe that I am repurposing into a blogger app. It covers all the CRUD functionality enabling users to create and save articles, review articles, update articles, and delete articles. Eventually, the app will enable the user to publish these articles in a formatted template that they can then customize, similar to other blogging platforms.",
         "alt": "Andy's Note Taker"
     },
     {
         "id": 4,
-        "name": "Work Day Planner",
+        "name": "Daily Planner",
         "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/dayplanner.png",
         "link": "https://andygreenhaw.github.io/05-Third-Party-APIs-Work-Day-Scheduler/",
         "github": "https://github.com/AndyGreenhaw/05-Third-Party-APIs-Work-Day-Scheduler",
-        "description": "I created this Day planner application using Javascript, HTML, CSS, and local Web browser storage. It enables the user to enter notes or plans for the day into a time block, and then save those notes using local storage. By clicking the blue \"S\" button, the note remains in the block after the user refreshes the page. I wrote the timing logic to color green blocks for future hours, red blocks for the present hour, and grey blocks for past hours. I plan to expand this app to enable users to include days, months, and years into their planning.",
+        "description": "This daily planner application was created using JavaScript, HTML, CSS, and local Web browser storage. The app enables users to enter notes or plans for the day in a time block that saves the information using local storage. By clicking the blue \"S\" button, the note remains in the block after the user refreshes the page. The timing logic is written to color green blocks for future hours, red blocks for the present hour, and grey blocks for past hours. I plan to expand this app as a two-year planner.",
         "alt": "Andy's Day Planner"
     }, 
     {
         "id": 5,
-        "name": "BookSelf App",
+        "name": "BookShelf App",
         "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/bookshelf.png",
         "link": "https://bookshelf-borrow-books.herokuapp.com/",
         "github": "https://github.com/tesssapierce/BookShelf-Public-Library-Online-Rental-System-Javascript-Express-MySQL-Sequelize",
-        "description": "I worked with a team of developers to create this social media book-borrowing website that utilizes several computing languages. After creating an account, users can 1) post books they'd lik to loan to other users and 2) borrow books other users are lending from their profiles. Simply enter the IPN number from the book you want to post and the Goodreads API will pull all the data (including the cover image), which is then featured on your profile. You can also find books to borrow using the All Books search engine. We plan to expand this by allowing the user to post books also by scanning the bar code.",
+        "description": "I worked with a team of developers to create this social media book-borrowing website that utilizes several computing languages, including JavaScript, Handlebars, SQL and others. After creating an account, users can 1) post books they'd lik to loan to other users and 2) borrow books other users are lending from their profiles. Simply enter the IPN number from the book you want to post and the Goodreads API will pull all the data (including the cover image), which is then featured on your profile. You can also find books to borrow using the All Books search engine. We plan to expand this by allowing the user to post books also by scanning the bar code.",
         "alt": "Andy's BookSelf App"
     },
     {
@@ -50,21 +50,21 @@
         "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/budget.png",
         "link": "https://sleepy-caverns-80492.herokuapp.com/",
         "github": "https://github.com/AndyGreenhaw/pwa-budget-app",
-        "description": "NOT YET COMPLETED.",
+        "description": "WILL COMPLETE THIS SUNDAY",
         "alt": "Andy's Budget App"
     },
     {
         "id": 7,
-        "name": "PWA Budget App",
+        "name": "Budget App",
         "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/burger.png",
         "link": "https://sleepy-caverns-80492.herokuapp.com/",
         "github": "https://github.com/AndyGreenhaw/pwa-budget-app",
-        "description": "I created this PWA Budget App that tracks income and expenses over time using Mongo. The Pandemic Tracker displays Covid-19 statistics across the globe. Try it for yourself and see what areas the world are experiencing the biggest impact from the pandemic. The Pandemic Tracker displays Covid-19 statistics across the globe. Try it for yourself and see what areas the world are experiencing the biggest impact from the pandemic. The Pandemic Tracker displays Covid-19 statistics across the globe.",
-        "alt": "Andy's Burger App"
+        "description": "I created this PWA Budget App that tracks income and expenses over time using Mongo DB. Enter the name or description for the transaction and submit the amount you would like to add or subtract from your balance. The app will log each transaction and present your total balance along with a visual line graph that charts the fluctuation of your total balance.",
+        "alt": "Andy's Budget App"
     },
     {
         "id": 8,
-        "name": "'The Office' Directory",
+        "name": "Employee Directory",
         "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/theoffice.png",
         "link": "https://andygreenhaw.github.io/19-react-employee-directory/",
         "github": "https://andygreenhaw.github.io/19-react-employee-directory/",

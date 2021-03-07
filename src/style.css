@@ -112,7 +112,7 @@ html {
 }
 
 #heroSection { 
-  background:linear-gradient(-10deg,  rgba(23,46,124, 0.1)0.1%, rgba(62,121,39, 0.2)50%, rgba(35, 86, 255, 0.3)100%), url("./components/styleimages/andy-mountains-cropped.jpg");
+  background:url("./components/styleimages/andy-mountains-hero.png");
   /* background-image: url("./components/styleimages/andy-mountains-cropped.jpg"); */
 
   background-attachment: fixed;
@@ -145,7 +145,7 @@ html {
   position: relative;
   z-index: 0;
 
-  background:linear-gradient(-10deg,  rgba(23,46,124, 0.1)0.1%, rgba(62,121,39, 0.2)50%, rgba(35, 86, 255, 0.3)100%), url("./components/styleimages/beaverVillage3.png");
+  background:linear-gradient(-10deg,  rgba(23,46,124, 0.1)0.1%, rgba(62,121,39, 0.2)50%, rgba(35, 86, 255, 0.3)100%), url("./components/styleimages/beaverVillage4.png");
   /* background-image: url("./components/styleimages/andy-mountains-cropped.jpg"); */
 
   background-attachment: fixed;
@@ -159,7 +159,7 @@ html {
   position: relative;
   z-index: 0;
 
-  background:linear-gradient(-10deg,  rgba(23,46,124, 0.1)0.1%, rgba(62,121,39, 0.2)50%, rgba(35, 86, 255, 0.3)100%), url("./components/styleimages/beaverVillage3.png");
+  background:linear-gradient(-10deg,  rgba(23,46,124, 0.1)0.1%, rgba(62,121,39, 0.2)50%, rgba(35, 86, 255, 0.3)100%), url("./components/styleimages/beaverVillage6.png");
   /* background-image: url("./components/styleimages/andy-mountains-cropped.jpg"); */
 
   background-attachment: fixed;
@@ -173,7 +173,7 @@ html {
   position: relative;
   z-index: 0;
 
-  background:linear-gradient(-10deg,  rgba(23,46,124, 0.1)0.1%, rgba(62,121,39, 0.2)50%, rgba(35, 86, 255, 0.3)100%), url("./components/styleimages/beaverVillage3.png");
+  background:linear-gradient(-10deg,  rgba(23,46,124, 0.1)0.1%, rgba(62,121,39, 0.2)50%, rgba(35, 86, 255, 0.3)100%), url("./components/styleimages/beaverVillage5.png");
   /* background-image: url("./components/styleimages/andy-mountains-cropped.jpg"); */
 
   background-attachment: fixed;
@@ -213,7 +213,7 @@ html {
   margin-left: 800px;
   margin-right: 800px;
   margin-bottom: 50px;
-  height: 650px;
+  height: 620px;
 
   padding: 50px 60px 60px 60px;
   border-radius: 50px;
@@ -225,20 +225,16 @@ html {
   width: 400px;
   border-radius: 50px 0px 0px 0px;
 
-  padding-right: 50px;
+  padding-right: 40px;
 
   padding-top: 15px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 
   float: left;
 }
 
 .bioSpacing {
   padding: 10px;
-}
-
-.form {
-  padding: 50px;
 }
 
 /* DEMO REEL */
@@ -318,7 +314,7 @@ html {
   z-index:99;
 }
 
-.modalTitle {
+/* .modalTitle {
  margin-left: 10px;
  margin-top: -20px;
 
@@ -326,7 +322,7 @@ html {
  font-size: 24px;
  font-weight: bolder;
 
-}
+} */
 
 /* .closeX {
   text-align: right;
@@ -377,7 +373,7 @@ html {
   
     text-align: center;
     
-    margin-top: 14%;
+    margin-top: 50px;
     /* margin-left: auto;
     margin-right: auto; */
 }
@@ -412,7 +408,7 @@ html {
 @media only screen and (min-width: 2560px){
   .mainTitle {
     font-size: 180px;
-    margin-top: 14%;
+    margin-top: 300px;
   }
 
   .taglineTitle {
@@ -425,7 +421,7 @@ html {
   .mainTitle {
     font-size: 180px;
     
-    margin-top: 20%;
+    margin-top: 300px;
   }
 
   .taglineTitle {
@@ -437,7 +433,7 @@ html {
   .mainTitle {
     font-size: 180px;
     
-    margin-top: 23%;
+    margin-top: 300px;
   }
 
   .taglineTitle {
@@ -449,7 +445,7 @@ html {
   .mainTitle {
     font-size: 160px;
     
-    margin-top: 30%;
+    margin-top: 300px;
 
   }
 
@@ -463,8 +459,7 @@ html {
   .mainTitle {
     font-size: 120px;
 
-    
-    margin-top: 15%;
+    margin-top: 300px;
 
   }
 
@@ -479,7 +474,7 @@ html {
     font-size: 120px;
    
     
-    margin-top: 42%;
+    margin-top: 300px;
     
   }
 
@@ -493,7 +488,7 @@ html {
   .mainTitle {
     font-size: 100px;
     
-    margin-top: 50%;
+    margin-top: 300px;
 
   }
 
@@ -507,7 +502,7 @@ html {
   .mainTitle {
     font-size: 80px;
     
-    margin-top: 60%;
+    margin-top: 300px;
     
   }
 
@@ -521,7 +516,7 @@ html {
   .mainTitle {
     font-size: 80px;
       
-    margin-top: 6%;
+    margin-top: 300px;
     
   }
 
@@ -534,7 +529,7 @@ html {
 @media only screen and (max-width: 425px){
   .mainTitle {
     font-size: 50px;
-    margin-top: 16%;
+    margin-top: 300px;
 
   }
 

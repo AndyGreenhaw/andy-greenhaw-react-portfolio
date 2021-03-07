@@ -58,7 +58,8 @@ function NavBar (props) {
 
     const content = showAbout && (
 
-      <ContactModal className="contactBox"
+      <ContactModal 
+        className="contactBox"
         clickcb={closeAboutModal}
       />
             

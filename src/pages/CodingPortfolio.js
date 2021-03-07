@@ -142,7 +142,7 @@ const Portfolio = (props) => {
             transition="all 0.25s ease-in"
         >
             {/* setShowAbout={setShowAbout}> */}
-        </Modal>
+        </Modal> 
 
         
         <div className="darkPortfolioBackground">
@@ -172,7 +172,7 @@ const Portfolio = (props) => {
                                         alt="Weather API App"
                                         
                                     />
-                                <div className="projectHeadline">Weather API App</div>
+                                <div className="projectHeadline">React Weather App</div>
                             </Link>
                         </div>
 
@@ -187,7 +187,7 @@ const Portfolio = (props) => {
                                     alt="Work Scheduler"
                                     
                                 />
-                                <div className="projectHeadline">Work Scheduler</div>
+                                <div className="projectHeadline">Daily Planner</div>
                             </Link>
                             
                         </div> 
@@ -276,7 +276,7 @@ const Portfolio = (props) => {
                                         alt="Employee Directory"
                                         
                                 />
-                                <div className="projectHeadline">The Office Employee Directory</div>
+                                <div className="projectHeadline">Employee Directory</div>
                             </Link>
                         </div> 
                     </div>

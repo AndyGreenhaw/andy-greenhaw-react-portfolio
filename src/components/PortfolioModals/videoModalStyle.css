@@ -1,8 +1,8 @@
 #modalVideoOuterContainer {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 50px;
-    padding-right: 75px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /* padding-left: 50px; */
+    /* padding-right: 75px; */
 
     background-color: white;
     border-radius: 20px;
@@ -16,26 +16,14 @@
     left:50%;
     transform: translate(-50%,-50%);
   
-    width: 50%;
-    height: 80%;
-    height: 960px;
+    width: 40%;
+    height: 900px;
     margin-top: 20px;
   
     box-shadow: inset 0px 0px 5px rgba(0,0,0,0.16), 0px 0px 5px rgba(0,0,0,0.45);
   
     z-index:99;
   }
-
-.videoContainer {
-    justify-content: center;
-    display: flex;
-    padding: 20px;
-}
- 
-.videoPlayer {
-    width: 960px;
-    height: 540px;
-}
 
 .titleBlock {
     width:100%;
@@ -46,28 +34,38 @@
 .modalTopBar {
     display: inline;
 }
-.modalTitle {
+.videoModalTitle {
     justify-content: left;
     font-size: 56px;
     display: flex;
-    color: black;
-    margin-left: 20px;
-   }
+    color: rgb(31,61,149);
+    margin-left: 50px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
 
-.closeX {
+.closeVideoModal {
     color: rgb(31,61,149);
     cursor: pointer;
     z-index: 99;
 
-    position: absolute;
-    /* right: 0; */
-    margin-right: -60px;
-    
+    font-family: 'Oxygen';
+
+    margin-left: -10px;
+    padding-top: 0px;
+    /* padding-right: 30px; */
+    /* margin-top:-10px; */    
   }
 
-.codeIcons {
-    justify-content: left;
-    padding-bottom: 20px;
+.videoContainer {
+    justify-content: center;
+    display: flex;
+    padding: 20px;;
+}
+ 
+.videoPlayer {
+    width: 720px;
+    height: 405px;
 }
 
 .modalInnerContainer {
@@ -76,8 +74,8 @@
 
     height: 100%;
     width: 100%;
-    margin-left: 10px;
-    margin-right:10px;
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
     z-index: 99;
   }
 
@@ -85,24 +83,11 @@
     margin-bottom: 15px;
 }
 
-.porfolioMainImg {
-    width: 75%;
-
-    margin-left: auto;
-    margin-right: auto;
-
-    padding: 20px;
-    
-    display: flex;
-}
-
-.portfolioSecondImg {
-    width: 33%;
-    padding: 15px;
-}
-
-#modalCopyIntro {
-    padding: 10px;
+.videoModalCopy {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .buttonCenter {

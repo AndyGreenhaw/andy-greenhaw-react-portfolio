@@ -13,25 +13,20 @@ function VideoModal(props) {
   return(
     <div id="modalVideoOuterContainer">
             
-      <div className="row titleBlock">
-
-        <div className="col-12 modalTopBar">
-
-            <div className="row">
+      <div className="row">
+        <div className="col-11">
+            <div className="videoModalTitle">
+                {props.modalHeadline}
+            </div>
+        </div>
+        <div className="col-1">
+            <div className="closeVideoModal">
                     <AiOutlineCloseCircle 
-                        className="closeX"
                         type="button"
                         onClick={props.clickcb}
-                        size={60}
+                        size={35}
                     />
             </div>
-
-            <div className="row modalTitle">
-                <div>
-                    {props.modalHeadline}
-                </div>
-            </div>
-
         </div>
 
       </div>
@@ -55,7 +50,7 @@ function VideoModal(props) {
 
             <div className="col-12">
                 
-                <div id="modalCopyIntro" >
+                <div className="videoModalCopy" >
                     {props.modalDescription}
                 {/* {props.modalDescription}            */}
                 </div>

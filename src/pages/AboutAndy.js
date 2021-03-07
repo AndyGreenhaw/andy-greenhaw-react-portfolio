@@ -19,13 +19,13 @@ const AboutAndy = () => {
                         <div className="row">
                                 <div className="col-12">
                                         <div className="aboutBox">
-                                                <img className="profilePic" src={profilePic}></img>
+                                                <img className="profilePic" src={profilePic} />
                                                 
-                                                <p className="bioSpacing">I’m a programmer with more than 12 years of experience working on the digital marketing side of content development. I recently completed my certification in Full Stack Development at the University of Denver, and I'm proficient in all major computing languages, including JavaScript, React, Mongo, and much more.</p>
-
-                                                <p>While I’m somewhat new to the profession of coding, I’ve worked on digital projects for the U.S. Air Force, Special Forces, the Defense Intelligence Agency, National Defense University, and some of the top attorneys in the country. I’m highly proficient in SEO, Adwords, content development, animation, video editing and I have experience building and managing content for nearly every marketing strategy you can imagine..</p>
-
-                                                <p>I decided to pursue a career in coding to build on all these skills and to incorporate the ability to deliver them in the form of any website or app. I’ve developed API websites for weather forecast and Covid-19 tracking apps, I created a social media website with the ability to create a profile and interact with others, and I’m currently developing a few games to hone my skills in user interactivity. If you’re looking for a junior developer with professional experience who learns quickly and is dedicated to every job, send me a message and I’ll send you my resume so you can learn more.</p>
+                                                <p> I am a full-stack developer with an extensive background in data visualization and strategic communication. I’ve worked on the front-end content development side of projects for the U.S. Air Force, SOCOM, the Defense Intelligence Agency and National Defense University. I've also developed digital presentations for some of the top attorneys in the country on complex cases spanning almost every type of catastrophic injury and car crash you can imagine.</p>
+                                                                                                        
+                                                <p> I completed my certification in Full Stack Development through an extensive intensive University of Denver coding bootcamp, and I am now proficient in all the major computing languages, including React, Mongo, JavaScript, and many more outlines throughout my portfolio. My bachelor’s degree in journalism and strategic communications also provided the foundation through which I've mastered nearly every form of content creation, and I am excited about my new career trajectory in full-stack development because every language augments my front-end content development skills and capabiities. </p>
+                                                        
+                                                <p> If you are looking for a junior developer with professional experience who learns quickly and is dedicated to every assignment, send me a message and I will send you my resume so you can learn more! </p>
                                         
                                         </div>
                                 </div>
