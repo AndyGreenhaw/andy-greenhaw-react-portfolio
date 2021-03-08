@@ -12,7 +12,7 @@ function Home() {
     </div>
     <div className="row "> 
       <div className="col-12 taglineTitle">
-        Coding with a Background in Digital Strategy       
+        Programming - Data Visualization - Digital Strategy      
       </div>
     </div>
     <div className="row">
