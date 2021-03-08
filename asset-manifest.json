@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/andy-greenhaw-react-portfolio/static/css/main.d3f1da3d.chunk.css",
-    "main.js": "/andy-greenhaw-react-portfolio/static/js/main.383076e6.chunk.js",
-    "main.js.map": "/andy-greenhaw-react-portfolio/static/js/main.383076e6.chunk.js.map",
+    "main.js": "/andy-greenhaw-react-portfolio/static/js/main.4e697c2c.chunk.js",
+    "main.js.map": "/andy-greenhaw-react-portfolio/static/js/main.4e697c2c.chunk.js.map",
     "runtime-main.js": "/andy-greenhaw-react-portfolio/static/js/runtime-main.36e35758.js",
     "runtime-main.js.map": "/andy-greenhaw-react-portfolio/static/js/runtime-main.36e35758.js.map",
     "static/css/2.1a02f21c.chunk.css": "/andy-greenhaw-react-portfolio/static/css/2.1a02f21c.chunk.css",
@@ -51,6 +51,6 @@
     "static/css/2.1a02f21c.chunk.css",
     "static/js/2.28252e6b.chunk.js",
     "static/css/main.d3f1da3d.chunk.css",
-    "static/js/main.383076e6.chunk.js"
+    "static/js/main.4e697c2c.chunk.js"
   ]
 }
