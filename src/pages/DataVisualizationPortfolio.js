@@ -110,7 +110,7 @@ const DataVisualization = () => {
                 <div className="row portfolioSingleRow">
 
                     {/* SECONDARY CODE PROJECTS */}
-                    <div className="col-md-3">
+                    <div className="col-lg-3">
                         <div className="projectPlacement projectSpacer">
                             
                             <Link
@@ -140,7 +140,7 @@ const DataVisualization = () => {
                     </div>
 
                     {/* HERO PROJECT */}
-                    <div className="col-md-6">
+                    <div className="col-lg-6">
                         <div className="heroCodingProject">
                             {/* <div className="row portfolioHead"></div> */}
                             <Link onClick={vrModal}>
@@ -153,7 +153,7 @@ const DataVisualization = () => {
                         </div>
                     </div>
 
-                    <div className="col-md-3">
+                    <div className="col-lg-3">
 
                         <div className="projectPlacement projectSpacer">
                             <Link onClick={disModal}>
@@ -186,7 +186,7 @@ const DataVisualization = () => {
 
                 {/* <div className="row">
 
-                    <div className="col-md-3">
+                    <div className="col-lg-3">
                         <div className="projectPlacement">
                                 <a href="https://hidden-refuge-28358.herokuapp.com/"><img 
                                     className="projectNewImage" 
@@ -197,7 +197,7 @@ const DataVisualization = () => {
                         </div>
                     </div>
 
-                    <div className="col-md-3">
+                    <div className="col-lg-3">
                         <div className="projectPlacement">
                                 <a href="https://github.com/AndyGreenhaw/snake-game"><img 
                                     className="projectNewImage" 
@@ -207,7 +207,7 @@ const DataVisualization = () => {
                                 <div className="projectHeadline">Snake Game</div>
                         </div> 
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-lg-3">
                         <div className="projectPlacement">
                                 <a href="https://andygreenhaw.github.io/19-react-employee-directory/"><img 
                                     className="projectNewImage" 
@@ -217,7 +217,7 @@ const DataVisualization = () => {
                                 <div className="projectHeadline">The Office Employee Directory</div>
                         </div> 
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-lg-3">
                         <div className="projectPlacement">
                                 <a href="https://andygreenhaw.github.io/03-JavaScript-Password-Generator/"><img 
                                     className="projectNewImage" 

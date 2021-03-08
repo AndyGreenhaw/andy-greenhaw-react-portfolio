@@ -116,7 +116,7 @@ const AnimationPortfolio = () => {
                 <div className="row portfolioSingleRow">
 
                     {/* SECONDARY CODE PROJECTS */}
-                    <div className="col-md-3">
+                    <div className="col-lg-3">
                         <div className="projectPlacement projectSpacer">
                             
                             <Link onClick={aosModal}>
@@ -145,7 +145,7 @@ const AnimationPortfolio = () => {
                     </div>
 
                     {/* HERO PROJECT */}
-                    <div className="col-md-6">
+                    <div className="col-lg-6">
                         <div className="heroCodingProject">
                             <Link onClick={ndtModal}>
                                 <img className="heroCodingImage" src={ndtAnimation} alt="Space Music Video"/>
@@ -159,7 +159,7 @@ const AnimationPortfolio = () => {
                         </div>
                     </div>
 
-                    <div className="col-md-3">
+                    <div className="col-lg-3">
 
                         <div className="projectPlacement projectSpacer">
                             

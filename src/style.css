@@ -206,13 +206,26 @@ html {
   top: 0;    left: 0;    right: 0;   bottom: 0;   min-width: 100%;   min-height: 100%;
 }
 
+.aboutOutsideArea {
+
+  justify-self: center;
+
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
 .aboutBox {
   background-color: rgb(231, 231, 231, 0.9);
   position: flex;
 
-  margin-left: 800px;
-  margin-right: 800px;
+  justify-content: center;
+
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 50px;
+
+  width: 800px;
   height: 620px;
 
   padding: 50px 60px 60px 60px;
@@ -222,7 +235,7 @@ html {
 }
 
 .profilePic {
-  width: 400px;
+  width: 40%;
   border-radius: 50px 0px 0px 0px;
 
   padding-right: 40px;
@@ -417,7 +430,7 @@ html {
   }
 }
 
-@media only screen and (max-width: 2500px){
+@media only screen and (max-width: 2100px){
   .mainTitle {
     font-size: 180px;
     
@@ -426,10 +439,14 @@ html {
 
   .taglineTitle {
     font-size: 40px;
+  }
+
+  .projectHeroHeadline {
+    font-size:40px;
   }
 }
 
-@media only screen and (max-width: 2000px){
+@media only screen and (max-width: 2026px){
   .mainTitle {
     font-size: 180px;
     
@@ -438,6 +455,82 @@ html {
 
   .taglineTitle {
     font-size: 40px;
+  }
+
+  .projectHeroHeadline {
+    padding-bottom: 45px;
+    font-size:37px;
+  }
+}
+
+@media only screen and (max-width: 1926px){
+  .mainTitle {
+    font-size: 180px;
+    
+    margin-top: 300px;
+  }
+
+  .taglineTitle {
+    font-size: 40px;
+  }
+
+  .projectHeroHeadline {
+    padding-bottom: 40px;
+    font-size:31px;
+  }
+
+  .projectHeadline {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 1926px){
+  .mainTitle {
+    font-size: 180px;
+    
+    margin-top: 300px;
+  }
+
+  .taglineTitle {
+    font-size: 40px;
+  }
+
+  .projectHeroHeadline {
+    padding-bottom: 40px;
+    font-size:31px;
+
+  }
+
+  .projectHeadline {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 1730px){
+  .mainTitle {
+    font-size: 180px;
+    
+    margin-top: 300px;
+  }
+
+  .taglineTitle {
+    font-size: 40px;
+  }
+
+  .projectHeroHeadline {
+    padding-bottom: 40px;
+    font-size:28px;
+
+  }
+
+  .projectHeadline {
+    font-size: 18px;
+  }
+
+  .prortfolioProjectSection {
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-bottom: 60px;
   }
 }
 
@@ -453,6 +546,53 @@ html {
     font-size: 40px;
     
   }
+
+  .projectHeroHeadline {
+    padding-bottom: 40px;
+    font-size:28px;
+
+  }
+
+  .projectHeadline {
+    font-size: 18px;
+  }
+
+  .prortfolioProjectSection {
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-bottom: 60px;
+  }
+
+}
+
+@media only screen and (max-width: 1560px){
+  .mainTitle {
+    font-size: 120px;
+
+    margin-top: 300px;
+
+  }
+
+  .taglineTitle {
+    font-size: 40px;
+    
+  }
+
+  .projectHeroHeadline {
+    padding-bottom: 40px;
+    font-size:28px;
+
+  }
+
+  .projectHeadline {
+    font-size: 18px;
+  }
+
+  .prortfolioProjectSection {
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-bottom: 60px;
+  }
 }
 
 @media only screen and (max-width: 1440px){
@@ -466,6 +606,22 @@ html {
   .taglineTitle {
     font-size: 40px;
     
+  }
+
+  .projectHeroHeadline {
+    padding-bottom: 40px;
+    font-size:22px;
+
+  }
+
+  .projectHeadline {
+    font-size: 14px;
+  }
+
+  .prortfolioProjectSection {
+    margin-left: 125px;
+    margin-right: 125px;
+    padding-bottom: 60px;
   }
 }
 
@@ -482,12 +638,60 @@ html {
     font-size: 40px;
     
   }
+
+  .projectHeroHeadline {
+    padding-bottom: 39px;
+    font-size:22px;
+
+  }
+
+  .projectHeadline {
+    font-size: 14px;
+  }
+
+  .prortfolioProjectSection {
+    margin-left: 125px;
+    margin-right: 125px;
+    padding-bottom: 60px;
+  }
+
+}
+
+@media only screen and (max-width: 1222px){
+  .mainTitle {
+    font-size: 120px;
+   
+    
+    margin-top: 300px;
+    
+  }
+
+  .taglineTitle {
+    font-size: 40px;
+    
+  }
+
+  .projectHeroHeadline {
+    padding-bottom: 35px;
+    font-size:20px;
+
+  }
+
+  .projectHeadline {
+    font-size: 12px;
+  }
+
+  .prortfolioProjectSection {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 60px;
+  }
+
 }
 
 @media only screen and (max-width: 1024px){
   .mainTitle {
     font-size: 100px;
-    
     margin-top: 300px;
 
   }
@@ -496,9 +700,103 @@ html {
     font-size: 40px;
 
   }
+
+  .heroCodingProject {
+    padding: 20px;
+    margin-top: 0px;  
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    /* width: 95%; */
+    height: auto;
+    
+    /* justify-self: center; */
+    /* display: flex; */
+    background-color: rgb(255, 255, 255, 0.9);
+  
+    box-shadow: inset 0px 0px 5px rgba(0,0,0,0.16), 0px 0px 5px rgba(0,0,0,0.25);
+  }
+
+  .projectHeroHeadline {
+    padding-top: 25px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 32px;
+
+  }
+
+  .projectHeadline {
+    font-size: 18px;
+  }
+
+  .prortfolioProjectSection {
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-bottom: 60px;
+  }
+
+  .projectPlacement {
+  
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0.9);
+    
+    padding: 20px;
+    margin: 0px;
+  
+    box-shadow: inset 0px 0px 5px rgba(0,0,0,0.16), 0px 0px 5px rgba(0,0,0,0.25);
+  }
+
+  .portfolioTopRow {
+    margin-bottom: 15px;
+  }
+
+  .projectSpacer {
+    margin-bottom: 30px;
+  }
+  
+
 }
 
-@media only screen and (max-width: 900px){
+/* SINGLE COLUMN */
+
+@media only screen and (max-width: 991px){
+
+  .heroCodingProject {
+    padding: 20px;
+    margin-top: 0px;  
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 60px;
+    /* width: 95%; */
+    height: auto;
+    
+    /* justify-self: center; */
+    /* display: flex; */
+    background-color: rgb(255, 255, 255, 0.9);
+  
+    box-shadow: inset 0px 0px 5px rgba(0,0,0,0.16), 0px 0px 5px rgba(0,0,0,0.25);
+  }
+
+  .projectPlacement {
+  
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0.9);
+    
+    padding: 20px;
+    margin-bottom: 60px;
+  
+    box-shadow: inset 0px 0px 5px rgba(0,0,0,0.16), 0px 0px 5px rgba(0,0,0,0.25);
+  }
+
+  .portfolioTopRow {
+    margin-bottom: 0px;
+  }
+
+  .projectSpacer {
+    margin-bottom: 60px;
+  }
+
   .mainTitle {
     font-size: 80px;
     
@@ -510,6 +808,97 @@ html {
     font-size: 40px;
     
   }
+
+  .projectHeroHeadline {
+    font-size:36px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+
+  }
+
+  .projectHeadline {
+    font-size: 36px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+  }
+
+  .prortfolioProjectSection {
+    margin-left: 125px;
+    margin-right: 125px;
+    padding-bottom: 60px;
+  }
+
+  .aboutBox {
+    background-color: rgb(231, 231, 231, 0.9);
+    position: flex;
+  
+    justify-content: center;
+  
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  
+    width: 600px;
+    height: 730px;
+  
+    padding: 50px 60px 60px 60px;
+    border-radius: 50px;
+  
+    box-shadow: inset 0px 0px 5px rgba(0,0,0,0.16), 0px 0px 5px rgba(0,0,0,0.45);
+  }
+}
+
+@media only screen and (max-width: 800px){
+  .mainTitle {
+    font-size: 80px;
+    
+    margin-top: 300px;
+    
+  }
+
+  .taglineTitle {
+    font-size: 40px;
+    
+  }
+
+  .projectHeroHeadline {
+    font-size:22px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+
+  }
+
+  .projectHeadline {
+    font-size: 22px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+  }
+
+  .prortfolioProjectSection {
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-bottom: 60px;
+  }
+
+  .aboutBox {
+    background-color: rgb(231, 231, 231, 0.9);
+    position: flex;
+  
+    justify-content: center;
+  
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  
+    width: 550px;
+    height: 750px;
+  
+    padding: 50px 60px 60px 60px;
+    border-radius: 50px;
+  
+    box-shadow: inset 0px 0px 5px rgba(0,0,0,0.16), 0px 0px 5px rgba(0,0,0,0.45);
+  }
+
 }
 
 @media only screen and (max-width: 768px){
@@ -524,6 +913,26 @@ html {
     font-size: 30px;
     
   }
+
+  .projectHeroHeadline {
+    font-size:18px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+  }
+
+  .projectHeadline {
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .prortfolioProjectSection {
+    margin-left: 125px;
+    margin-right: 125px;
+    padding-bottom: 60px;
+  }
+
 }
 
 @media only screen and (max-width: 425px){
@@ -537,6 +946,28 @@ html {
     font-size: 20px;
     
   }
+
+  .projectHeroHeadline {
+    font-size:28px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+  }
+
+  .projectHeadline {
+    font-size: 28px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  .prortfolioProjectSection {
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-bottom: 60px;
+  }
+
+  
+
 }
 
 /* @media only screen and (min-width: 425px){

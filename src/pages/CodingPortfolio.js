@@ -161,7 +161,7 @@ const Portfolio = (props) => {
                 <div className="row portfolioTopRow">
 
                     {/* SECONDARY CODE PROJECTS */}
-                    <div className="col-md-3">
+                    <div className="col-lg-3">
                         <div className="projectPlacement projectSpacer">
                             <Link onClick={weatherModal}>
                                 
@@ -194,7 +194,7 @@ const Portfolio = (props) => {
                     </div>
 
                     {/* HERO PROJECT */}
-                    <div className="col-md-6">                      
+                    <div className="col-lg-6">                      
                     
                         <div className="heroCodingProject">
                             <Link onClick={pandemicModal}>
@@ -206,7 +206,7 @@ const Portfolio = (props) => {
                         </div>
                     </div>
 
-                    <div className="col-md-3">
+                    <div className="col-lg-3">
 
                         <div className="projectPlacement projectSpacer">
                             
@@ -241,7 +241,7 @@ const Portfolio = (props) => {
 
                 <div className="row portfolioBottomRow">
 
-                    <div className="col-md-3">
+                    <div className="col-lg-3">
                         <div className="projectPlacement">
                             <Link onClick={budgetApp}>
                                 <img 
@@ -254,7 +254,7 @@ const Portfolio = (props) => {
                         </div>
                     </div>
 
-                    <div className="col-md-3">
+                    <div className="col-lg-3">
                         <div className="projectPlacement">
                             <Link onClick={snakeApp}>
                                 <img 
@@ -267,7 +267,7 @@ const Portfolio = (props) => {
                             </Link>
                         </div> 
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-lg-3">
                         <div className="projectPlacement">
                             <Link onClick={theOfficeApp}>
                                 <img 
@@ -280,7 +280,7 @@ const Portfolio = (props) => {
                             </Link>
                         </div> 
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-lg-3">
                         <div className="projectPlacement">
                             <Link onClick={passwordApp}>
                                 <img 
