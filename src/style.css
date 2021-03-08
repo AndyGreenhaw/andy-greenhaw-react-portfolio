@@ -67,7 +67,7 @@ html {
 .dropDown {
   /* background-color: #4CAF50; */
   color: white;
-  padding: 16px;
+  /* padding: 10px; */
   /* font-size: 16px; */
   border: none;
   display: inline;
@@ -327,30 +327,6 @@ html {
   z-index:99;
 }
 
-/* .modalTitle {
- margin-left: 10px;
- margin-top: -20px;
-
- text-align: center;
- font-size: 24px;
- font-weight: bolder;
-
-} */
-
-/* .closeX {
-  text-align: right;
-  font-size: 24px;
-  color:grey;
-  font-size: 24px;
-  font-weight: bolder;
-  font-family: 'Lucida Sans Unicode';
-  padding-right: 10px;
-  cursor: pointer;
-  border: none;
-  z-index: 99;
-  
-  width: 100%;
-} */
 
 .modalContainer {
   /* text-align: center; */
@@ -386,7 +362,7 @@ html {
   
     text-align: center;
     
-    margin-top: 50px;
+    margin-top: 300px;
     /* margin-left: auto;
     margin-right: auto; */
 }
@@ -399,26 +375,18 @@ html {
     text-align: center;
 }
 
-/* @media only screen and (max-height: 850px){
+/*
 
-  #heroSection { 
-    background-image: url("./components/styleimages/andy-mountains-cropped.jpg");
+  SIZING SIZING SIZING
 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    background-color: rgb(245,245,245,0);
-
-    height: 850px;
-
-    top: 0;    left: 0;    right: 0;   bottom: 0;   min-width: 100%;   min-height: 100%;
-  }
-
-} */
+*/
 
 @media only screen and (max-width: 2560px){
+
+  #heroSection {
+    height: 1400px;
+  }
+  
   .mainTitle {
     font-size: 180px;
     margin-top: 300px;
@@ -431,10 +399,15 @@ html {
 }
 
 @media only screen and (max-width: 2100px){
+
+  #heroSection {
+    height: 1400px;
+  }
+
   .mainTitle {
     font-size: 180px;
     
-    margin-top: 300px;
+    margin-top: 250px;
   }
 
   .taglineTitle {
@@ -447,15 +420,6 @@ html {
 }
 
 @media only screen and (max-width: 2026px){
-  .mainTitle {
-    font-size: 180px;
-    
-    margin-top: 300px;
-  }
-
-  .taglineTitle {
-    font-size: 40px;
-  }
 
   .projectHeroHeadline {
     padding-bottom: 45px;
@@ -467,7 +431,7 @@ html {
   .mainTitle {
     font-size: 180px;
     
-    margin-top: 300px;
+    margin-top: 250px;
   }
 
   .taglineTitle {
@@ -484,11 +448,11 @@ html {
   }
 }
 
-@media only screen and (max-width: 1926px){
+@media only screen and (max-width: 1920px){
   .mainTitle {
     font-size: 180px;
     
-    margin-top: 300px;
+    margin-top: 250px;
   }
 
   .taglineTitle {
@@ -508,9 +472,8 @@ html {
 
 @media only screen and (max-width: 1730px){
   .mainTitle {
-    font-size: 180px;
-    
-    margin-top: 300px;
+    font-size: 160px;
+    margin-top: 150px;
   }
 
   .taglineTitle {
@@ -537,8 +500,7 @@ html {
 @media only screen and (max-width: 1600px){
   .mainTitle {
     font-size: 160px;
-    
-    margin-top: 300px;
+    margin-top: 150px;
 
   }
 
@@ -567,9 +529,8 @@ html {
 
 @media only screen and (max-width: 1560px){
   .mainTitle {
-    font-size: 120px;
-
-    margin-top: 300px;
+    font-size: 160px;
+    margin-top: 200px;
 
   }
 
@@ -599,12 +560,23 @@ html {
   .mainTitle {
     font-size: 120px;
 
-    margin-top: 300px;
+    margin-top: 150px;
 
   }
 
   .taglineTitle {
-    font-size: 40px;
+    font-size: 30px;
+    
+  }
+
+  .demoButton {
+      
+    font-size: 20px;
+  
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+    padding: 15px;
     
   }
 
@@ -625,17 +597,40 @@ html {
   }
 }
 
-@media only screen and (max-width: 1280px){
+@media only screen and (max-width: 1366px){
   .mainTitle {
-    font-size: 120px;
-   
-    
-    margin-top: 300px;
+    font-size: 100px;
+    margin-top: 150px;
     
   }
 
   .taglineTitle {
-    font-size: 40px;
+    font-size: 25px;
+    
+  }
+
+}
+
+@media only screen and (max-width: 1281px){
+  .mainTitle {
+    font-size: 100px;
+    margin-top: 150px;
+    
+  }
+
+  .taglineTitle {
+    font-size: 25px;
+    
+  }
+
+  .demoButton {
+      
+    font-size:18px;
+  
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+    padding: 15px;
     
   }
 
@@ -659,15 +654,13 @@ html {
 
 @media only screen and (max-width: 1222px){
   .mainTitle {
-    font-size: 120px;
-   
-    
-    margin-top: 300px;
+    font-size: 100px;
+    margin-top: 150px;
     
   }
 
   .taglineTitle {
-    font-size: 40px;
+    font-size: 30px;
     
   }
 
@@ -690,14 +683,15 @@ html {
 }
 
 @media only screen and (max-width: 1024px){
+
   .mainTitle {
     font-size: 100px;
-    margin-top: 300px;
+    margin-top: 250px;
 
   }
 
   .taglineTitle {
-    font-size: 40px;
+    font-size: 30px;
 
   }
 
@@ -762,6 +756,25 @@ html {
 
 @media only screen and (max-width: 991px){
 
+  .mainTitle {
+    font-size: 100px;
+    
+    margin-top: 150px;
+    
+  }
+
+  .taglineTitle {
+    font-size: 30px;
+    
+  }
+
+  .projectHeroHeadline {
+    font-size:36px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+
+  }
+
   .heroCodingProject {
     padding: 20px;
     margin-top: 0px;  
@@ -797,24 +810,7 @@ html {
     margin-bottom: 60px;
   }
 
-  .mainTitle {
-    font-size: 80px;
-    
-    margin-top: 300px;
-    
-  }
-
-  .taglineTitle {
-    font-size: 40px;
-    
-  }
-
-  .projectHeroHeadline {
-    font-size:36px;
-    padding-top: 20px;
-    padding-bottom: 5px;
-
-  }
+  
 
   .projectHeadline {
     font-size: 36px;
@@ -852,7 +848,7 @@ html {
   .mainTitle {
     font-size: 80px;
     
-    margin-top: 300px;
+    margin-top: 150px;
     
   }
 
@@ -902,15 +898,17 @@ html {
 }
 
 @media only screen and (max-width: 768px){
+
+
   .mainTitle {
-    font-size: 80px;
+    font-size: 60px;
       
-    margin-top: 300px;
+    margin-top: 250px;
     
   }
 
   .taglineTitle {
-    font-size: 30px;
+    font-size: 20px;
     
   }
 
@@ -928,17 +926,85 @@ html {
   }
 
   .prortfolioProjectSection {
-    margin-left: 125px;
-    margin-right: 125px;
+    margin-left: 25px;
+    margin-right: 25px;
     padding-bottom: 60px;
+  }
+
+  .aboutBox {
+    margin-bottom: 50px;
+  
+    width: 550px;
+    height: 750px;
+  
+    padding: 50px 60px 60px 60px;
+    border-radius: 50px;
+  
   }
 
 }
 
+@media only screen and (max-width: 700px){
+  .mainTitle {
+    font-size: 40px;
+      
+    margin-top: 200px;
+    
+  }
+
+  .taglineTitle {
+    font-size: 18px;
+    
+  }
+
+  .nav-items {
+    margin-left: auto;
+    margin-right: auto;
+  
+    font-size: 18px;
+    color:white;
+  }
+
+  .nav-item {
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+  }
+
+  .aboutBox {
+    margin-bottom: 50px;
+  
+    width: 340px;
+    height: 1300px;
+  
+    padding: 50px 60px 60px 60px;
+    border-radius: 50px;
+  
+  }
+
+  .profilePic {
+    width: 100%;
+    border-radius: 25px 25px 25px 25px;
+
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-top:0px;
+
+    margin-bottom: 40px;
+
+    float: none;
+  }
+
+}
+
+
+
 @media only screen and (max-width: 425px){
   .mainTitle {
     font-size: 50px;
-    margin-top: 300px;
+    margin-top: 150px;
 
   }
 
@@ -966,59 +1032,16 @@ html {
     padding-bottom: 60px;
   }
 
+  .aboutBox {
+    margin-bottom: 50px;
   
+    width: 420px;
+    height: 850px;
+  
+    padding: 50px 60px 60px 60px;
+    border-radius: 50px;
+  
+  }
 
 }
 
-/* @media only screen and (min-width: 425px){
-
-  #heroSection { 
-    background-image: url("./components/styleimages/andy-mountains-cropped.jpg");
-
-    
-
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: auto;
-
-    height: 850px;
-
-    top: 0;    left: 0;    right: 0;   bottom: 0;   min-width: 100%;   min-height: 100%;
-  }
-
-  .mainTitle {
-    font-size: 40px;
-    font-family:'Fredericka the Great';
-  
-    text-align: center;
-    
-    margin-top: 65%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .taglineTitle {
-    font-size: 20px;
-    font-family:'Fredericka the Great';
-  
-    text-align: center;
-    
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .nav-items {
-    margin-left: auto;
-    margin-right: auto;
-  
-    font-size: 16px;
-  }
-  
-  .nav-item {
-    cursor: pointer;
-    padding: 20px;
-  
-  }
-
-} */
