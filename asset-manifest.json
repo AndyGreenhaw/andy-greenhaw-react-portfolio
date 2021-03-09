@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/andy-greenhaw-react-portfolio/static/css/main.7e488183.chunk.css",
-    "main.js": "/andy-greenhaw-react-portfolio/static/js/main.4e697c2c.chunk.js",
-    "main.js.map": "/andy-greenhaw-react-portfolio/static/js/main.4e697c2c.chunk.js.map",
+    "main.css": "/andy-greenhaw-react-portfolio/static/css/main.cd3eb7a6.chunk.css",
+    "main.js": "/andy-greenhaw-react-portfolio/static/js/main.b4a5d45b.chunk.js",
+    "main.js.map": "/andy-greenhaw-react-portfolio/static/js/main.b4a5d45b.chunk.js.map",
     "runtime-main.js": "/andy-greenhaw-react-portfolio/static/js/runtime-main.36e35758.js",
     "runtime-main.js.map": "/andy-greenhaw-react-portfolio/static/js/runtime-main.36e35758.js.map",
     "static/css/2.1a02f21c.chunk.css": "/andy-greenhaw-react-portfolio/static/css/2.1a02f21c.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.28252e6b.chunk.js.map": "/andy-greenhaw-react-portfolio/static/js/2.28252e6b.chunk.js.map",
     "index.html": "/andy-greenhaw-react-portfolio/index.html",
     "static/css/2.1a02f21c.chunk.css.map": "/andy-greenhaw-react-portfolio/static/css/2.1a02f21c.chunk.css.map",
-    "static/css/main.7e488183.chunk.css.map": "/andy-greenhaw-react-portfolio/static/css/main.7e488183.chunk.css.map",
+    "static/css/main.cd3eb7a6.chunk.css.map": "/andy-greenhaw-react-portfolio/static/css/main.cd3eb7a6.chunk.css.map",
     "static/js/2.28252e6b.chunk.js.LICENSE.txt": "/andy-greenhaw-react-portfolio/static/js/2.28252e6b.chunk.js.LICENSE.txt",
     "static/media/age-of-surprise-2.b0cee6f8.jpg": "/andy-greenhaw-react-portfolio/static/media/age-of-surprise-2.b0cee6f8.jpg",
     "static/media/style.css": "/andy-greenhaw-react-portfolio/static/media/mountain-bottom-background-cropped.d4fc36a5.png",
@@ -44,13 +44,13 @@
     "static/media/ucla.50b82c22.jpg": "/andy-greenhaw-react-portfolio/static/media/ucla.50b82c22.jpg",
     "static/media/virtual-reality.134cd7f4.jpg": "/andy-greenhaw-react-portfolio/static/media/virtual-reality.134cd7f4.jpg",
     "static/media/weatherThumb.499bc3d9.png": "/andy-greenhaw-react-portfolio/static/media/weatherThumb.499bc3d9.png",
-    "static/media/weatherdashboard.2c58bd65.png": "/andy-greenhaw-react-portfolio/static/media/weatherdashboard.2c58bd65.png"
+    "static/media/weatherdashboard.4679d4d9.png": "/andy-greenhaw-react-portfolio/static/media/weatherdashboard.4679d4d9.png"
   },
   "entrypoints": [
     "static/js/runtime-main.36e35758.js",
     "static/css/2.1a02f21c.chunk.css",
     "static/js/2.28252e6b.chunk.js",
-    "static/css/main.7e488183.chunk.css",
-    "static/js/main.4e697c2c.chunk.js"
+    "static/css/main.cd3eb7a6.chunk.css",
+    "static/js/main.b4a5d45b.chunk.js"
   ]
 }
