@@ -5,7 +5,7 @@
         "thumb": "./assets/pandemicTrackerHeroGIF.gif",
         "link": "https://vast-eyrie-87899.herokuapp.com/globe",
         "github": "https://github.com/AndyGreenhaw/global-pandemic-tracker",
-        "description": "The Pandemic Tracker tracks Covid-19 statistics across the globe using the official John Hopkins API to retrieve information and React to visualize statistics in every country using a 3D bar graph display. Click a continent to move to that area of the globe, and click on any location to see an up-to-date analysis of the country's Covid-19 cases, deaths, and recoveries. In the future, I plan to expand this app to show more viruses and diseases, such as the Flu. I also plan to incorporate Covid geo-based news stories on Covid as soon as I complete the search filter logic.",
+        "description": "The Pandemic Tracker tracks Covid-19 statistics across the globe using the official John Hopkins API to retrieve information and React to visualize statistics in every country using a 3D bar graph display. Click a continent to move to any area of the globe, and click on any location to see an up-to-date analysis of the country's Covid-19 cases, deaths, and recoveries. In the future, I plan to expand this app to show more viruses and diseases, such as the Flu. I also plan to incorporate Covid geo-based news stories on Covid as soon as I complete the search filter logic.",
         "alt": "Andy's Weather App"
     },   
     {
@@ -13,7 +13,7 @@
         "name": "React Weather App",
         "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/weatherdashboard.png",
         "link": "https://andygreenhaw.github.io/06-Server-Side-APIs-Weather-Dashboard/",
-        "github": "https://andygreenhaw.github.io/react-weather-app/",
+        "github": "https://github.com/AndyGreenhaw/react-weather-app",
         "description": "This Weather App was created in React using JavaScript, local storage, and Open Weather's API. When a city or zip code is entered in the search bar the app uses Axios to make a GET request for today's weather data, as well as a five-day forecast. I am in the process of adding new functionality, including a line graph for hourly weather developments and more in-depth forecasts.",
         "alt": "Andy's Weather App"
     },
@@ -23,7 +23,7 @@
         "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/notetaker.png",
         "link": "https://shielded-savannah-98558.herokuapp.com/notes",
         "github": "https://github.com/AndyGreenhaw/blogger-app-prototype",
-        "description": "I created this notetaking appe that I am repurposing into a blogger app. It covers all the CRUD functionality enabling users to create and save articles, review articles, update articles, and delete articles. Eventually, the app will enable the user to publish these articles in a formatted template that they can then customize, similar to other blogging platforms.",
+        "description": "I created this notetaking app that I am repurposing into a blogger app. It covers all the CRUD functionality enabling users to create and save articles, review articles, update articles, and delete articles. Eventually, the app will enable the user to publish articles in a formatted template they can then customize, similar to other blogging platforms.",
         "alt": "Andy's Note Taker"
     },
     {
@@ -41,7 +41,7 @@
         "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/bookshelf.png",
         "link": "https://bookshelf-borrow-books.herokuapp.com/",
         "github": "https://github.com/tesssapierce/BookShelf-Public-Library-Online-Rental-System-Javascript-Express-MySQL-Sequelize",
-        "description": "I worked with a team of developers to create this social media book-borrowing website that utilizes several computing languages, including JavaScript, Handlebars, SQL and others. After creating an account, users can 1) post books they'd lik to loan to other users and 2) borrow books other users are lending from their profiles. Simply enter the IPN number from the book you want to post and the Goodreads API will pull all the data (including the cover image), which is then featured on your profile. You can also find books to borrow using the All Books search engine. We plan to expand this by allowing the user to post books also by scanning the bar code.",
+        "description": "I worked with a team of developers to create this social media book-borrowing website that utilizes several computing languages, including JavaScript, Handlebars, SQL and others. After creating an account, users can 1) post books they'd lik to loan to other users and 2) borrow books other users are lending from their profiles. Simply enter the ISBN number from the book you want to post and the Goodreads API will pull all the data (including the cover image), which is then featured on your profile. Users can also find books to borrow using the All Books search engine. We plan to expand this by allowing the user to post books also by scanning the bar code.",
         "alt": "Andy's BookSelf App"
     },
     {

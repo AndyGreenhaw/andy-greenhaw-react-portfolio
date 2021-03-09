@@ -114,7 +114,7 @@ function CodingModal(props) {
                     <a href={props.modalLink} target="_blank">
                     <button
                         className="tryItButton"
-                    >Try It Out
+                    >Try It
                     </button>
                     </a>
                 

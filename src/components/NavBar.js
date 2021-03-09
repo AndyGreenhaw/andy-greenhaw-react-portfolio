@@ -22,7 +22,7 @@ function NavBar (props) {
   /////////////////
 
   const [ scrollHomeClicked, setScrollHome] = useState(false) // 'SCROLL-TO-TOP' STATE
-  const [ showAbout, setShowAbout] = useState(false) // 'ABOUT' MODAL STATE
+  const [ showContactMe, setShowAbout] = useState(false) // 'ABOUT' MODAL STATE
 
   ///////////////////
   // STATE SETTERS //
@@ -37,16 +37,19 @@ function NavBar (props) {
   const openContactModal = () => {
     console.log("read")
 
-    // document.body.style.overflow = 'hidden';
-    // document.getElementById("blurMe").style.filter='blur(8px)'
-    // document.getElementById("blurMe").style.transition='all 0.25s ease-in'
-    // $('#modalBox').show().addClass('.modalOpen')
+    document.body.style.overflow = 'hidden';
+    document.getElementById("blurMe").style.filter='blur(8px)'
+    document.getElementById("blurMe").style.transition='all 0.25s ease-in'
+
     setShowAbout(true)
   }
 
   const closeAboutModal = () => {
     console.log("read")
-    // $('#modalBox').show().addClass('.modalOpen')
+
+    document.body.style.overflow = 'auto';
+    document.getElementById("blurMe").style.filter='blur(0px)'
+
     setShowAbout(false)
   }
 
@@ -54,9 +57,9 @@ function NavBar (props) {
   // ABOUT MODAL //
   ///////////////////
 
-  const Modal = ({showAbout, setShowAbout}) => {
+  const Modal = ({showContactMe, setShowAbout}) => {
 
-    const content = showAbout && (
+    const content = showContactMe && (
 
       <ContactModal 
         className="contactBox"
@@ -158,7 +161,7 @@ function NavBar (props) {
 
         
         <Modal
-          showAbout={showAbout}
+          showContactMe={showContactMe}
         >
         </Modal>
         </>
