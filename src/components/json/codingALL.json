@@ -5,7 +5,7 @@
         "thumb": "./assets/pandemicTrackerHeroGIF.gif",
         "link": "https://vast-eyrie-87899.herokuapp.com/globe",
         "github": "https://github.com/AndyGreenhaw/global-pandemic-tracker",
-        "description": "The Pandemic Tracker tracks Covid-19 statistics across the globe using the official John Hopkins API to retrieve information and React to visualize statistics in every country using a 3D bar graph display. Click a continent to move to any area of the globe, and click on any location to see an up-to-date analysis of the country's Covid-19 cases, deaths, and recoveries. In the future, I plan to expand this app to show more viruses and diseases, such as the Flu. I also plan to incorporate Covid geo-based news stories on Covid as soon as I complete the search filter logic.",
+        "description": "The Pandemic Tracker monitors and visualizes active Covid-19 cases, recoveries and deaths across the planet. I used John Hopkins University’s Coronavirus API to pull Covid-19 data, and I used React Globe to present the statistics as a 3D bar graph covering an interactive planet Earth. Click on any location to see an up-to-date situational analysis of Covid-19 in the area. In the future, I plan to expand this app to show more viruses and diseases, such as the Flu. I also plan to incorporate geo-based news stories on Covid as soon as I complete the search filter logic.",
         "alt": "Andy's Weather App"
     },   
     {
@@ -14,7 +14,7 @@
         "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/weatherdashboard.png",
         "link": "https://andygreenhaw.github.io/06-Server-Side-APIs-Weather-Dashboard/",
         "github": "https://github.com/AndyGreenhaw/react-weather-app",
-        "description": "This Weather App was created in React using JavaScript, local storage, and Open Weather's API. When a city or zip code is entered in the search bar the app uses Axios to make a GET request for today's weather data, as well as a five-day forecast. I am in the process of adding new functionality, including a line graph for hourly weather developments and more in-depth forecasts.",
+        "description": "This Weather App was created in React using JavaScript, local storage, and Open Weather's API. Simply submit the name or zip code of a city, and the app provides a breakdown of the current weather conditions, temperature, and wind direction and speed. It also provides forecast data for the next six days while emphasizing conditions for the coming weekend. I am in the process of adding new functionality, including a line graph for hourly weather developments and more in-depth forecasts. ",
         "alt": "Andy's Weather App"
     },
     {
@@ -23,7 +23,7 @@
         "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/notetaker.png",
         "link": "https://shielded-savannah-98558.herokuapp.com/notes",
         "github": "https://github.com/AndyGreenhaw/blogger-app-prototype",
-        "description": "I created this notetaking app that I am repurposing into a blogger app. It covers all the CRUD functionality enabling users to create and save articles, review articles, update articles, and delete articles. Eventually, the app will enable the user to publish articles in a formatted template they can then customize, similar to other blogging platforms.",
+        "description": "I created this note-taker app that I am repurposing into a blogger app using jQuery and Express. It covers all the CRUD functionality, enabling users to create and save articles, review articles, update articles, and delete articles. Eventually, the app will enable the user to publish articles in a formatted template they can then customize, similar to other blogging platforms. The code works as a nice skeleton template to launch a functioning blog, and my next plan is to improve the CSS and give it more pizzazz so that it doesn’t look so flat.",
         "alt": "Andy's Note Taker"
     },
     {
@@ -32,7 +32,7 @@
         "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/dayplanner.png",
         "link": "https://andygreenhaw.github.io/05-Third-Party-APIs-Work-Day-Scheduler/",
         "github": "https://github.com/AndyGreenhaw/05-Third-Party-APIs-Work-Day-Scheduler",
-        "description": "This daily planner application was created using JavaScript, HTML, CSS, and local Web browser storage. The app enables users to enter notes or plans for the day in a time block that saves the information using local storage. By clicking the blue \"S\" button, the note remains in the block after the user refreshes the page. The timing logic is written to color green blocks for future hours, red blocks for the present hour, and grey blocks for past hours. I plan to expand this app as a two-year planner.",
+        "description": "This daily planner application was created using JavaScript, HTML, CSS, and local Web browser storage. The app enables users to enter notes or plans for the day in a time block that saves the information using local storage. By clicking the save button, the note remains in the block after the user refreshes the page. The timing logic is written to color green blocks for future hours, red blocks for the present hour, and grey blocks for past hours. I plan to expand this app as a two-year planner.",
         "alt": "Andy's Day Planner"
     }, 
     {
@@ -41,7 +41,7 @@
         "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/bookshelf.png",
         "link": "https://bookshelf-borrow-books.herokuapp.com/",
         "github": "https://github.com/tesssapierce/BookShelf-Public-Library-Online-Rental-System-Javascript-Express-MySQL-Sequelize",
-        "description": "I worked with a team of developers to create this social media book-borrowing website that utilizes several computing languages, including JavaScript, Handlebars, SQL and others. After creating an account, users can 1) post books they'd lik to loan to other users and 2) borrow books other users are lending from their profiles. Simply enter the ISBN number from the book you want to post and the Goodreads API will pull all the data (including the cover image), which is then featured on your profile. Users can also find books to borrow using the All Books search engine. We plan to expand this by allowing the user to post books also by scanning the bar code.",
+        "description": "I worked with a team of developers to create this social media book-borrowing website that utilizes several computing languages, including JavaScript, Handlebars, SQL and others. After creating an account, users can 1) post books they'd like to loan to other users and 2) borrow books other users are lending from their profiles. Enter the ISBN number from the book you want to post and the Goodreads API will pull all the data (including the cover image) to display on your profile for other users to borrow. We plan to expand this by allowing users to post books by simply scanning the barcode.",
         "alt": "Andy's BookSelf App"
     },
     {
@@ -50,7 +50,7 @@
         "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/budget.png",
         "link": "https://sleepy-caverns-80492.herokuapp.com/",
         "github": "https://github.com/AndyGreenhaw/pwa-budget-app",
-        "description": "WILL COMPLETE THIS SUNDAY",
+        "description": "I am in the process of building this snake game to practice my interactive coding skills in React. The game works the same way as the old school cell phone app where your snake is constantly moving and you control the snake using left/right keys to make your snake eat square-shaped apples. My primary focus now is to provide the user with an intro splash page that provides instructions and high scores for the game. I am also building the functionality for a high score page to record your points and initials after each attempt.",
         "alt": "Andy's Budget App"
     },
     {
@@ -59,7 +59,7 @@
         "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/burger.png",
         "link": "https://sleepy-caverns-80492.herokuapp.com/",
         "github": "https://github.com/AndyGreenhaw/pwa-budget-app",
-        "description": "I created this PWA Budget App that tracks income and expenses over time using Mongo DB. Enter the name or description for the transaction and submit the amount you would like to add or subtract from your balance. The app will log each transaction and present your total balance along with a visual line graph that charts the fluctuation of your total balance.",
+        "description": "I created this progressive-web app (PWA) budget application that tracks income and expenses over time using MongoDB to store data. The user enters an amount, adds a short description for the transaction, and clicks whether the transaction should be counted as income or an expense. The app logs each transaction and presents the total balance along with a visual line graph that charts the fluctuation of your total balance.",
         "alt": "Andy's Budget App"
     },
     {
@@ -68,7 +68,7 @@
         "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/theoffice.png",
         "link": "https://andygreenhaw.github.io/19-react-employee-directory/",
         "github": "https://andygreenhaw.github.io/19-react-employee-directory/",
-        "description": "I created this employee directory app using React with placeholder characters based off of The Office. This was my first React project so the functionality is extremely basic: you can fire (delete) employees or sort them into alphabetical order. But this skeleton layout could easily be repurposed and expanded to include additional functionality, an interactive breakdown of each employee, visual graphs to coincide with progress, revenue, or costs, and even a fresh design that coincides with any branding.",
+        "description": "I created this employee directory app using React with placeholder characters based off of the television sitcom The Office. This was my first React project so the functionality is extremely basic: you can fire (delete) employees or sort them into alphabetical order. But this skeleton layout could easily be repurposed and expanded to include additional functionality, an interactive breakdown of each employee, visual graphs to coincide with progress, revenue, or costs, and even a fresh design that coincides with any branding.",
         "alt": "Andy's Employee Directory"
     },
     {
@@ -77,7 +77,7 @@
         "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/password.png",
         "link": "https://andygreenhaw.github.io/03-JavaScript-Password-Generator/",
         "github": "https://github.com/AndyGreenhaw/03-JavaScript-Password-Generator",
-        "description": "This was my first Javascript project, which involved much more back-end logic than front-end design. The app basically enables users to set parameters for a password (number of characters, whether to include numbers or special characters, etc.) and the app uses those parameters to generate a random password. I plan to improve the design and may add more functions so that I can write enough text to fill this box out with a length consistent to the other projects. Maybe I'll add a button that allows you to copy the password for pasting. That should make this text long enough.",
+        "description": "This was my first JavaScript project, which involved much more back-end logic than front-end design. The app basically enables users to set parameters for a password (number of characters, whether to include numbers or special characters, etc.) and the app uses those parameters to generate a random password. While it’s near the bottom of my list of to-dos, I plan to improve the design and add more functions that enable users to copy the password into their clipboard to paste wherever they need it.",
         "alt": "Andy's Password Generator App"
     }
     
