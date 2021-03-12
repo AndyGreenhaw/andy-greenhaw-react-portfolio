@@ -5,7 +5,7 @@
         "thumb": "./assets/pandemicTrackerHeroGIF.gif",
         "link": "https://vast-eyrie-87899.herokuapp.com/globe",
         "github": "https://github.com/AndyGreenhaw/global-pandemic-tracker",
-        "description": "The Pandemic Tracker monitors and visualizes active Covid-19 cases, recoveries and deaths around the world. I used the John Hopkins University Coronavirus API to pull Covid-19 data and used React Globe to present the statistics as a 3D bar graph covering an interactive planet Earth. Click on any location to see an up-to-date situational analysis of Covid-19 in the area. Once I've coded the logic, I plan to expand this app to track additional viruses and diseases, and I would also like to feature geo-based Covid-19 news articles for each country.",
+        "description": "The Pandemic Tracker monitors and visualizes active Covid-19 cases, recoveries and deaths around the world. I used the John Hopkins University Coronavirus API to pull Covid-19 data and used React Globe to present the statistics as a 3D bar graph covering an interactive planet Earth. Click on any location to see an up-to-date situational analysis of Covid-19 in the area. Once I've coded the logic, I plan to expand this app to track additional viruses and diseases, and I would also like to feature geo-based, disease-related Covid-19 news articles for each country.",
         "alt": "Andy's Weather App"
     },   
     {
@@ -14,7 +14,7 @@
         "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/weatherdashboard.png",
         "link": "https://andygreenhaw.github.io/06-Server-Side-APIs-Weather-Dashboard/",
         "github": "https://github.com/AndyGreenhaw/react-weather-app",
-        "description": "This Weather App was created in React using JavaScript, local storage, and Open Weather's API. Simply submit the name or zip code of a city, and the app provides a breakdown of the current weather conditions, temperature, and wind direction and speed. It also provides forecast data for the next six days while emphasizing conditions for the coming weekend. I am in the process of adding new functionality, including a line graph for hourly weather developments and more in-depth forecasts. ",
+        "description": "This weather app was created in React using JavaScript, local storage, and the Open Weather API. Users can submit the name or zip code of a city, and the app provides a breakdown of the current weather conditions, temperature, and wind direction and speed. The weather app also provides forecast data for the next six days while emphasizing conditions for the upcoming weekend. I am in the process of adding new functionality, including a line graph for hourly weather developments and more in-depth forecasts. ",
         "alt": "Andy's Weather App"
     },
     {
@@ -23,7 +23,7 @@
         "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/notetaker.png",
         "link": "https://shielded-savannah-98558.herokuapp.com/notes",
         "github": "https://github.com/AndyGreenhaw/blogger-app-prototype",
-        "description": "I created this note-taker app that I am repurposing into a blogger app using jQuery and Express. It covers all the CRUD functionality, enabling users to create and save articles, review articles, update articles, and delete articles. Eventually, the app will enable the user to publish articles in a formatted template they can then customize, similar to other blogging platforms. The code works as a nice skeleton template to launch a functioning blog, and my next plan is to improve the CSS and give it more pizzazz so that it doesn’t look so flat.",
+        "description": "I originally created this as a note-taker app but I am now repurposing it as a blogger app that primarily encompasses jQuery, Express, HTML and CSS. It covers all the CRUD functionality, enabling users to create and save articles, review articles, update articles, and delete articles. Eventually, the app will enable the user to publish articles in a formatted template they can then customize, similar to other blogging platforms. The code works as a nice skeleton template to launch a functioning blog. My next plan for this app is to improve the CSS and add more pizzazz to make it more attractive for users.",
         "alt": "Andy's Note Taker"
     },
     {
