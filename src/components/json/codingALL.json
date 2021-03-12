@@ -5,7 +5,7 @@
         "thumb": "./assets/pandemicTrackerHeroGIF.gif",
         "link": "https://vast-eyrie-87899.herokuapp.com/globe",
         "github": "https://github.com/AndyGreenhaw/global-pandemic-tracker",
-        "description": "The Pandemic Tracker monitors and visualizes active Covid-19 cases, recoveries and deaths across the planet. I used John Hopkins University’s Coronavirus API to pull Covid-19 data, and I used React Globe to present the statistics as a 3D bar graph covering an interactive planet Earth. Click on any location to see an up-to-date situational analysis of Covid-19 in the area. In the future, I plan to expand this app to show more viruses and diseases, such as the Flu. I also plan to incorporate geo-based news stories on Covid as soon as I complete the search filter logic.",
+        "description": "The Pandemic Tracker monitors and visualizes active Covid-19 cases, recoveries and deaths around the world. I used the John Hopkins University Coronavirus API to pull Covid-19 data and used React Globe to present the statistics as a 3D bar graph covering an interactive planet Earth. Click on any location to see an up-to-date situational analysis of Covid-19 in the area. Once I've coded the logic, I plan to expand this app to track additional viruses and diseases, and I would also like to feature geo-based Covid-19 news articles for each country.",
         "alt": "Andy's Weather App"
     },   
     {
