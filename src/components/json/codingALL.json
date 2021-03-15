@@ -12,7 +12,7 @@
         "id": 2,
         "name": "React Weather App",
         "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/weatherdashboard.png",
-        "link": "https://andygreenhaw.github.io/06-Server-Side-APIs-Weather-Dashboard/",
+        "link": "https://andygreenhaw.github.io/react-weather-app/",
         "github": "https://github.com/AndyGreenhaw/react-weather-app",
         "description": "This weather app was created in React using JavaScript, local storage, and the Open Weather API. Users can submit the name or zip code of a city, and the app provides a breakdown of the current weather conditions, temperature, and wind direction and speed. The weather app also provides forecast data for the next six days while emphasizing conditions for the upcoming weekend. I am in the process of adding new functionality, including a line graph for hourly weather developments and more in-depth forecasts. ",
         "alt": "Andy's Weather App"
@@ -48,8 +48,8 @@
         "id": 6,
         "name": "Snake Game",
         "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/budget.png",
-        "link": "https://sleepy-caverns-80492.herokuapp.com/",
-        "github": "https://github.com/AndyGreenhaw/pwa-budget-app",
+        "link": "https://andygreenhaw.github.io/snake-game/",
+        "github": "https://github.com/AndyGreenhaw/snake-game",
         "description": "I am in the process of building this snake game in React to practice my interactive coding skills in React. The game works the same way as the original. Press the arrow keys to move up, down, left, and right, and eat as many red apple squares as you can before you hit a wall or eat yourself. I've finished the primary functionality and I'm working on the end-game scenario and programming a high score record with using Mongo DB.",
         "alt": "Andy's Budget App"
     },
@@ -57,9 +57,9 @@
         "id": 7,
         "name": "Budget App",
         "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/burger.png",
-        "link": "https://sleepy-caverns-80492.herokuapp.com/",
+        "link": "https://hidden-refuge-28358.herokuapp.com/",
         "github": "https://github.com/AndyGreenhaw/pwa-budget-app",
-        "description": "I created this progressive-web app (PWA) budget application that tracks income and expenses over time using MongoDB to store data. The user enters an amount, adds a brief description for the transaction, and clicks whether the transaction should be counted as income or an expense. The app logs each transaction and presents the total balance along with a visual line graph that charts the fluctuation of your total balance.",
+        "description": "I created this Progressive Web App (PWA) budget application that tracks income and expenses over time using MongoDB to store data. The user enters an amount, adds a brief description for the transaction, and clicks whether the transaction should be counted as income or an expense. The app logs each transaction and presents the total balance along with a visual line graph that charts the fluctuation of the total balance.",
         "alt": "Andy's Budget App"
     },
     {
@@ -68,7 +68,7 @@
         "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/theoffice.png",
         "link": "https://andygreenhaw.github.io/19-react-employee-directory/",
         "github": "https://andygreenhaw.github.io/19-react-employee-directory/",
-        "description": "I created this employee directory using React, using placeholder characters from The \"Office\" sitcom. This was my first React project so the functionality is very basic - allowing the user to fire (delete) employees or sort them in alphabetical order. However, this skeleton layout could easily be repurposed and expanded to include additional functionality, an interactive breakdown of each employee, visual graphs to coincide with progress, revenue, or costs, and even a fresh design that coincides with any branding.",
+        "description": "I created this employee directory using React with placeholder characters from \"The Office\" sitcom. This was my first React project so the functionality is very basic - allowing the user to fire (delete) employees or sort them in alphabetical order. However, this skeleton layout could easily be repurposed and expanded to include additional functionality, an interactive profile of each employee, visual graphs to coincide with progress, revenue, or costs, and even a fresh design that coincides with any branding.",
         "alt": "Andy's Employee Directory"
     },
     {
@@ -77,8 +77,7 @@
         "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/password.png",
         "link": "https://andygreenhaw.github.io/03-JavaScript-Password-Generator/",
         "github": "https://github.com/AndyGreenhaw/03-JavaScript-Password-Generator",
-        "description": "This was my first JavaScript project, which involved much more back-end logic than front-end design. The app basically enables users to set parameters for a password (number of characters, whether to include numbers or special characters, etc.) and then uses those parameters to generate a random password. When time permits, I will eventually, I plan to improve the design and add more functions that enable users to copy the password into their clipboard to paste where they need it",
+        "description": "This was my first JavaScript project, which involved much more back-end logic than front-end design. The app basically enables users to set parameters for a password (number of characters, whether to include numbers or special characters, etc.) and then uses those parameters to generate a random password. I plan to improve the design and add more functions that enable users to copy the password into their clipboard to paste where they need it.",
         "alt": "Andy's Password Generator App"
     }
-    
 ]

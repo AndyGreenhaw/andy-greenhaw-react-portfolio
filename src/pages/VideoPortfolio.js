@@ -74,7 +74,7 @@ const VideoPortfolio = () => {
    
         
           <VideoModal 
-            clickcb={closeVideoModal}
+            clickcb={closeVideoModal} 
             modalHeadline={modalData.name}
             // modalThumb={modalData.thumb}
             modalLink={modalData.embedLink}
