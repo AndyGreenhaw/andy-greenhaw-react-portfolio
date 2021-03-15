@@ -115,6 +115,7 @@ const DataVisualization = () => {
                             
                             <Link
                                 onClick={covidModal}
+                                to="dataVisualizationSection"
                             >
                                 <img 
                                     className="projectNewImage" 
@@ -127,7 +128,7 @@ const DataVisualization = () => {
                         </div>
 
                         <div className="projectPlacement">
-                            <Link onClick={crashModal}>
+                            <Link to="dataVisualizationSection" onClick={crashModal}>
                                 <img 
                                     className="projectNewImage" 
                                     src={crashRecon}
@@ -143,7 +144,7 @@ const DataVisualization = () => {
                     <div className="col-lg-6">
                         <div className="heroCodingProject">
                             {/* <div className="row portfolioHead"></div> */}
-                            <Link onClick={vrModal}>
+                            <Link to="dataVisualizationSection" onClick={vrModal}>
                                 <img className="heroCodingImage" src={virtualReality} alt="Virtual Reality Litigation"/>
                             
                                 <div className="projectHeroHeadline">Virtual Reality in the Courtroom
@@ -156,7 +157,7 @@ const DataVisualization = () => {
                     <div className="col-lg-3">
 
                         <div className="projectPlacement projectSpacer">
-                            <Link onClick={disModal}>
+                            <Link to="dataVisualizationSection" onClick={disModal}>
                                 <img 
                                         className="projectNewImage" 
                                         src={digitalInjurySummary}
@@ -167,7 +168,7 @@ const DataVisualization = () => {
                         </div>
 
                         <div className="projectPlacement">
-                            <Link onClick={xenergyModal}>
+                            <Link to="dataVisualizationSection" onClick={xenergyModal}>
                                 <img 
                                 className="projectNewImage" 
                                 src={nuclearReactor}

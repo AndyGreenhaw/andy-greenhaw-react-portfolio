@@ -119,7 +119,7 @@ const AnimationPortfolio = () => {
                     <div className="col-lg-3">
                         <div className="projectPlacement projectSpacer">
                             
-                            <Link onClick={aosModal}>
+                            <Link to="dataVisualizationSection" onClick={aosModal}>
                                 <img 
                                     className="projectNewImage" 
                                     src={ageOfSurpriseAnimation} 
@@ -132,7 +132,7 @@ const AnimationPortfolio = () => {
 
                         <div className="projectPlacement">
                             
-                            <Link onClick={diaModal}>
+                            <Link to="dataVisualizationSection" onClick={diaModal}>
                                 <img 
                                     className="projectNewImage" 
                                     src={diaAnimation}
@@ -147,7 +147,7 @@ const AnimationPortfolio = () => {
                     {/* HERO PROJECT */}
                     <div className="col-lg-6">
                         <div className="heroCodingProject">
-                            <Link onClick={ndtModal}>
+                            <Link to="dataVisualizationSection" onClick={ndtModal}>
                                 <img className="heroCodingImage" src={ndtAnimation} alt="Space Music Video"/>
                             
                                 <div className="projectHeroHeadline"
@@ -163,7 +163,7 @@ const AnimationPortfolio = () => {
 
                         <div className="projectPlacement projectSpacer">
                             
-                            <Link onClick={spaceModal}>
+                            <Link to="dataVisualizationSection" onClick={spaceModal}>
                                 <img 
                                     className="projectNewImage" 
                                     src={spaceReportAnimation}
@@ -176,7 +176,7 @@ const AnimationPortfolio = () => {
                         </div>
 
                         <div className="projectPlacement">
-                            <Link onClick={natDefModal}>
+                            <Link to="dataVisualizationSection" onClick={natDefModal}>
                                 <img 
                                     className="projectNewImage" 
                                     src={nduAnimation}

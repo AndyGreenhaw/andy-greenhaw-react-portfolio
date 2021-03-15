@@ -145,7 +145,7 @@ html {
   position: relative;
   z-index: 0;
 
-  background:linear-gradient(-10deg,  rgba(23,46,124, 0.1)0.1%, rgba(62,121,39, 0.2)50%, rgba(35, 86, 255, 0.3)100%), url("./components/styleimages/beaverVillage4.png");
+  background:linear-gradient(-10deg,  rgba(23,46,124, 0.1)0.1%, rgba(62,121,39, 0.2)50%, rgba(35, 86, 255, 0.3)100%), url("./components/styleimages/beaverVillage3.png");
   /* background-image: url("./components/styleimages/andy-mountains-cropped.jpg"); */
 
   background-attachment: fixed;
@@ -159,7 +159,7 @@ html {
   position: relative;
   z-index: 0;
 
-  background:linear-gradient(-10deg,  rgba(23,46,124, 0.1)0.1%, rgba(62,121,39, 0.2)50%, rgba(35, 86, 255, 0.3)100%), url("./components/styleimages/beaverVillage6.png");
+  background:linear-gradient(-10deg,  rgba(23,46,124, 0.1)0.1%, rgba(62,121,39, 0.2)50%, rgba(35, 86, 255, 0.3)100%), url("./components/styleimages/beaverVillage3.png");
   /* background-image: url("./components/styleimages/andy-mountains-cropped.jpg"); */
 
   background-attachment: fixed;
@@ -173,7 +173,7 @@ html {
   position: relative;
   z-index: 0;
 
-  background:linear-gradient(-10deg,  rgba(23,46,124, 0.1)0.1%, rgba(62,121,39, 0.2)50%, rgba(35, 86, 255, 0.3)100%), url("./components/styleimages/beaverVillage5.png");
+  background:linear-gradient(-10deg,  rgba(23,46,124, 0.1)0.1%, rgba(62,121,39, 0.2)50%, rgba(35, 86, 255, 0.3)100%), url("./components/styleimages/beaverVillage3.png");
   /* background-image: url("./components/styleimages/andy-mountains-cropped.jpg"); */
 
   background-attachment: fixed;
@@ -226,7 +226,7 @@ html {
   margin-bottom: 60px;
 
   width: 800px;
-  height: 620px;
+  height: 650px;
 
   padding: 50px 60px 60px 60px;
   border-radius: 10px;
@@ -267,7 +267,7 @@ html {
   
   background-color: rgb(23,46,124);
 
-  margin-top: 20px;
+  margin-top: 70px;
   margin-bottom: 20px;
 
   padding: 20px;
@@ -277,7 +277,8 @@ html {
   border: none;
   box-shadow: inset 0px 0px 5px rgba(0,0,0,0.16), 0px 0px 5px rgba(0,0,0,0.45);
 
-  width: 220px;
+  
+  width: 290px;
 
   /* z-index: 1; */
   
@@ -835,7 +836,7 @@ html {
     margin-bottom: 50px;
   
     width: 600px;
-    height: 730px;
+    height: 800px;
   
     padding: 50px 60px 60px 60px;
     border-radius: 50px;
@@ -887,7 +888,7 @@ html {
     margin-bottom: 50px;
   
     width: 550px;
-    height: 750px;
+    height: 850px;
   
     padding: 50px 60px 60px 60px;
     border-radius: 50px;
@@ -935,7 +936,7 @@ html {
     margin-bottom: 50px;
   
     width: 550px;
-    height: 750px;
+    height: 850px;
   
     padding: 50px 60px 60px 60px;
     border-radius: 50px;
@@ -976,7 +977,7 @@ html {
     margin-bottom: 50px;
   
     width: 340px;
-    height: 1300px;
+    height: 1660px;
   
     padding: 50px 60px 60px 60px;
     border-radius: 50px;
@@ -1035,8 +1036,8 @@ html {
   .aboutBox {
     margin-bottom: 50px;
   
-    width: 420px;
-    height: 850px;
+    width: 340px;
+    height: 1660px;
   
     padding: 50px 60px 60px 60px;
     border-radius: 50px;

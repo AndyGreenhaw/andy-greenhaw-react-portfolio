@@ -1,5 +1,5 @@
-import React, {useState} from "react";
-import { Link as Link, animateScroll as scroll } from "react-scroll";
+import React from "react";
+import { Link } from "react-scroll";
 
 function Home() {
  
@@ -28,7 +28,7 @@ function Home() {
           duration={500}
         >
           <button className="demoButton">
-          Explore Portfolio
+            Explore My Portfolio
           </button>
         </Link> 
         

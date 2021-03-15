@@ -163,7 +163,7 @@ const Portfolio = (props) => {
                     {/* SECONDARY CODE PROJECTS */}
                     <div className="col-lg-3">
                         <div className="projectPlacement projectSpacer">
-                            <Link onClick={weatherModal}>
+                            <Link to="codingSection" onClick={weatherModal}>
                                 
                                     <img 
                                         className="projectNewImage" 
@@ -178,7 +178,7 @@ const Portfolio = (props) => {
 
                         <div className="projectPlacement">
                             
-                            <Link onClick={plannerApp}>
+                            <Link to="codingSection" onClick={plannerApp}>
                             
                                 <img 
                                     className="projectNewImage" 
@@ -197,7 +197,7 @@ const Portfolio = (props) => {
                     <div className="col-lg-6">                      
                     
                         <div className="heroCodingProject">
-                            <Link onClick={pandemicModal}>
+                            <Link to="codingSection" onClick={pandemicModal}>
                                 <img className="heroCodingImage buttonHover" src={pandemicTrackerImage}alt="Pandemic Tracker" />
 
                                 <div className="projectHeroHeadline">Tracking Covid-19 Across the Globe</div>
@@ -210,7 +210,7 @@ const Portfolio = (props) => {
 
                         <div className="projectPlacement projectSpacer">
                             
-                            <Link onClick={bloggerApp}>
+                            <Link to="codingSection" onClick={bloggerApp}>
                                 <img 
                                     className="projectNewImage" 
                                     src={notetakerAppImage}
@@ -222,7 +222,7 @@ const Portfolio = (props) => {
                         </div>
 
                         <div className="projectPlacement">
-                            <Link onClick={bookshelfApp}>
+                            <Link to="codingSection" onClick={bookshelfApp}>
                                 <img 
                                     className="projectNewImage" 
                                     src={bookshelfAppImage}
@@ -243,7 +243,7 @@ const Portfolio = (props) => {
 
                     <div className="col-lg-3">
                         <div className="projectPlacement">
-                            <Link onClick={budgetApp}>
+                            <Link to="codingSection" onClick={budgetApp}>
                                 <img 
                                         className="projectNewImage" 
                                         src={budgetAppImage}
@@ -256,7 +256,7 @@ const Portfolio = (props) => {
 
                     <div className="col-lg-3">
                         <div className="projectPlacement">
-                            <Link onClick={snakeApp}>
+                            <Link to="codingSection" onClick={snakeApp}>
                                 <img 
                                         className="projectNewImage" 
                                         src={snakeAppImage}
@@ -269,7 +269,7 @@ const Portfolio = (props) => {
                     </div>
                     <div className="col-lg-3">
                         <div className="projectPlacement">
-                            <Link onClick={theOfficeApp}>
+                            <Link to="codingSection" onClick={theOfficeApp}>
                                 <img 
                                         className="projectNewImage" 
                                         src={theOfficeAppImage} 
@@ -282,7 +282,7 @@ const Portfolio = (props) => {
                     </div>
                     <div className="col-lg-3">
                         <div className="projectPlacement">
-                            <Link onClick={passwordApp}>
+                            <Link to="codingSection" onClick={passwordApp}>
                                 <img 
                                         className="projectNewImage" 
                                         src={passwordAppImage} 

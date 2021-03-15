@@ -1,4 +1,4 @@
- import React, { useEffect, useState } from "react";
+ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { createPortal } from "react-dom";
 import "./portfolioStyle.css"
@@ -111,7 +111,7 @@ const VideoPortfolio = () => {
                     <div className="col-lg-3">
                         <div className="projectPlacement projectSpacer">
                             
-                            <Link onClick={visionImpairModal}>
+                            <Link to="dataVisualizationSection" onClick={visionImpairModal}>
                                 <img 
                                     className="projectNewImage" 
                                     src={vrVisionImpairment}
@@ -124,7 +124,7 @@ const VideoPortfolio = () => {
 
                         <div className="projectPlacement">
                             
-                            <Link onClick={uclaModal}>
+                            <Link to="dataVisualizationSection" onClick={uclaModal}>
                                 <img 
                                 className="projectNewImage" 
                                 src={uclaVideo}
@@ -139,7 +139,7 @@ const VideoPortfolio = () => {
                     <div className="col-lg-6">
                         <div className="heroCodingProject">
                             {/* <div className="row portfolioHead"></div> */}
-                            <Link onClick={syntropyModal}>
+                            <Link to="dataVisualizationSection" onClick={syntropyModal}>
                                 <img className="heroCodingImage" 
                                 src={syntropyDemo}
                                 alt="Syntropy Demo"/>
@@ -154,7 +154,7 @@ const VideoPortfolio = () => {
 
                         <div className="projectPlacement projectSpacer">
                             
-                            <Link onClick={explosionModal}>
+                            <Link to="dataVisualizationSection" onClick={explosionModal}>
                                 <img 
                                     className="projectNewImage" 
                                     src={explosionVideo}
@@ -165,7 +165,7 @@ const VideoPortfolio = () => {
                         </div>
 
                         <div className="projectPlacement">
-                            <Link onClick={verdictModal}>
+                            <Link to="dataVisualizationSection" onClick={verdictModal}>
                                 <img 
                                     className="projectNewImage" 
                                     src={highImpactDemo}

@@ -3,8 +3,8 @@
 //////////////////////////
 
 // import React, { Component } from "react";
-import React, {useState, useEffect} from 'react'
-import { Link as Link2, useLocation } from "react-router-dom";
+import React, {useState } from 'react'
+import { Link as Link2 } from "react-router-dom";
 import { Link, animateScroll as scroll } from "react-scroll";
 
 import { createPortal } from "react-dom";
@@ -21,7 +21,7 @@ function NavBar (props) {
   // STATE USERS //
   /////////////////
 
-  const [ scrollHomeClicked, setScrollHome] = useState(false) // 'SCROLL-TO-TOP' STATE
+  // const [ scrollHomeClicked, setScrollHome] = useState(false) // 'SCROLL-TO-TOP' STATE
   const [ showContactMe, setShowAbout] = useState(false) // 'ABOUT' MODAL STATE
 
   ///////////////////
@@ -81,6 +81,7 @@ function NavBar (props) {
             className="nav-item"
             activeClass="active"
             to="heroSection" 
+            
             // className="nav-link active nav-link" 
             // className={location.pathname === "/" ? "nav-link active" : "nav-link"}
             onClick={scrollHome}
@@ -100,8 +101,8 @@ function NavBar (props) {
             About
           </Link>
 
-          <div to="codingSection" className="dropDownMenu">
-            <div to="codingSection" className="nav-item dropDown">
+          <div className="dropDownMenu">
+            <div className="nav-item dropDown">
               <Link 
                 className="dropDown"
                 activeClass="active"
@@ -153,6 +154,7 @@ function NavBar (props) {
           
           <Link2
             className="nav-item"
+            to="/contact"
             onClick={openContactModal}
           >
             Contact
