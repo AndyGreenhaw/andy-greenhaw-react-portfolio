@@ -93,9 +93,9 @@ function NavBar (props) {
             className="nav-item"
             activeClass="active"
             to="aboutSection"
-            spy={true}
+            // spy={true}
             smooth={true}
-            offset={-70}
+            // offset={-70}
             duration={500}
           >
             About
@@ -107,9 +107,9 @@ function NavBar (props) {
                 className="dropDown"
                 activeClass="active"
                 to="codingSection"
-                spy={true}
+                // spy={true}
                 smooth={true}
-                offset={-70}
+                // offset={-70}
                 duration={500}
               >
               Portfolio
@@ -119,33 +119,33 @@ function NavBar (props) {
                 <Link className="dropLink dropItem1"
                   activeClass="active"
                   to="codingSection"
-                  spy={true}
+                  // spy={true}
                   smooth={true}
-                  offset={-70}
+                  // offset={-70}
                   duration={500}
                 >Programming</Link>
                 <Link className="dropLink dropItem2"
                   activeClass="active"
                   to="dataVisualizationSection"
-                  spy={true}
+                  // spy={true}
                   smooth={true}
-                  offset={-70}
+                  // offset={-70}
                   duration={500}
                 >Data Visualization</Link>
                 <Link className="dropLink dropItem3"
                   activeClass="active"
                   to="animationSection"
-                  spy={true}
+                  // spy={true}
                   smooth={true}
-                  offset={-70}
+                  // offset={-70}
                   duration={500}
                 >Computer Animation</Link>
                 <Link className="dropLink dropItem4"
                   activeClass="active"
                   to="videoSection"
-                  spy={true}
+                  // spy={true}
                   smooth={true}
-                  offset={-70}
+                  // offset={-70}
                   duration={500}
                 >Video Editing</Link>
               </div>

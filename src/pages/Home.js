@@ -22,9 +22,9 @@ function Home() {
         <Link 
           activeClass="active"
           to="codingSection"
-          spy={true}
+          // spy={true}
           smooth={true}
-          offset={-70}
+          // offset={-70}
           duration={500}
         >
           <button className="demoButton">

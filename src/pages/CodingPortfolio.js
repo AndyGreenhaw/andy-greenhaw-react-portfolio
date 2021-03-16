@@ -24,6 +24,7 @@ import bloggerGIF from "../components/PortfolioModals/assets/noteTakerGIF.gif"
 import plannerGIF from "../components/PortfolioModals/assets/plannerGIF.gif"
 import bookshelfGIF from "../components/PortfolioModals/assets/bookshelfGIF.gif"
 import budgetGIF from "../components/PortfolioModals/assets/budgetapp.png"
+import snakeImg from "../components/PortfolioModals/assets/snakeGame.png"
 import officeGIF from "../components/PortfolioModals/assets/theOfficeGIF.gif"
 import passwordGIF from "../components/PortfolioModals/assets/passwordThumb.png"
 
@@ -72,7 +73,7 @@ const Portfolio = (props) => {
 
     const snakeApp = () => {
         setModalData(codingProjectsArr[5])
-        setDisplayImage(budgetGIF)
+        setDisplayImage(snakeImg)
         openCodingModal()
     }
 

@@ -47,11 +47,11 @@
     {
         "id": 6,
         "name": "Snake Game",
-        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/budget.png",
+        "thumb": "andy-greenhaw-react-portfolio/assets/thumbnails/snakeGame.png",
         "link": "https://andygreenhaw.github.io/snake-game/",
         "github": "https://github.com/AndyGreenhaw/snake-game",
-        "description": "I am in the process of building this snake game in React to practice my interactive coding skills in React. The game works the same way as the original. Press the arrow keys to move up, down, left, and right, and eat as many red apple squares as you can before you hit a wall or eat yourself. I've finished the primary functionality and I'm working on the end-game scenario and programming a high score record with using Mongo DB.",
-        "alt": "Andy's Budget App"
+        "description": "I created this snake game that I'm in the process of expanding into an RPG multi-level platform with enemy characters and skill trees. The app uses React and will soon have MongoDB incorporated to record high scores for players. Users control the snake using the arrow keys, and the game can be paused and started by clicking the corresponding buttons below the game area. Similar to the original, the goal is to eat the red apple dots without hitting a wall or hitting your own snake.",
+        "alt": "Andy's Snake Game"
     },
     {
         "id": 7,
