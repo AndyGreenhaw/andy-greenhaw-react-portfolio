@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/andy-greenhaw-react-portfolio/static/css/main.3f5d9664.chunk.css",
-    "main.js": "/andy-greenhaw-react-portfolio/static/js/main.5abbd5e4.chunk.js",
-    "main.js.map": "/andy-greenhaw-react-portfolio/static/js/main.5abbd5e4.chunk.js.map",
+    "main.js": "/andy-greenhaw-react-portfolio/static/js/main.2dfa4dd5.chunk.js",
+    "main.js.map": "/andy-greenhaw-react-portfolio/static/js/main.2dfa4dd5.chunk.js.map",
     "runtime-main.js": "/andy-greenhaw-react-portfolio/static/js/runtime-main.36e35758.js",
     "runtime-main.js.map": "/andy-greenhaw-react-portfolio/static/js/runtime-main.36e35758.js.map",
     "static/css/2.1a02f21c.chunk.css": "/andy-greenhaw-react-portfolio/static/css/2.1a02f21c.chunk.css",
@@ -36,7 +36,8 @@
     "static/media/passwordThumb.87545161.png": "/andy-greenhaw-react-portfolio/static/media/passwordThumb.87545161.png",
     "static/media/plannerGIF.0ba2d42f.gif": "/andy-greenhaw-react-portfolio/static/media/plannerGIF.0ba2d42f.gif",
     "static/media/profilePic500x500.081e7a3e.png": "/andy-greenhaw-react-portfolio/static/media/profilePic500x500.081e7a3e.png",
-    "static/media/snakeGamePlaceholder.8cc84718.png": "/andy-greenhaw-react-portfolio/static/media/snakeGamePlaceholder.8cc84718.png",
+    "static/media/snakeGame.095da926.png": "/andy-greenhaw-react-portfolio/static/media/snakeGame.095da926.png",
+    "static/media/snakeGamePlaceholder.dae67115.png": "/andy-greenhaw-react-portfolio/static/media/snakeGamePlaceholder.dae67115.png",
     "static/media/spacereport.7da56c64.png": "/andy-greenhaw-react-portfolio/static/media/spacereport.7da56c64.png",
     "static/media/syntropydemo.3dd5992b.png": "/andy-greenhaw-react-portfolio/static/media/syntropydemo.3dd5992b.png",
     "static/media/theOfficeGIF.c898fb1b.gif": "/andy-greenhaw-react-portfolio/static/media/theOfficeGIF.c898fb1b.gif",
@@ -51,6 +52,6 @@
     "static/css/2.1a02f21c.chunk.css",
     "static/js/2.410813b0.chunk.js",
     "static/css/main.3f5d9664.chunk.css",
-    "static/js/main.5abbd5e4.chunk.js"
+    "static/js/main.2dfa4dd5.chunk.js"
   ]
 }
