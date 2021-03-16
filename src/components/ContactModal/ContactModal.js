@@ -66,7 +66,7 @@ function ContactModal(props) {
                           Email
                         </label>
                       </h4>
-                      <input type="email" name="_replyto" id="email" className="form-control" placeholder="gwash@gmail.com"/>
+                      <input type="email" name="_replyto" id="email" className="form-control" placeholder="youremail@youremail.com"/>
               </div>
               <div className="form-group">
                 <h4>
