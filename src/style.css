@@ -117,7 +117,7 @@ html {
   /* background-image: url("./components/styleimages/andy-mountains-cropped.jpg"); */
 
   background-attachment: fixed;
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
 
