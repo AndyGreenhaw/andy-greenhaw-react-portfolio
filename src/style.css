@@ -1096,20 +1096,86 @@ html {
 
 }
 
-@media only screen and (max-width: 414px){
+@media only screen and (max-width: 414px) and (max-height: 736px){
 
   #heroSection {
-    height: 600px;
-    width: 200px;
+    height: 700px;
+    width: 350px;
 
-  background-attachment:inherit;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    padding-right: 30px;
+    margin-right: 30px;
+
+    background-attachment:inherit;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    top: 0;    left: 0;    right: 0;   bottom: 0;
+
+    padding-left: 30px;
   }
   
   html {
-    width: 82%;
+    width: 100%;
+  }
+
+  .nav-items {
+    width: 100%;
+    text-align: center;
+  }
+
+  .mainTitle {
+    font-size: 40px;
+    margin-top: 150px;
+  }
+
+  .taglineTitle {
+    font-size: 12px;
+  }
+
+  .categoryHeadline {
+    
+    font-size: 25px;
+    
+  }
+
+  .secondaryCategoryHeadline {
+    font-size: 25px;
+  }
+  
+  .projectHeroHeadline {
+    padding-top: 25px;
+    padding-bottom: 20px;
+    text-align: center;
+  
+    font-size: 20px;
+    font-weight: bold;
+  
+  }
+  
+  .projectHeadline {
+    padding-top: 25px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+}
+
+@media only screen and (max-width: 375px) and (max-height: 812px){
+
+  #heroSection {
+    height: 812px;
+    width: 200px;
+
+    background-attachment:inherit;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  html {
+    width: 105%;
   }
 
   .nav-items {
@@ -1154,24 +1220,27 @@ html {
   
 }
 
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 375px) and (max-height: 667px){
 
   #heroSection {
-    height: 600px;
-    width: 200px;
+    height: 667px;
+    width: 375px;
 
-    background-attachment:inherit;
-    background-position: center;
+    background-attachment: inherit;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
+
+    
   }
   
   html {
-    width: 105%;
+    width: 100%;
+    
   }
 
   .nav-items {
-    width: 92%;
+    width: 100%;
   }
 
   .mainTitle {
