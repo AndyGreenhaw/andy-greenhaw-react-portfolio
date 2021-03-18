@@ -716,7 +716,9 @@ html {
 @media only screen and (max-width: 1024px){
 
   #heroSection {
-    height: 1336px;
+    height: 720px;
+
+    
   }
 
   .mainTitle {
@@ -883,6 +885,10 @@ html {
 
   #heroSection {
     height: 720px;
+  background-attachment:inherit;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   }
 
   .mainTitle {
