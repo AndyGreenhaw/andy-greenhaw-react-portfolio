@@ -35,17 +35,17 @@ function CodingModal(props) {
             <div className="col-12">
                 <div className="row">
                     
-                    <div className="col-11">
+                    <div className="col-10">
                         <div className="codingModalTitle">
                             {props.modalHeadline}
                         </div>
                     </div>
-                    <div className="col-1">
+                    <div className="col-2">
                         <div className="closeCodingModal">
                             <AiOutlineCloseCircle 
                                 type="button"
                                 onClick={props.clickcb}
-                                size={35}
+                                // size={35}
                             />
                         </div>
                     </div>
@@ -55,12 +55,12 @@ function CodingModal(props) {
                 
                 <div className="row">
                     <div className="codeIcons">
-                        <FaReact size={30}/>
-                        <IoLogoJavascript size={30}/>
-                        <AiFillApi size={30}/>
-                        <SiJquery size={30}/>
-                        <DiCss3 size={30}/> 
-                        <AiFillHtml5 size={30}/> 
+                        <FaReact />
+                        <IoLogoJavascript />
+                        <AiFillApi />
+                        <SiJquery />
+                        <DiCss3 /> 
+                        <AiFillHtml5 /> 
                     </div> 
                 </div>
                 

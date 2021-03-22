@@ -40,7 +40,9 @@
 
 .darkPortfolioBackground {
   background-color: rgba(0, 0, 0, 0.2);
-  position: relative;
+  position:relative;
+
+  justify-content: center;
   
 }
       
@@ -92,7 +94,7 @@
   margin-right: 20px;
   margin-bottom: 20px;
   /* width: 95%; */
-  height: auto;
+  /* height: auto; */
   
   /* justify-self: center; */
   /* display: flex; */

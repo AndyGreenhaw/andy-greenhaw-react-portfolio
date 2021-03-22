@@ -163,7 +163,7 @@ html {
   position: relative;
   z-index: 0;
 
-  background: radial-gradient(circle at 50%,rgba(1,137,137, 0.5) , rgba(1,137,137,2));
+  background: radial-gradient(circle at 50%,rgba(33,64,154, 0.5) , rgba(33,64,154,2));
   /* background: linear-gradient(-10deg,  rgba(23,46,124)0.1%, rgba(62,121,39, 0.2)50%, rgba(35, 86, 255)100%); */
   /* background:linear-gradient(-10deg,  rgba(23,46,124, 0.1)0.1%, rgba(62,121,39, 0.2)50%, rgba(35, 86, 255, 0.3)100%), url("./components/styleimages/beaverVillage3.png"); */
   /* background-image: url("./components/styleimages/andy-mountains-cropped.jpg"); */
@@ -179,7 +179,7 @@ html {
   position: relative;
   z-index: 0;
 
-  background: radial-gradient(circle at 50%, rgb(0,172,172, 0.5) , rgb(0,172,172));
+  background: radial-gradient(circle at 50%, rgb(4,101,178, 0.5) , rgb(4,101,178));
   /* background: linear-gradient(-10deg,  rgba(23,46,124)0.1%, rgba(62,121,39, 0.2)50%, rgba(35, 86, 255)100%); */
 
   /* background:linear-gradient(-10deg,  rgba(23,46,124, 0.1)0.1%, rgba(62,121,39, 0.2)50%, rgba(35, 86, 255, 0.3)100%), url("./components/styleimages/beaverVillage3.png"); */
@@ -427,6 +427,21 @@ html {
   .projectHeroHeadline {
     font-size:40px;
   }
+
+  #modalCodingOuterContainer {
+    width: 1200px;
+    height: 960px;
+  }
+
+  .closeCodingModal {
+    font-size: 35px;
+
+    margin-top: -10px;
+    margin-left: 105px;
+    
+    padding-top: 0px;
+  }
+
 }
 
 @media only screen and (max-width: 2026px){
@@ -616,6 +631,21 @@ html {
     margin-right: 125px;
     padding-bottom: 60px;
   }
+
+  #modalCodingOuterContainer {
+    width: 900px;
+    height: 860px;
+  }
+
+  .closeCodingModal {
+    font-size: 35px;
+
+    margin-top: -10px;
+    margin-left: 55px;
+    
+    padding-top: 0px;
+  }
+
 }
 
 @media only screen and (max-width: 1366px){
@@ -786,6 +816,15 @@ html {
     margin-bottom: 30px;
   }
   
+  #modalCodingOuterContainer {
+    width: 750px;
+    height: 850px;
+  }
+
+  .closeCodingModal {
+    margin-left: 30px;
+    padding-top: 0px;
+  }
 
 }
 
@@ -885,10 +924,10 @@ html {
 
   #heroSection {
     height: 720px;
-  background-attachment:inherit;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-attachment:inherit;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .mainTitle {
@@ -941,6 +980,31 @@ html {
     box-shadow: inset 0px 0px 5px rgba(0,0,0,0.16), 0px 0px 5px rgba(0,0,0,0.45);
   }
 
+  #modalCodingOuterContainer {
+    width: 550px;
+    height: 840px;
+  }
+
+
+  .codingModalTitle {
+    font-size: 46px;
+
+    margin-bottom: -10px;
+    margin-left: 45px;
+  }
+
+  .closeCodingModal {
+    margin-left: 5px;
+  }
+
+  .categoryHeadline {
+    font-size: 50px;
+  }
+
+  .secondaryCategoryHeadline {
+    font-size: 50px;
+  }
+
 }
 
 @media only screen and (max-width: 768px){
@@ -988,12 +1052,38 @@ html {
   
   }
 
+  #modalCodingOuterContainer {
+    width: 550px;
+    height: 790px;
+  }
+
+  .porfolioMainImg {
+    width: 90%;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    display: flex;
+  }
+
+  .modalCopyIntro {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .codingModalTitle {
+    font-size: 34px;
+  }
+
 }
 
 @media only screen and (max-width: 700px){
   .mainTitle {
     font-size: 40px;
-      
     margin-top: 200px;
     
   }
@@ -1043,8 +1133,79 @@ html {
     float: none;
   }
 
+  #modalCodingOuterContainer {
+    width: 550px;
+    height: 780px;
+  }
+
+
+  .closeCodingModal {
+    margin-left: 20px;
+    padding-top: 0px;
+
+    font-size: 20px;
+  }
+
+  .codingModalTitle {
+    font-size: 34px;
+
+    margin-top: -10px;
+    margin-bottom: -10px;
+
+    margin-left: 30px;
+  }
+
+  .codeIcons {
+    /* display: inline; */
+    font-size: 25px;
+    font-weight:500;
+    /* color: rgb(31,61,149);  */
+    padding-left: 10px;
+    padding-right: 10px;
+
+    margin-left: 35px;
+    margin-bottom: 0px;
+  }
+
+  .porfolioMainImg {
+    width: 90%;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    display: flex;
+  }
+
+  .modalCopyIntro {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
 }
 
+@media only screen and (max-width: 600px){
+
+  #modalCodingOuterContainer {
+    width: 400px;
+    height: 820px;
+  }
+
+  .closeCodingModal {
+    margin-left: 0px;
+    padding-top: 0px;
+
+    font-size: 20px;
+  }
+
+  .codingModalTitle {
+    font-size: 24px;
+  }
+
+}
 
 
 @media only screen and (max-width: 425px){
@@ -1092,6 +1253,50 @@ html {
     padding: 50px 60px 60px 60px;
     border-radius: 50px;
   
+  }
+
+  #modalCodingOuterContainer {
+    width: 320px;
+    height: 780px;
+    
+  }
+
+  .codingModalTitle {
+    color: rgb(31,61,149);
+
+    margin-bottom: -10px;
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: bolder;
+    
+  }
+
+  .porfolioMainImg {
+    width: 90%;
+  }
+
+  .modalCopyIntro {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .closeCodingModal {
+    margin-top: -20px;
+    margin-left: 0px;
+    padding-top: 0px;
+
+    font-size: 15px;
+  }
+
+  .codeIcons {
+    /* display: inline; */
+    font-size: 15px;
+    font-weight:500;
+    /* color: rgb(31,61,149);  */
+    padding-left: 10px;
+
+    margin-left: 35px;
+    margin-bottom: 0px;
   }
 
 }
