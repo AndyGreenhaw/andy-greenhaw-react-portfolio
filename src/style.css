@@ -429,15 +429,19 @@ html {
   }
 
   #modalCodingOuterContainer {
-    width: 1200px;
-    height: 960px;
+    width: 1000px;
+    height: 740px;
+  }
+
+  .porfolioMainImg {
+    width: 500px;
   }
 
   .closeCodingModal {
     font-size: 35px;
 
     margin-top: -10px;
-    margin-left: 105px;
+    margin-left: 75px;
     
     padding-top: 0px;
   }
