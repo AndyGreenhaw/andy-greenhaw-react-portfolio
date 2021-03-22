@@ -16,8 +16,8 @@
     left:50%;
     transform: translate(-50%,-50%);
   
-    width: 40%;
-    height: 860px;
+    width: 1000px;
+    height: 850px;
     margin-top: 20px;
   
     box-shadow: inset 0px 0px 5px rgba(0,0,0,0.16), 0px 0px 5px rgba(0,0,0,0.45);
@@ -34,6 +34,7 @@
 .modalTopBar {
     display: inline;
 }
+
 .videoModalTitle {
     justify-content: left;
     font-size: 40px;

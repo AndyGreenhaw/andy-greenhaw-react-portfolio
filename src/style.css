@@ -825,6 +825,16 @@ html {
     height: 850px;
   }
 
+  #modalVideoOuterContainer {
+    width: 770px;
+    height: 900px;
+  }
+
+  .videoPlayer {
+    width: 700px;
+    height: 393.75px;
+  }
+
   .closeCodingModal {
     margin-left: 30px;
     padding-top: 0px;
@@ -835,6 +845,8 @@ html {
 /* SINGLE COLUMN */
 
 @media only screen and (max-width: 991px){
+
+  
 
   .mainTitle {
     font-size: 100px;
@@ -922,6 +934,12 @@ html {
   
     box-shadow: inset 0px 0px 5px rgba(0,0,0,0.16), 0px 0px 5px rgba(0,0,0,0.45);
   }
+
+  .closeVideoModal {
+  margin-left: -30px;
+  }
+
+  
 }
 
 @media only screen and (max-width: 800px){
@@ -1009,6 +1027,20 @@ html {
     font-size: 50px;
   }
 
+
+  #modalVideoOuterContainer {
+    width: 600px;
+    height: 960px;
+  }
+
+  .videoPlayer {
+    width: 560px;
+    height: 315px;
+  }
+
+  .closeVideoModal {
+    margin-left: -40px;
+  }
 }
 
 @media only screen and (max-width: 768px){
@@ -1209,8 +1241,47 @@ html {
     font-size: 24px;
   }
 
+  #modalVideoOuterContainer {
+    width: 460px;
+    height: 960px;
+  }
+
+  .videoPlayer {
+    width: 320px;
+    height: 180px;
+  }
+
+  .closeVideoModal {
+    margin-left: -50px;
+  }
+
 }
 
+@media only screen and (max-width: 470px){
+
+  #modalVideoOuterContainer {
+    width: 400px;
+    height: 870px;
+  }
+
+  .videoPlayer {
+    width: 300px; 
+    height: 150px;
+  }
+
+  .videoModalCopy {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .closeVideoModal {
+    margin-left: -50px;
+  }
+
+
+}
 
 @media only screen and (max-width: 425px){
 
