@@ -1,7 +1,6 @@
 import Particles from "react-tsparticles";
 import React, { Component }  from 'react';
 // import polygonImage from "./images/mountain-wireframe-tiny222.svg"
-import pathseg from "pathseg"
 // import mountainImg from "./images/mountain_PNG18"
 
 // import "./ParticleBackground.css"
