@@ -3,7 +3,7 @@ import { FormspreeProvider } from '@formspree/react'
 import ParticlesBackground from "./components/ParticleBackgrounds/ParticleBackground"
 
 import { 
-  BrowserRouter as Router, 
+  HashRouter as Router, 
   Route,
   Switch,
   Link,
