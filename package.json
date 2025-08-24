@@ -2,6 +2,7 @@
   "name": "andy-greenhaw-react-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://andygreenhaw.github.io/andy-greenhaw-react-portfolio",
   "dependencies": {
     "@formspree/react": "^2.2.3",
     "@react-icons/all-files": "^4.1.0",
